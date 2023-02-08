@@ -1,0 +1,586 @@
+/*Estilos para la navegacion*/
+
+@import url('normalize.css');/*importar estilo de otro .css*/
+
+/*
+~ cambia solo los hermanos del padre,utilizando clases
+.titulo ~ p{
+
+}
+Empiece con la palabra escrita
+a[href^="pdf"]{
+    font-size: 20px;
+}
+Terine con la palabra escrita
+a[href$="pdf"]{
+    font-size: 20px;
+}
+Que contenga la oalabra escrita
+a[href*="pdf"]{
+    font-size: 20px;
+}
+*/
+/* 
+    ESPECIFICIDAD
+    TYPE   1
+    CLASS  10
+    ID     100
+    INLINE 1000
+    !IMPORTANT GANA A TODOS
+
+    ejemplos
+    #uno{
+        background-color: green;
+    }
+    .articulo{
+        background-color: red !important;
+    }
+    article{
+        background-color: blue;
+    }
+*/
+/*
+    VARIABLES
+    html,
+    body{
+        --color: red;
+        --letraTamano: 10px;
+    }
+    .uno{
+        color: var(--color);
+        font-size: var(--letraTamano);
+    }
+    .dos{
+        
+        color: var(--color);
+    }
+
+    Unidad de medidia relativas: em, ex, px, rem
+    Unidad de medida absolutS: in(pulgadas), cm, mm(milimetros), pt (puntos), pc (picas)
+
+    Elementos de una caja
+    Elementos externos:
+        -> Margin
+        Top: Arriba
+        Left: Izquierda
+        Right: Derecha
+        Bottom: Abajo
+    Elemntos internos
+        ->border propiedades:
+            ->with
+            ->style
+            ->color
+        ->padding
+        ->content
+
+        en div margin: o auto; centra los div mas display:block;
+        El display:inline-block; acomoda en seguida los div osea pegados
+        Cunado se colapsa se pone margin:0;
+        width y heigt, tamaño y acomodo de caja, con sus limitaciones de crecimiento:
+        body,
+        html{
+            width: 100%;
+            height: 100%;
+        }
+        .caja{
+            border: 2px dashed rebeccapurple;
+            width: 100%;
+            max-width: 300px;
+            min-width: 100px;
+            height: 100%;
+            max-height: 500px;
+            min-height: 500px;
+            background-color: cornflowerblue;
+        }
+        Sin dimensiones declaradas
+        Alto: contenido (alto) + padding + border 
+        Ancho: contenido (ancho) + paddiing + border
+
+        Con dimensiones declaradas
+        Alto: heith + padding + border
+        Ancho: width + padding + border
+        .caja{
+            background-color: brown;
+            padding: 10px;
+            border: 5px double blue;
+            width: 300px;
+            height: 300px;
+            box-sizing: border-box;
+    
+        }
+
+        Border radius cada esquina:
+        -> border-top-left-radius
+        -> border-top-right-radius
+        -> border-buttom-left-radius
+        -> border-buttom-right-radius
+
+        Notacion acortada
+        -> border-radius
+        .caja{
+            background-color: aquamarine;
+            border: 3px dashed blueviolet;
+            padding: 10px;
+            margin: 70px auto;
+            width: 300px;
+            height: 300px;
+            box-sizing: border-box;
+            border-top-left-radius: 20px 50px;
+        }
+
+        Colores en css
+        -> Palabras clave
+        -> rgb (rojo(red),verder(green),blue(azul)), rgba (rojo(red),verder(green),blue(azul), a(transparencia)) 0 al 1, colores al maximo 255
+        -> Hexadecimales: los dos primeros valores son rojo, los dos siguientes verde y los dos ultimos azules,
+        se representan con FF y con 00, ejemplo: rojo #FF0000, verde #00FF00 y azul es #0000FF
+        ->hsl: h (color del 0 al 255), s(saturacion que va en % del 1 al 100) y por ultimo l (luminacion se mide en % que va del 1 al 100 que el 50% es el color normal)
+         y hsla h (color del 0 al 255), s(saturacion que va en % del 1 al 100) y por ultimo l (luminacion se mide en % que va del 1 al 100 que el 50% es el color normal), a(transparencia)) 0 al 1
+    
+        Sombras de cajas y textos
+        box-shadow (se pueden colocar dos sombras):
+        offset-x es la posicion de izquieda a derecha, offset-y el moviento vertical,defuminado (opcional se puede expandir con otro mas), color y insert inserta la sobra a dentro de la caja
+        text-shadow (le da sombra al texto):
+        contiene lo mismo del box-shadow pero sin insert
+
+        .caja{
+            background-color: aquamarine;
+            padding: 10px;
+            margin: 70px auto;
+            width: 300px;
+            height: 300px;
+            box-sizing: border-box;
+            box-shadow: 10px 20px 30px blue;
+        }
+        Funcion CALC: Esta realiza calculos
+        body,html{
+            width: 100%;
+            height: 100%;
+            --fuente: 16px;
+            font-size: var(--fuente);
+
+        }
+        .caja{
+            font-size: calc(var(--fuente) + 10px);
+            border: 2px solid red;
+            margin: 2%;
+            width: calc(100%/4 - 2%*2 - 2px*2);
+            background-color: brown;
+            float: left;
+        }
+
+        Background
+        Presionar en abrir imagen en una pestaña nueva, luego copiar direccion de imagen background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/f58354aa-32b4-4822-8456-2bc3a9fcd35f/dc3qse8-c213f45d-708f-4c30-b222-8f5f97b5b3f4.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2Y1ODM1NGFhLTMyYjQtNDgyMi04NDU2LTJiYzNhOWZjZDM1ZlwvZGMzcXNlOC1jMjEzZjQ1ZC03MDhmLTRjMzAtYjIyMi04ZjVmOTdiNWIzZjQucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.5fWRdZ4YM22Q4ZO0ID_qUaeVWTzrqPYc-elaZUZvkcw");
+        background-size: cover:Muestra la imagen
+        background-size: contain:Muestra la imgane mientras no se sale
+        background-repeat: no-repeat; Son las repeticiones de la imagen
+        background-position: top left; Posiciona la imagen
+        background-origin: border-box; Donde sera el origen de la caja
+        background-clip: content-box; Es un recorte, Quita color y solo pone el contenido de la imagen
+        body,html{
+            width: 100%;
+            height: 100%;
+            --fuente: 16px;
+            font-size: var(--fuente);
+            background-image: url("../goku.jpg");
+            background-size: cover;
+            background-attachment: fixed;
+        }
+        .caja{
+            width: 400px;
+            height: 400px;
+            padding: 40px;
+            border: 20px dashed blueviolet;
+            margin: 0 auto;
+            background: lightblue url(../goku.jpg) no-repeat 0 0;
+            background-size: 100% 100%;
+            background-origin: border-box;
+            background-clip: content-box;
+        }
+
+         background-blend-mode: son efectos de fondo de la imagen: 
+         initial/normal/multiply/screen/overlay/darken/ color-dodge/ color-burn/ 
+         hard-light/ soft-light/ difference/ exclusion/ hue/ saturation/ color/ luminosity
+
+         Degradado del fondo: deg(son grados)
+         background-image: linear-gradient(50deg,yellow 10%,red 60%); son degradados en forma lineal
+         background-image: radial-gradient(circle farthest-side,blue,red); son degradados siguiendo de referencia un circulo y en radios
+         
+         body,html{
+            width: 100%;
+            height: 100%;
+            --fuente: 16px;
+            font-size: var(--fuente);
+            --color-one:red;
+            --color-two:blue;
+            background-image: radial-gradient(circle farthest-side,blue,red);
+         }
+        Fuentes extras
+            font-style: normal, italic, oblique
+            font-variant: normal, small-caps(Hace que todas las letras sen mayusculas)
+            font-weight: normal, bold(Pone las letras en negritas), border(Es en negritas pero mas gruesa), lighter(hace la letra mas delgada), se pueden colocar tamaños de grosor del 100 al 900;
+            font-size: Tamaño del texto como se desee
+            line-height: Es un internileado que va por medidas
+            font-family: familia de fuentes (serif,sans-serif,cursive,fantasy,monospace) o bien nombre de fuente (se coloca entre comillas)
+           font: style variant weight size height family;(Ejemplo en una sola linea)
+
+           text-align: left, right, center, justify
+           text-transform: uppercase(transforma todas las letras en mayuculas),lowercase(transforma todas las letras en minusculas),capitalice(convierte la primera letra de una oracion en mayucula),
+           text-indent: le da un espacio a la primera linea, con la medida que se desee
+           word-spacing: le da un espacio entre oraciones con la unidad que se desee
+           letter-spacing: Espaciado entre letras con la unidad de medidda que se desee
+            Se utiliza en los enlaces y texto
+           text-decoration-line: none(le quieta la linea de abajo a los enlaces o bien textos),overline(le coloca una linea arriba al texto),underline(le coloca una linea abajo al texto),
+           line-through(le inserta una linea en medio a todo el texto)
+           text-decoration-style: le da estilo a las lineas, solid(la pone en negrita), double(Hace doble la linea), dotted(pone la linea en puntitos), dashed(la linea se hace de rallitas), wavy(pone la linea ondulada)
+            text-decoration-color: Le da color a la linea
+            .titulo{
+                font-style: oblique;
+                font-variant: small-caps;
+                font-weight: lighter;
+                font-size: 20px;
+                line-height: 1.5;
+                font-family: serif;
+                text-align: center;
+                text-transform: uppercase;
+                text-indent: 40px;
+                word-spacing: 5px;
+                letter-spacing: 1px;
+                color: aquamarine;
+                text-decoration: underline solid burlywood;
+            }
+            .enlace{
+                text-decoration-line: none;
+    
+            }
+
+            Enlaces para importar fuentes
+            importa la fuente pero es en caso si hay ingternet : @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Noto+Serif+Toto:wght@500&display=swap');
+            Al descargar se va a la pagina font squirrel al ingresar se va webfonr generator donde se ingresa el archivo de la fuente descargada, se descarga y se coloca
+            la carpeta en proyecto posterior se agarran solamente 5 archivos los cuales .ttf es la fuente correcta
+            formato para eot?#iefix: format('embedded-opentype'), woff2: format('woff2'),
+            woff: format('woff'), ttf: format('truetype'),
+            svg#fjalla_oneregular: format('svg'), eot: no tiene format 
+            @font-face {
+                font-family: "ejemplo1";
+                src: url('../font/caveat-variablefont_wght-webfont.ttf') format('truetype');
+            }
+
+            Pseudoclase:
+            :root{}:se coloca antes que vody y html, donde hace globales las variables
+            ------------------
+            Para enlaces:
+            :link(Enlaces que no han sido visitadas(no presionadas)) 
+            :visited(Se le da estilo a los que ya se fueron visitados(presionados)),
+            :empty(Aplica estudio al enlace que no tiene nada)
+            :hover(Aplica estilo al pasar pon encima de el con el maus)
+            :active(Aplica estilo a las etiquetas o botones)
+            :focus(Aplica estilo a los elementos de input)
+            :enabled(Aplica estilo a los elementos seleccionados,se le intruduzca texto)
+            :disabled(Aplica estilo a los inputs que este desabilitados)
+            :checked(Se aplica a los input de tipo radio, checkbox y select)
+            :requiered(Se aplica a todo input que contenga requiered)
+            Nota (ingresados en el index.html):
+            ->pattern(El pattern hace que permita o no el acceso al input)
+            -maxLenght(Sirve para limitar en el input la cantidad de caracteres permitidos)
+            :valid(Se aplica a todo input que contenga pattern)
+            :invalid(Se aplica al input que no aplique a lo que contenga en pattern)
+            Nota:(Los rangos input de type="number" son min="1" y max="9" que se colocan en index.html)
+            :in-range(Cuando el input si se encuentra en el rango)
+            :out-of-range(Cuenado el input tiene el valor fuera del rango)
+            :first-child(Este le aplica estilo al primero valor de una lista)
+            :first-of-type(Este le aplica estilo al ultimo valor de una lista)
+            Nota: NTH resive valores enteros, even(selecciona todos los hijos pares), odd(selecciona todos los hijos impares),
+            -n+(numero)(Define un numero n cantidad de veces)
+            :nth-child(valor) (Resive valores y busca los primeros hijos)
+            :nth-last-child(valor) (Resive valores y busca los primeros hijos)
+            :first-of-type(Se le coloca la clase y necesariamente el nombre del hijo y este selecciona el primer hijo)
+            :last-of-type(Se le coloca la clase y necesariamente el nombre del hijo y este selecciona el ultimo hijo)
+            :nth-of-type(valor) (Este se le ingresa valor y se buscara el hijo que necesariamente se necesita nombrar y busca de arriba hacia abajo)
+            :nth-last-of-type(valor) (Este se le ingresa valor y se buscara el hijo que necesariamente se necesita nombrar y busca de abajo hacia arriba)
+
+            .enlace:link{
+                color:cadetblue;
+            }
+            .enlace:visited{
+                color: brown;
+            }
+            .enlace:hover{
+                color: chartreuse;
+            }
+            .texto:empty{
+                background-color: blueviolet;
+                height: 70px;
+            }
+            button:active{
+                background-color: chocolate;
+                height: 70px;
+                color: azure;
+                width: 70px;
+            }
+            input[type="text"]:focus{
+                background-color: black;
+                color: azure;
+            }
+            input[type="text"]:enabled{
+                background-color: rgb(116, 111, 111);
+                color: azure;
+            }
+            input[type="text"]:disabled{
+                background-color: rgb(196, 132, 132);
+                color: azure;
+            }
+            input[type="checkbox"]:checked + label{
+                background-color: blueviolet;
+                color: aqua;
+                height: 50px;
+                width: 50px;
+                border-radius: 50%;
+            }
+            input:required{
+                color: darkgreen;
+            }
+            input:valid{
+                background-color: aqua;
+            }
+            input:invalid{
+                background-color: brown;
+            }
+            input:in-range{
+                background-color: darkorange;
+            }
+            input:out-of-range{
+                background-color: fuchsia;
+            }
+            .enlace:nth-child(odd){
+                color: fuchsia;
+            }
+            .enlace div:nth-of-type(even){
+                color: fuchsia;
+            }
+            .texto{
+                font-family: 'ejemplo1', cursive;
+            }
+
+
+            Pseudo elemento:
+            ::first-line(Se le aplica estilo al primer parrafo de un texto)
+            ::first-letter(Se le aplica estilo a la primera letra del texto)
+            ::selection(Se le aplica estilo a lo que seleccione el usuario del texto)
+            Nota before y after (para hacerlo una figura necesita content:"" y display:block;)
+            ::before(Se le aplica estilo a la parte inicial antes del texto,tiene que contener content="BEFORE")
+            ::after(Se le aplica estilo a la parte final despues del texto,tiene que contener content: "AFTER")
+            .texto::after{
+                content: "";
+                display: block;
+                height: 100px;
+                width: 100px;
+                background-color: burlywood;
+            }
+            .texto::first-line{
+                font-family: 'ejemplo1', cursive;
+            }
+            .texto::first-letter{
+                color: yellowgreen;
+                font-size: 10px;
+            }
+            .texto::selection{
+                background-color: brown;
+            }
+
+            Transiciones 
+            transition-property(la propiedad en transicion, lo recomendable es poner all(es utilizar todas las clases))
+            transition-duration(la duracion del tiempo en la que se hara la transicion)
+            transition-timing-function(Permite establecer la forma de transicion las cuales son:
+            ease,linear,ease-in,ease-out,ease-in-out)
+            transition-delay(Enta los segundos cuando se quita el mause y se pone, es opcional)
+
+            .caja{
+                width: 300px;
+                height: 300px;
+                background-color: aquamarine;
+                transition: all 3s ease;
+                
+            }
+        
+            .caja:hover{
+                background-color: aqua;
+                border-radius: 100%;
+            }
+            Display
+            block(Hace que se coloque en bloque es un valor por defecto)
+            inline(Hace que todos los elementos o que contiene la clase los coloca en linea)
+            inline-block(Si el elemento no cabe en lo ancho de la pantalla se baja en linea)
+            none(Desapare el elmentos)
+            table(Crea una tabla en una clase con su div)
+            table-row(Crea las filas de la tabla en clase con div,dentro de la tabla)
+            table-cell(Crea las columnas de la tabla en clase con div, dentro de las filas)
+
+            Float
+            none, left(mueve todo a la derecha), right(mueve todo a la izquierda)
+
+            Clear
+            left(Se limpia el flotamiento de la izquierda)
+            right(Se limpia el flotamiento de la derecha)
+            both(Se limpia en general el flotamiento)
+
+            Overflow(Sirve para manejar los hijos que se salgan del contenedor padre)
+            auto(Genera un scroll dentro del elemento, si no cabe en la pantalla si no cabe dentro del padre)
+            visible(El elemento se saldra de su elemento padre)
+            hidden(Todo lo que se salga del elmento padre ya no se mostrara)
+            scroll(Genera un scroll automaticamente)
+
+            overflow-x(Se genera lo que se desee en lado horizontal)
+            overflow-y(Se genera lo que se desee en lado vertical)
+
+            Cursor(Perimite cambiar el icono para cada elemento con el puntero del mause)
+            help(Coloca un signo de interrogacion)
+            text(Coloca la linea)
+            pointer(Coloca el icono de la manita)
+            copy(Coloca un signo de mas)
+            move(Coloca un flechas de cuatro puntas)
+            no-drop(Coloca un icono del puntero en rojo)
+            wait(Coloca un icono del puntero en azul)
+            progress(Coloca un icono de recarga)
+
+            pointer-events(Permite decidir si los elementos del mause se van habilitar)
+            auto(Es un evento por default)
+
+            user-select(Permite desabilitar el seleccionanmiento del texto)
+            auto(Permite seleccionar texto)
+            none(Hace que no se pueda seleccionar texto)
+
+            position
+            static(Es una propiedad estatica)
+            relative(Hace que el flujo no se rompa,conservando todas sus dimensiones)
+            absolute(Hace que el flujo se rompa,se posiciona adaptandose al contenido si este no esta definido, colocandose despues,
+            si el padre contiene relative se movera con respecto al padre)
+            fixed(Hace que el flujo se rompa,esete se queda fijo sin moverse con el scroll, este sin importar el padre se mueve en toda la pantalla del navegador)
+            sticky(Hace que el flujo se rompa,este combina relative y fixed, si se mueve el valor top se quedara fijo,
+            se movera cuando se llegue al posicionamiento y no podra salir del padre)
+
+            Si es relative inicia desde la posicion inicial
+            top(Va de arriba hacia abajo)
+            bottom(Va de abajo hacia arriba)
+            right(Va hacia la izquierda)
+            left(Va hacia la derecha)
+            z-index(Le da la prioridad de cual hijo va encima de otro)
+
+            opacity(Esta propiedad acepta elementos del 0 al 1, visualisa con el 1 y oculta con el 0 y 0.5 se ve decolorado)
+
+            visibility
+            visible(Estara visible el elemento)
+            hidden(Estara oculto el elemento y mantiene posicion del elemento)
+
+            Nota: Rotate da giros
+            2D
+            transform:rotate() (Va a girar al sentido de las manesillas del reloj)
+
+            3D
+            transform:rotateX() (Gira la imagen haci atras)
+            transform:rotateY() (Gira la imagen hacia la derecha)
+            transform:rotateZ() (Gira la imagen haciendo giros )
+
+            deg (Son grados)
+            turn (Son giros(enteros))
+            grad (Son gradiales)
+            rad (Son radiales)
+
+            transform-origin: x y (Aplica a todas las transformaciones y cambia el sentido del movimiento de la rotacion)
+
+            Se pueden utilizar: rigth,left,top,bottom,center con sus unidades de medida(px,em,rem...etc)
+            .imagen{
+                display:block;
+                margin:0 auro;
+                margin-top: 50px;
+                witdh: 250px;
+                height: auto;
+                transition; all .3s ease-in-out;
+            }
+            .imagen:hover{
+                tranform: rotateX(50deg) rotateY(140deg) rotateZ(120des);
+                transform-origin: center center;
+            }
+
+            2D
+            trandLate(x) (Mueve a la derecha el elemento con el valor que se desee)
+            transLate(x, y) (Se mueve de lado a lado)
+
+            3D
+            transforma: trandLate3d(x , y , z)
+            trandLateX(Se mueve de lado vertical)
+            trandLateY(Se mueve de lado horizontal)
+            trandLateZ(Maneja la profundidad del elmento)
+
+            
+            skew(x) (Distorciona la imagen con las coordenadas de rotate como giros)
+            skew(x, y) (Distorciona de un puto a otro)
+            
+            skewX(angle) 
+            skewY(angle)
+
+            2D
+            scate(x) (Le hace un zoom a la imagen)
+            scate(x y) (le hace zoom escalando las coordenadas que se le ingrese primero en vertical y el siguiente en horizontal)
+
+            3D
+            scale3d(x , y , z)
+            scaleX() (Estira verticalmente)
+            scaleY() (Estira la imagen horizontalmente)
+            scaleZ() (Es la profundidad)
+            
+            Nota: todos cuentan con transform-origin: x y
+
+            transformaciones multiples
+
+            transform: function() function() function()
+
+            .imagen{
+                transform: scaleX(1.5) skew(20des) rotate(45des) translateY(100px);
+                transform-origin: center center;
+            }
+
+            Nota @media: En el index siempre tiene que estar meta
+            @media(){} (Es como un if en css, donde si se pasa de la medida proporcionada, se cambiaran los estilos de las clases que se deseen)
+            @media() and (){} (Este si no se aplica en una y la otra entra)
+
+            @media(max-width: 400px){
+                .caja{
+                    color:blue;
+                    font-size:10px;
+                }
+            }
+
+            @media(max-width: 899px) and (min-width:400px){
+                .caja{
+                    color:blue;
+                    font-size:10px;
+                }
+            }
+
+            Nota :Son unidades de medida parecidas al %
+            vw (Unidad de medida que calcula el ancho de la pantalla)
+            vh (Unidad de medida que calcula la altura de la pantalla)
+            vmin (Unidad de medida que calcula cual del ancho y la altura es el valor minimo)
+            vmax (Unidad de medida que calcula cual del ancho y la altura es el valor maximo)
+
+
+
+    */
+    @font-face {
+        font-family: "ejemplo1";
+        src: url('../font/caveat-variablefont_wght-webfont.ttf') format('truetype');
+    }
+    :root{
+        --fuente: 16px;
+        --color-one:rgb(18, 18, 19);
+        --color-two:rgb(218, 210, 210);
+    }
+    body,html{
+        width: 100%;
+        height: 100%;
+        font-size: var(--fuente);
+        background-image: radial-gradient(circle farthest-side,var(--color-one),var(--color-two));
+    }
+    .caja{
+
+    }

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos JavaScript</title>
+</head>
+<body>
+    <h1>Fundamentos JavaScript</h1>
+    <script>
+        //No utilizar variables var solo let, cambiar el codigo que contenga var(genera variables globales) a let (genera variables de bloque)
+        var hola ="Hola mundo"
+        let hello ="Hello"
+        //const: Es un variables que no vaya a cambiar,no puede cambiar su valor,su valor no pueden estar vacias
+        const PI = 3.1416;
+        //Objetos y arreglos (pueden ser creados con let y const)
+        let objeto ={
+            nombre:"Ivan",
+            edad:22
+        }
+        let arreglo=["blanco","negro","azul"];
+
+        //Agregar un nuevo titulo al objeto y un nuevo valor al arreglo
+        objeto.correo="ivanaviles569@gmail.com";
+        arreglo.push("naranja");
+
+        //Cadenas de Texto aka String
+        //new de forma formar acomoda de que construtor fue creado
+        let cadena1="Saludo";
+        let cadena2 = new String("Hola mundo");
+        //Caracteristicas
+        //Da el tamaño de cuantos caracteres contiene la cadena
+        cadena2.length ,
+        //Cambia la cadena a mayusculas
+        cadena2.toUpperCase(),
+        //Cambia la cadena a minusculas
+        cadena2.toLowerCase(),
+        //Busca lo que se desea y manda un mensaje si fue encontrada o no(true o false)
+        cadena2.includes("mundo"),
+        //Quita los espacios en blanco que contien la cadena
+        cadena2.trim(),
+        //Convierte la cadena a un objeto y cada que encuentre lo que se desee sera un titulo mas al objeto
+        cadena2.split(".");
+
+        //Ambito de bloqueeee2222eeeeefegg
+        if(true){
+            var a=3;
+        }
+    </script>
+</body>
+</html>
