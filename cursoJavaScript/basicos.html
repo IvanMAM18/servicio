@@ -8,6 +8,7 @@
 </head>
 <body>
     <h1>Fundamentos JavaScript</h1>
+    
     <script>
         //No utilizar variables var solo let, cambiar el codigo que contenga var(genera variables globales) a let (genera variables de bloque)
         var hola ="Hola mundo"
@@ -42,8 +43,87 @@
         cadena2.trim(),
         //Convierte la cadena a un objeto y cada que encuentre lo que se desee sera un titulo mas al objeto
         cadena2.split(".");
+        let nombre = "ivan"
+        let apellido ="aviles"
 
-        //Ambito de bloqueeee2222eeeeefeggsss
+        //Concatenar
+        let salud ="HOla mi nombre es "+nombre;
+        //Interpolacion de variables
+        let saludo2=`Hola mi nombre es ${nombre}${apellido}.`;
+
+        let ul = `
+        <ul>
+            <li>1</li>
+            <li>2</li>
+            <li>2</li>
+        </ul>`;
+        //Variables numericas
+        let a = 1;
+        let b = new Number(2.34);
+        //Funciones de variables numericas
+        //Redondea el numero a l cantidad que se desee
+        b.toFixed(1);
+        //Devuelve la parte numerica el numero sin decimales,transforma un string a entero
+        parseInt(b);
+        //Devuelve todo el numero con todo y decimales,transforma un string a un decimal
+        parseFloat(b);
+        //Muestra el nombre del caracter de la variable
+        typeof b;
+
+        //Variables booleanas
+        let verdadero =true;
+        let falso = false;
+        let v = Boolean(true);
+        let f = Boolean(false);
+
+        //undefined una variable vacia que se asigna por el mismo programa
+        let indefinida;
+        //null definida por el programador
+        let nulo = null;
+        //NaN es cuando la variable esta haciendo una operacion que no es como un string + un int
+        let noEsNumero="hola"+2.7;
+
+        //Funcion declarada
+        function unaFuncion(){
+            return "devuelve una cadena de texto";
+        }
+        //Invocar una funcion
+        let valorDeFuncion = unaFuncion();
+
+        //Funcion con vcalores dentro
+        function saludar(nombreFuncion,edad){
+            let saludo2=`Hola mi nombre es ${nombreFuncion}${edad}.`;
+        }
+
+        //Funciones declaras vs funciones expresadas
+        function funcionDeclarada(){
+
+        }
+
+        //funcion anonima
+        const funcionExpresada = function(){
+            //Esta funcion expresada, es decir, una funcion que se le ha asignado como valor a una variable, si invocamos esta funcion antes de su definiciosn Js nos dira 
+        }
+
+        //Fundamentos de arreglos nuevos y generales
+        const a=[];
+        const n=[1,true,"Hola",["A","B","C"]];
+        const c= Array.of("X","Y","Z");
+        const e = new Array(1,2,3,true,false);
+        //Forma de ver el elemento en una posicion deseada
+        b[3][2];
+        //fill ayuda a llenar un arreglo de lo que se desee y del tamaño que se desee
+        const d = Array(100).fill(false);
+
+        //push() agrega un elemento al final de un arreglo
+        n.push("d");
+        //pop quita el ultimo elmemento de un arreglo
+        n.pop();
+        //forEach es un for para mostrar los elementos de un arreglo
+        n.forEach(function(el,index){
+            console.log(`<li id="${index}">${el}</li>`);
+        });
+        //Ambito de bloque
         if(true){
             var a=3;
         }
