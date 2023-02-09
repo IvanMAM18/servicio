@@ -123,7 +123,223 @@
         n.forEach(function(el,index){
             console.log(`<li id="${index}">${el}</li>`);
         });
-        //Ambito de bloque
+
+        //Objetos: la variables dentro de un objeto se les llama atributo, 
+        //las propiedades y a las funciones se les llama metodos
+        const b ={};
+        const c = new Object();
+
+        const nom={
+            nombre:"Ivan",
+            apellido:"Aviles",
+            edad:22,
+            pasatiempos:["Futbol","Dibujar","Programar"],
+            soltero:false,
+            contatcto:{
+                email:"ivanaviles569@gmail.com",
+                movil:6121081619
+            },
+            saludar:function(){
+                console.log("Hola")
+            },
+            decirMiNombre:function(){
+                console.log(`Hola mi nombre es ${this.nombre}`)
+            }
+        };
+
+        console.log(nom[nombre]);
+        console.log(nom.pasatiempos[1]);
+        console.log(nom.contatcto.movil);
+        nom.saludar();
+        nom.decirMiNombre();
+        console.log(Object.keys(nom));//Permite listar las llaves del objeto
+        console.log(Object.values(nom));//Permite enseñar los elementos del obejto
+        console.log(nom.hasOwnProperty("nombre"));//Permite buscar si el elmento existe
+
+        //Tipos de operadores
+        //Aritmeticos: + * / % () -
+        let modulo= 5%2; //Devuelve el reciduo de la division
+
+        //Relacionales >(mayor que),<,>=,<=,==,===,!=,!==
+        console.log(9>8);
+        console.log(8<9);
+        console.log(9 >= 8);
+        console.log(8 <= 9);
+        // = 1 igual es asignado de variable
+        //== 2 iguales es comparacion de valores
+        //=== 3 iguales es comparacion de tipo de dato y de valor
+
+        //Incremento - Decremento
+        let i=2;
+        //Es lo mismo que hacer i= i+3;
+        i+=3;
+        i*=3;
+        i/=3;
+        i%=3;
+        //Operador unario suma o resta un valor al ya establecido de la variable 
+        i++;
+        i--;
+
+        //Logicos ! NOT (Niega, es decir lo que es verdadero lo vuelve falso o viservesa)
+        //|| OR()Cuandor tengo 2 o mas condiciones con que una se cumpla, es decir sea verdadera el OR validara 
+        //&& And(Cuando tengo 2 o mas condiciones, todas tienen que cumpliser, es decir ser verdaderas, para que AND se valide)
+
+        //Estrutura de control
+        //Condicionales
+        //if else
+        let edadDos = 17;
+        if(edad >= 18){
+            console.log(`Es mayor de edad`);
+        }else{
+            console.log(`Es menor de edad`);
+        }
+        //if else if else
+        let hora=5;
+        if(hora >= 0 && hora <= 5){
+            console.log(`Dejame dormir`);
+        }else if(hora >= 6 && hora<=11){
+            console.log(`Buenos dias`);
+        }else if(hora >= 12 && hora <= 18 ){
+            console.log(`Buenas tardes`);
+        }else{
+            console.log(`Buenas noches`);
+        }
+        //Operador terniario condicion ? verdadero : falsa
+        let eresMayor = (edad >= 18)?"Eres mayor de edad":"Eres menor de edad";
+        console.log(eresMayor);
+        //switch case
+        
+        let dia=2;
+        switch(dia){
+            case 0:
+                console.log("Cero");
+                break;
+            case 1:
+                console.log("Uno");
+                break;  
+        }
+
+        //Ciclos
+        let contador=0;
+        while(contador > 10){
+            console.log(contador);
+            contador++;
+        }
+
+        do{
+            contador++;
+        }while(contador > 10);
+
+        for(let i =0; i<0; i++){
+            console.log(i);
+
+        }
+
+        let numeros=[10,11,12,13,14,15,16];
+
+        for(let i=0; i<numeros.length; i++){
+            console.log(numeros[i]);
+        }
+
+        //Permite iterar un objeto
+        const obj={
+            nombre:"Ivan",
+            apellido:"Aviles",
+            edad:22
+        }
+        //Recorre todas las variables de un elemento primitivo
+        //Sirve para los objetos
+        for(const propiedad in obj){
+            console.log(`Key: ${propiedad}, Vaalue: ${obj[propiedad]}`);
+        }
+         
+        //Recorre varios elementos que se puedan recorrer, sean iterables
+        //Sirve para cadenas y arreglos
+        for(const propiedades of numeros){
+            console.log(propiedades);
+        }
+
+        //Manejo y detencion de errores
+        try{
+            console.log(`En el try se agrega el codigo a evaluar`);
+            noExiste;
+        }catch(error){
+            console.log(`Catch, captura cuakquier error surgido o lanzado en el try`);
+            console.log(error);
+        }finally{
+            console.log(`El bloque finally se ejecutara siempre al final de un bloque try-catch`);
+        }
+        //Ejemplo
+        //isNaN(variable):busca si la variable mo es un numero o no mandara true o false
+        try{
+            let numnero=10;
+            if(isNaN(numero)){
+                throw new Error("El vcaracter introducido no es un numero");
+            }
+
+        }catch(error){
+            console.log(`SE produjo el siguiente error ${error}`);
+        }
+
+        //break y continue
+        const numeros =[1,2,2,4,5];
+        //Quita el conteo
+        for(let i=0; i<numeros.length; i++){
+            if(i === 5){
+                break;
+            }
+            console.log(numeros[i]);
+        }
+        //Se salta el conteo
+        for(let i=0; i<numeros.length; i++){
+            if(i === 5){
+                continue;
+            }
+            console.log(numeros[i]);
+        }
+
+        //Desturcturacion: Es darle valor a nuevas variables con valores establecidos con 
+        //arreglos o objetos
+        const numeros=[1,2,3];
+
+        let uno = numeros[0],
+        dos = numeros[1];
+        const[one,two,three]=numeros;
+        console.log(one,two,three);
+
+        let persona ={
+            nombre="ivan",
+            edad=22
+        }
+
+        let {nombre,edad} = persona;
+        console.log(nombre,edad);
+
+        //Objetos literales
+        let nombre = "kiba";
+        let edad = 1;
+
+        const perro = {
+            nombre:nombre,
+            edad:edad,
+            ladrar:function(){
+                console.log("guauu guauu");
+            }
+        }
+        console.log(perro);
+        perro.ladrar();
+
+        const dog={
+            nombre,
+            edad,
+            raza:"husky",
+            ladrar(){
+                console.log("gua gua gua");
+            }
+        }
+        console.log(dog);
+
+
         if(true){
             var a=3;
         }
