@@ -339,6 +339,285 @@
         }
         console.log(dog);
 
+        //Parametros REST y operador Spread
+        function sumar(a,b, ...c){
+            let resultado = a+b;
+
+            c.forEach(function (n){
+                resultado+=n;
+            });
+            return resultado;
+
+        }
+        console.log(sumar(1,2,3,4,5,6,7,8,9));
+
+        const arr1=[1,2,3,4,5],
+        ar2=[6,7,8,9,0];
+
+        const arr3=[...arr1,...arr2];
+        console.log(arre3);
+
+        //Arrow funtions
+
+        const saludar= nombre => console.log(`Hola ${nombre}`);
+        saludar("Ivan");
+
+        const sumar = (a,b) => a+b; //Solo cuando es un return implicito
+        sumar(23,45);
+
+        const funcionConVariasLineas = () =>{
+            console.log("Hola");
+            console.log("HolaDos");
+        }
+
+        const numeros = [1,2,3,4,5];
+
+        numeros.forEach((el,index) => console.log(`${el} esta en la posicion ${index}`));
+
+        const perro ={
+            nombre:"Kiva",
+            ladrar(){
+                console.log(this)
+            }
+        }
+
+        perro.ladrar();
+
+        //Prototipos:
+        //Clases: Modelo a seguir
+        //Objeto: ES una instancia de una clase
+        //Atributos: Es una carcateristica o prpiedad del objeto
+        // (son variables dentro de un objeto)
+        //Metodos: Son las acciones que un obajetio puede realizar
+        //(son funciones dentro de n objeto)
+
+        //Funcion constructora: Siempre la inicial hira en mayusculas como las clases
+
+        function Animal(nombre,genero){
+            //Atributos
+            this.nombre=nombre;
+            this.genero=genero;
+
+            //Se pueden meter metodos si se desea
+            this.ejemplo= function(){
+                console.log(`Ejemplo: ${this.nombre}`);
+            }
+            
+        }
+        
+        //Metodos agregados al prototipo de la funcion constructora
+        Animal.prototype.sonar = function(){
+            console.log("Hago sonidos porque soy un animal");
+        }
+
+        Animal.prototype.saludar()=function(){
+            console.log(`Hola me llamo ${this.nombre}`);
+        }
+
+        //Herencia prototipica
+        function Perro(nombre,genero,tamano){
+            this.super = Animal;
+            this.super(nombre,genero);
+            this.tamano=tamano;
+        }
+        //Perro esta heredando de animal
+        Perro.prototype = new Animal();
+        Perro.prototype.constructor=Perro;
+
+        //Sobreescritura de metosd del Prototipo padre en el hijo
+        Perro.prototype.sonar=function(){
+            console.log("Soy un perro y mi sonido es un ladrido");
+        }
+        Perro.prototype.ladrar=function(){
+            console.log("Guaa Guua");
+        }
+        
+        const snoopy = new Perro("Snoopy","Macho","Mediano"),
+        lolaBunny= new Animal("Lola Bunny","Mujer");
+
+        snoopy.sonar();
+        snoopy.saludar();
+        snoopy.ladrar();
+
+        lolaBunny.sonar();
+        lolaBunny.saludar();
+
+        class Animal{
+            //El constructor es un metodo especial que se ejecuta
+            //en el momento de instanciar la clase
+            constructor(nombre,genero){
+                this.nombre=nombre;
+                this.genero=genero;
+            }
+
+            //Metodos
+            sonar(){
+                console.log("Hago sonidos porque soy un animal");
+            }
+
+            saludar(){
+                console.log(`Hola me llamo ${this.nombre}`);
+            }
+            
+        }
+        
+        class Perro extends Animal{
+            constructor(nombre,genero,tamano){
+                //Con el metodo super() se manda a llamar el
+                //constructor de la clase padre
+                super(nombre,genero);
+                this.tamano = tamaño;
+                this.raza=null;
+            }
+            sonar(){
+                console.log("Soy un perro y mi sonido es un ladrido");
+            }
+            ladrar(){
+                console.log("Guauuu");
+            }
+            //Un metodo estatico se pueden ejecutar sin 
+            //necesisdad de instanciar la clase
+            static queEres(){
+                console.log("Lo que sea");
+            }
+            //Los setters y getters son metodos especiales que nos permiten
+            //establecer y obtener los valores de atributos de nuestra clase
+            get getRaza(){
+                return this.raza;
+            }
+            set setRaza(raza){
+                this.raza=raza;
+            }
+
+        }
+        
+        const mimi = new Animal("Mimi","Hembra"),
+            scooby = new Perro("Scooby","Macho","Gigante");
+
+        mimi.saludar();
+
+        scooby.ladrar();
+        scooby.setRaza("Gran danes");
+        scooby.getRaza();
+
+        //Objeto console
+        console.log("Mensajes normales en la consola");
+        console.error("Esto es un aviso de error");
+        console.warn("Esto es un aviso de que algo se esta haciendo mal");
+        console.info("Es un mensaje informatico");
+        let nombre="Ivan",apellido="Aviles",edad="22";
+
+        console.log(`Hola min nombre es ${nombre} ${apellido} ${edad}`);
+        console.log(`Hola min nombre es %s %s y tengo %d años`,nombre,apellido,edad);
+
+        console.clear();//Limpia la consola
+        //window es la que representa la ventana del navegador, document es la representacion del documento html
+        console.log(document);//Muestra lo que contiene el html
+        console.dir(document);//Muestra todo los elementos que contiene
+
+        console.group("Grupo de group");//Crea un grupo en la consola
+        console.log("1");
+        console.log("2");
+        console.log("3");
+        console.groupEnd();//Hace que termine el grupo
+        //.sort() acomoda de manera alfabetica la tabla
+        console.log(console);
+        console.table(Object.entries(console).sort());
+
+        const numeros =[1,2,3,4,5];
+        console.table(numeros);
+
+        const perro={
+            nombre:"Kiba",
+            raza:"Husky"
+        }
+        console.table(perro);
+
+        console.time("Cuanto tiempo tarda mi codigo");
+        const arreglo = Array(1000000);
+
+        for(let i =0; i<arreglo.length; i++){
+            arreglo[i]=i;
+        }
+        console.timeEnd("Cuanto tiempo tarda mi codigo");//Tiene que ser el ismo nombre de la etiqueta para que funcone, nos dara el tiempo que tarda en ejecutarse lo que queramos saber
+
+        for(let i =0; i<=100; i++){
+            console.count("codigo for");//Nos muestra cuando se ejecuta 
+            console.log(i);
+        }
+
+        let x=1, y=2, pruebaXY="Se espera que x sea menor que y";
+
+        console.assert(x<y, {x,y,pruebaXY});//Es como un if, el cual nos se correcto mandara un mensaje
+
+        //Objeto Date
+        consoel.log(Date());
+        let fecha= new Date();
+        console.log(fecha);//Imprime la fecha completa
+        console.log(fecha.getDay);//Imprime el dia que es 
+        cosnole.log(fecha.getMonth);//Imprime el mes que es
+        console.log(fecha.getFullYear);//Imprime el año que es, no se recomienda usar
+        console.log(fecha.getHours);//Imprime que hora es
+        cosnole.log(fecha.getMinutes);//Imprime los minutos que son
+        console.log(fecha.setSeconds);//Imprime los segundos en tiempo real
+        console.log(fecha.getMilliseconds);//Immprime los milisegundos en tiempo real
+        console.log(fecha.toString);
+        consoele.log(fecha.toDateString)//Imprime la fecha
+        console.log(fecha.toLocaleDateString());//Imprime dia y hora en numeros
+        console.log(fecha.toLocaleTimeString());//Imprime con numeros la hora que es 
+        console.log(fecga.getTimezoneOffset());//Es el uso horario en el que se encuentre
+        consol.log(fecha.getUTCDate());//Muestras la hora exacta con 24horas
+        console.log(fecha.getUTCHours());//Muestra la hora en forma normal
+        console.log(Date.now());//
+        //Moment.js maneja las horas en (javaScript pagina web)
+        let cumpleIvan = new Date(2000,12,18);//Muestra el dia exacto de los parametros insertados
+        console.log(cumpleIvan);
+
+        //Objeto Math
+
+        console.log(Math);
+        console.log(Math.PI);//Genera el numero PI exacto
+        console.log(Math.abs(-7.8));//Manda el numero absoluto
+        console.log(Math.ceil(7.2));//Muestra el numero entero
+        console.log(Math.floor(7.8));//Muestra el primer numero decimal
+        console.log(Math.round(7.49));//Muestra el tercer numero decimal
+        console.log(Math.sqrt(81));//Saca la raiz cuadrada de un numero
+        console.log(Math.por(2,5));//Eleva la potencia, el primer numero es el que se va a elevar por el segundo numero
+        console.log(Math.sign(-0));//Si es positivo el numero dara 1, si el numero es negativo dara -1 y si es 0 dara 0
+        console.log(Math.random());//Da un numero aleatorio entre el 0 y el 1
+        console.log(Math.random()*100);//Si se multiplica dara un numero del 0 a la cantidad multiplicada
+
+        //Operadores de cortocircuito
+        //Cortocircuito con OR (||):Cuando el valor de la izquierda en la 
+        //Expresion siempre pueda validad a true, es decir ek valor que se cargara por defecto
+        function saluda(nombre) {
+            nombre=nombre || "DEsconocido";
+            console.log(`Hola ${nombre}`);
+        }
+        saludar("Ivan");
+        saludar();
+        //Corticircuito con AND (&&): Cuando el valor de la izquierda en la expresion
+        //siempre pueda validar a false, es el valor que se cargara por defecto
+        function saluda(nombre) {
+            nombre=nombre && "DEsconocido";
+            console.log(`Hola ${nombre}`);
+        }
+        saludar("Ivan");
+        saludar();
+        //Valores que tienden a verdadero
+        //"cadena",12(numero entero), true, [](un arreglo hasta vacio aplica),{}(un objeto hasta vacio aplica)
+        //Valores que tienden a falso
+        //false, null, undefined,""(cadena vacia),numero negativo,numero en cero
+
+        //Importante permiten interactuar con el usuario: alert, confirm y prompt
+        let alerta=alert("Hola esto es una alerta"),//Manda un mensaje normal
+        confirmacion=confirm("Hola esto es una confirmacion"),//Si el usuario presiona aceptar mandara true y cancelar false
+        aviso=prompt("Hola esto es una promt y le permite al usuario ingresar un valor");//Si el usuario presiona cancelar mandara null y se presiona aceptar mandara la informacion escrita;
+        
+
+
+                
+        console.log();
 
         if(true){
             var a=3;
