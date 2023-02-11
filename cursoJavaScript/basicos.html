@@ -614,7 +614,50 @@
         confirmacion=confirm("Hola esto es una confirmacion"),//Si el usuario presiona aceptar mandara true y cancelar false
         aviso=prompt("Hola esto es una promt y le permite al usuario ingresar un valor");//Si el usuario presiona cancelar mandara null y se presiona aceptar mandara la informacion escrita;
         
+        //Expresiones regulares
+        //Son secuencias de carcateres que forma un patron
+        //de busqueda,principalmente utilizada para la
+        //busqueda de patrones de cadenas de caracteres
 
+        let cadena = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad obcaecati itaque autem tempore. In ratione quod id accusamus fuga temporibus neque omnis. Nemo magnam consectetur perspiciatis praesentium incidunt odio molestiae?";
+
+        //i busca la palabra si tiene o no mayusculas, busca la primera
+        //ig busca todas las palabras del texto
+        let expReg = new RegExp("lorem","ig");//Busca expresiones regulares
+        let expReg2 = /lorem/ig;
+
+        console.log(expReg.test(cadena));//Busca y muestra false si no se encuentra lo buscado y si se encuentra manda true
+        console.log(expReg.exec(cadena));//Busca y muestra un objeto
+        
+        //Funciones Anonimas Auto ejecutables
+        (function () {
+            console.log("Mi primer IIFE");
+        })();
+        (function (d,w,c) {//Son letras que llaman lo de abajo
+            console.log("Mi segunda IIFE");
+            console.log(d);
+            console.log(w);
+            console.log(c);
+        })(document.window.console);//Se llama con las letras claves
+        alert("Hola");
+        //Funcion clasica
+        (function () {
+            console.log("Clasica");
+        })();
+        //La Crockford (JavaScript The Goog Parts)
+        ((function () {
+            console.log("Crockford");
+        })());
+        //Unaria
+        +function () {
+            console.log("Unaria");
+        }();
+        //Faceboook
+        !function () {
+            console.log("facebook");
+        }();
+
+        //
 
                 
         console.log();

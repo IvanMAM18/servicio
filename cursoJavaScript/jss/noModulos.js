@@ -1,0 +1,1 @@
+console.log("El navegadpor no soporta Modullos +ES6");
