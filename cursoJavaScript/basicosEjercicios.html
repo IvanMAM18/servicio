@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Ejercicios de Programacion en JavaScript
+        
+    </h1>
+    <script>
+        /*1)Funcion que cuente el numero de caracteres de
+        una cadena de texto.
+        */
+        const contarCaracter=(cadena="")=>(!cadena)?console.warn("No ingresaste ninguna cadena"):
+        console.info(`La cadena ${cadena} tiene ${cadena.length} caracteres`);
+        contarCaracter();
+        contarCaracter("hola mundo");
+
+        /*2)Funcion que te devuelva el texto recortado segun el 
+        numero de caracteres indicados
+        */
+       const recortarTexto = (cadena="",longitud = undefined)=>(!cadena)?console.warn("No ingresaste una caena de texto"):
+       (longitud===undefined)?console.warn("No ingresaste la longitud para recortar el texto")
+       :console.info(cadena.slice(0,longitud));//slice recorta el texto ingresado desde la posicion cero
+
+       recortarTexto("Holamundo",4);
+       recortarTexto();
+       recortarTexto("holamundo")
+        recortarTexto(4);
+
+        /*3)Funcion que dada una String te devuelva un Array de textos
+        separados por cierto caracter
+        */
+        const cadenaArreglo = (cadena="",separador = undefined)=>(!cadena)?console.warn("No ingresaste una caena de texto"):
+       (separador===undefined)?console.warn("No ingresaste la longitud para recortar el texto")
+       :console.info(cadena.split(separador));//split separa palabras de un texto y la separacion la convierte en un arrglo
+       cadenaArreglo("Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti expedita reiciendis dolore ipsam, sed asperiores corrupti animi soluta velit fuga ipsum eaque beatae quisquam culpa quia minus porro! Animi, aperiam.","a");
+       cadenaArreglo("dsfsfs");
+       cadenaArreglo("","c");
+       cadenaArreglo();
+
+
+        /*4)Funcion que repita un texto X veces
+        */
+        const repetirTexto = (texto="",veces = undefined)=>{
+            if(!texto)return console.warn("No ingresaste un texto");
+            if(veces === undefined) return console.warn("No ingresaste el numero de veces");
+            if(veces===0) return console.error("El numero de veces no puede ser 0");
+            if(Math.sign(veces) === -1) return console.error("El numero de veces no puede ser negaticvo ");
+            for(let i=0; i<=veces; i++) console.info(`${texto}, ${i}`);
+        }
+        repetirTexto("Hola Mundo",3);
+        repetirTexto("Hola Mundo",0);
+        repetirTexto("",20);
+        repetirTexto("",-20);
+
+        /*5) Funcion que invierte las palabras de una cadena de texto
+        */
+       const invertirCadena =(cadena="")=>(!cadena)?console.warn("No ingresaste una caena de texto"):
+       console.info(cadena.split("").reverse().json(""));//Se separa cada letra,reverse invierte la posicion de la cadena como un arreglo,json arreglo a cadena  
+
+       invertirCadena("Hola mundo");
+        /*6)Funcion para contar el numero de veces que se repite una palabra
+        en el texto largo
+        */
+       const textoEnCadena=(cadena="",texto="")=>{
+        if(!cadena) return console.warn("No ingresaste el texto largo");
+        if(!texto) return console.warn("No ingresaste la palabra a evaluar");
+        let i=0,contador=0;
+        while(i !== -1){
+            i=cadena.indexOf(texto,i);//Busca la palabra en la cadena como tambien cual se desea buscar
+            if(i!==-1){
+                i++;
+                contador++;
+            }
+        }
+        return console.info(`La palabra ${texto} se repite ${contador} veces`);
+        
+       }
+       textoEnCadena("mundo mundo mundo repite mundo se repite mundo varias veces","mundo");
+
+        /*7)Funcion que valide si una palabra o frase dada, es un palindromo
+        (que se lee igual en un sentido que en otro)
+        */
+        const palindromo = (palabra="")=>{
+            if(!palabra) return console.warn("No ingresate una palabra o frase");
+
+            palabra= palabra.toLowerCase();
+            let alReves = palabra.split("").reverse().json("");
+
+            return(palabra===alReves)?console.info(`Si es palindromo, Palabra original ${palabra}, Palabra al reves ${alReves}`)
+            :console.info(`No es palindromo, Palabrsa original ${palabra}, Palabra al reves ${alReves}`);
+        }
+        palindromo();
+        palindromo("hola Mundo");
+        palindromo("Salas");
+        /*8)Funcion que elimine cierto patron de caracteres de un texto dado
+        */
+       const eliminarCaracteres = (texto="",patron="")=>(!texto)?console.warn("No ingresaste un texto"):
+       (!patron)?console.warn("No ingresaste un patron de caractres"):
+       console.info(texto.replace(new RegExp(patron,"ig"),""));
+
+       eliminarCaracteres("hola como estas tu muchachote loco hola hola","[a-z]");
+
+       /*9)Funcion que obtenga un numero aleatorio entre 501 y 600
+       */
+      const aleatorio =()=>into(Math.round((Math.random()*100)+500));
+
+      aleatorio();
+
+       /*10) Funcion que reciba un numero y evalue si es capicua o no (que se lee
+       igual en un sentido que en otro)
+       */
+      const capicua = (numero=0)=>{
+        if(!numero) return console.warn("No ingresaste un numero");
+        if(typeof numero!=="number") return console.error(`El valor ${nombre} ingresado, No es un numero`);
+
+        numero=numero.toString();
+        let alReves= numero.split("").reverse().join("");
+
+        return (numero === alReves)?console.info(`Si es capicua, Numero original ${numero}, Numero al reves ${alReves}`):
+        console.info(`No es capicua, Numero original ${numero}, Numero al reves ${alReves}`);
+      }
+
+      capicua("19");
+      capicua(2000);
+      capicua(2001);
+      capicua(18.99);
+      capicua(212.212);
+
+       /*11) Funcion que calcule el factorial de un numero(el factorial de un entero
+       positivo n, se define como el producto de todos los numeros enteros positivos
+       desde 1 hasta n)
+       */
+      const factorial=(numero=undefined)=>{
+        if(numero === undefined) return consoel.warn("No ingresaste un numero");
+        if(typeof numero !== "number") return console.error(`El valor ${nombre} ingresado, No es un numero`);
+        if(numero===0) return console.error("El numero no puede ser 0");
+        if(Math.sign(numero) === -1) return console.error("El numero no puede ser negativo");
+
+        let factorial = 1;
+        for(let i=numero; i>1; i--){
+            factorial*=i;
+        }
+
+        return console.into(`El factorial ${numero} es ${factorial}`);
+      }
+      factorial();
+      factorial("5");
+      factorial(-5);
+      factorial(5);
+    </script>
+</body>
+</html>
