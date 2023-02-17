@@ -614,6 +614,11 @@ button:focus {
   display: inline-block;
   padding: 0 3px;
 }
+.a{
+  font-size: 16px;
+  font-weight: 500;
+  color: #FFFFFF;
+}
 .pagenav-link ul li {
   display: inline-block;
   padding: 0 18px;
@@ -636,6 +641,9 @@ button:focus {
   top: 5px;
   display: inline-block;
   transition: all 0.3s ease;
+}
+.a:hover {
+  color: #ffb703;
 }
 .pagenav-link ul li a:hover {
   color: #ffb703;
@@ -1047,6 +1055,10 @@ blockquote p {
   border-radius: 0px;
   color: #010d14;
   background: #ffffff;
+}
+.date,
+.admin{
+  color: #FFB703;
 }
 .readon.paste-btn.updates {
   padding: 14px 35px 14px 35px;
@@ -3570,6 +3582,9 @@ body .search-modal .close:hover {
 /* ------------------------------------
 	05. About Section CSS
 ---------------------------------------*/
+.justificado{
+  text-align:center;
+}
 .rs-about.about-style1 {
   position: relative;
 }
@@ -7267,7 +7282,7 @@ body .search-modal .close:hover {
   transform: scale(1.1);
 }
 .rs-services.services-style5 .services-item {
-  background-color: #031321;
+  background-color: #FFCA46;
   box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.05);
   padding: 30px 50px 30px 50px;
   margin: 0 -3px 0 -3px;
@@ -7291,7 +7306,7 @@ body .search-modal .close:hover {
   margin: 0 0 12px;
 }
 .rs-services.services-style5 .services-item .services-text .services-txt {
-  color: #D7D4D4;
+  color: #ffffff;
   margin-bottom: 23px;
 }
 .rs-services.services-style5 .services-item:before {
@@ -8867,7 +8882,7 @@ body .search-modal .close:hover {
   font-family: "Roboto", Sans-serif;
 }
 .rs-blog.blog-main-home .blog-item .blog-content .blog-meta .admin i {
-  color: #FFB703;
+  color: #ffb703;
   margin-right: 6px;
   font-weight: 900;
 }
@@ -8951,14 +8966,14 @@ body .search-modal .close:hover {
 .rs-blog.blog-main-home.blog-modify3 .blog-item .blog-content .blog-meta .admin i,
 .rs-blog.blog-main-home.blog-modify3 .blog-item .blog-content .blog-title a:hover,
 .rs-blog.blog-main-home.blog-modify3 .blog-item .blog-content .blog-meta .date i {
-  color: #eb003d;
+  color: #FFB703;
 }
 .rs-blog.blog-main-home.blog-modify4 .blog-item .blog-content {
   padding: 30px 32px 30px 32px;
   background-color: #010D14;
 }
 .rs-blog.blog-main-home.blog-modify4 .blog-item .blog-content .blog-meta .admin i {
-  color: #e8271e;
+  color: #FFB703;
   margin-right: 6px;
   font-weight: 900;
 }
@@ -8997,7 +9012,7 @@ body .search-modal .close:hover {
 .rs-blog.blog-main-home.blog-modify5 .blog-item .blog-content .blog-title a:hover,
 .rs-blog.blog-main-home.blog-modify5 .blog-item .blog-content .blog-meta .admin i,
 .rs-blog.blog-main-home.blog-modify5 .blog-item .blog-content .blog-meta .date i {
-  color: #0052da;
+  color: #FFB703;
 }
 .rs-blog.blog-main-home.blog-modify5 .blog-item .blog-content .blog-title {
   font-weight: 600;
@@ -9025,7 +9040,7 @@ body .search-modal .close:hover {
 .rs-blog.blog-main-home.blog-modify6 .blog-item .blog-content .blog-title a:hover,
 .rs-blog.blog-main-home.blog-modify6 .blog-item .blog-content .blog-meta .admin i,
 .rs-blog.blog-main-home.blog-modify6 .blog-item .blog-content .blog-meta .date i {
-  color: #21c0f5;
+  color: #FFB703;
 }
 .rs-blog.blog-main-home.blog-modify7 .blog-item {
   padding: 23px;
@@ -9064,7 +9079,7 @@ body .search-modal .close:hover {
 .rs-blog.blog-main-home.blog-modify8 .blog-item .blog-content .blog-meta .admin i,
 .rs-blog.blog-main-home.blog-modify8 .blog-item .blog-content .blog-title a:hover,
 .rs-blog.blog-main-home.blog-modify8 .blog-item .blog-content .blog-meta .date i {
-  color: #ba9071;
+  color: #FFB703;
 }
 .rs-blog.blog-main-home.blog-modify9 .blog-item {
   background: transparent;
@@ -9075,7 +9090,7 @@ body .search-modal .close:hover {
 .rs-blog.blog-main-home.blog-modify9 .blog-item .blog-content .blog-title a:hover,
 .rs-blog.blog-main-home.blog-modify9 .blog-item .blog-content .blog-meta .admin i,
 .rs-blog.blog-main-home.blog-modify9 .blog-item .blog-content .blog-meta .date i {
-  color: #70bf4a;
+  color: #FFB703;
 }
 .rs-blog.blog-main-home.blog-modify9 .blog-item .image-wrap a img {
   border-radius: 5px 5px 5px 5px;
