@@ -3,7 +3,7 @@
 	<head>
 		<!-- meta tag -->
 		<meta charset="utf-8">
-		<title>Contact - Konstruk - Construction & Building HTML Template</title>
+		<title>Blog - Konstruk - Construction & Building HTML Template</title>
 		<meta name="description" content="">
 		<!-- responsive tag -->
 		<meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -211,10 +211,10 @@
 															</li>     
 														</ul>
 													</li>
-													<li>
+													<li class="current-menu-item">
 														<a href="blog.html">Blog</a>
 													</li>
-													<li class="current-menu-item">
+													<li>
 														<a href="contact.html">Contact</a>
 													</li>
 												</ul> <!-- //.nav-menu -->
@@ -373,10 +373,10 @@
 					    			</li>     
 					    		</ul>
 					    	</li>
-					    	<li>
+					    	<li class="current-menu-item">
 					    		<a href="blog.html">Blog</a>
 					    	</li>
-					    	<li class="current-menu-item">
+					    	<li>
 					    		<a href="contact.html">Contact</a>
 					    	</li>
 					    </ul> <!-- //.nav-menu -->
@@ -415,18 +415,18 @@
 					          </div>
 					    </div>
 					</nav>
-					<!-- Canvas Menu end -->                               
+					<!-- Canvas Menu end -->                                
 				</header>
 				<!--Header End-->
 			</div>
 			<!--Full width header End-->
 
 			<!-- Breadcrumbs Start -->
-			<div class="rs-breadcrumbs img6">
+			<div class="rs-breadcrumbs img3">
 			    <div class="container">
 			        <div class="breadcrumbs-inner">
 			            <h1 class="page-title">
-			               	Contact Us
+			               	Blog
 			            </h1>
 			            <span class="sub-text">Excepteur sint occaecat cupidatat non proident, sunt in coulpa qui official<br> 
 			            modeserunt mollit anim id est 20 years experience.</span>
@@ -434,184 +434,317 @@
                            <li title="Go to konstruk">
                                <a class="active" href="index.html">Home</a>
                            </li>
-                          <li>Contact Us</li>
+                          <li>Blog</li>
                        </ul>
 			        </div>
 			    </div>
 			</div>
 			<!-- Breadcrumbs End -->
 		
-			<!-- Contact Section Start -->
-			<div class="rs-contact contact-style6 pb-120 md-pb-80">
-			    <div class="row no-gutters">
-			    	<div class="col-lg-4">
-			    		<div class="contact-map">
-			    		    <iframe src="https://maps.google.com/maps?q=rstheme&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed"></iframe>
-			    		</div>
-			    	</div>
-			        <div class="col-lg-4">
-        				<div class="contact-section">
-                            <div class="contact-wrap">
-                            	<div class="sec-title mb-60">
-                            		<h2 class="title title4 ser-style4">Get in touch</h2>
-                            	</div>
-                                <div id="form-messages"></div>
-                                <form id="contact-form" method="post" action="https://devsdesign.net/products/html/konstruk/mailer.php">
-                                    <fieldset>
-                                        <div class="row">
-                                            <div class="col-lg-6 col-md-6 col-sm-6 mb-30">
-                                                <input class="from-control" type="text" id="name" name="name" placeholder="Name" required="">
-                                            </div> 
-                                            <div class="col-lg-6 col-md-6 col-sm-6 mb-30">
-                                                <input class="from-control" type="text" id="email" name="email" placeholder="E-Mail" required="">
-                                            </div>   
-                                            <div class="col-lg-6 col-md-6 col-sm-6 mb-30">
-                                                <input class="from-control" type="text" id="phone" name="phone" placeholder="Phone Number" required="">
-                                            </div>
-                                            <div class="col-lg-6 col-md-6 col-sm-6 mb-30">
-                                                <input class="from-control" type="text" id="website" name="website" placeholder="Your Website" required="">
-                                            </div>
-                                            <div class="col-lg-12 mb-30">
-                                                <textarea class="from-control" id="message" name="message" placeholder="Your Message Here" required=""></textarea>
-                                            </div>
-                                        </div>
-                                        <div class="btn-part">                                            
-                                            <div class="form-group mb-0">
-                                                <input class="readon more submit sub-con" type="submit" value="Submit Now">
-                                            </div>
-                                        </div> 
-                                    </fieldset>
-                                </form> 
-                            </div>
-                        </div>
-			        </div>
-			        <div class="col-lg-4 contact-project"></div>
-			    </div>
-			    <!-- Contact Icons Section End -->
-			    <div class="rs-contact pt-120 md-pt-80">
-			        <div class="container">
-			            <div class="row">
-			                <div class="col-lg-4 col-md-6 md-mb-30">
-			                   <div class="contact-box">
-			                       <div class="contact-icon">
-			                           <img src="assets/images/contact/style1/icons/1.png" alt="images">
-			                       </div>
-			                       <div class="content-text">
-			                           <h4 class="title"><a href="#">Office address</a></h4>
-			                           <p class="services-txt"> Ta-134/A, Gulshan Badda<br> Link Rd, Dhaka </p>
-			                       </div>
-			                   </div>
-			                </div>
-			                <div class="col-lg-4 col-md-6 sm-mb-30">
-			                   <div class="contact-box">
-			                       <div class="contact-icon">
-			                           <img src="assets/images/contact/style1/icons/2.png" alt="images">
-			                       </div>
-			                       <div class="content-text">
-			                           <h4 class="title"><a href="#">Email us</a></h4>
-			                           <span><a href="mailto:support@devsdesign.net">support@devsdesign.net</a></span><br>
-			                           <span><a href="mailto:info@codesless.com">info@codesless.com</a></span>
-			                       </div>
-			                   </div>
-			                </div>
-			                <div class="col-lg-4 col-md-6">
-			                   <div class="contact-box">
-			                       <div class="contact-icon">
-			                           <img src="assets/images/contact/style1/icons/3.png" alt="images">
-			                       </div>
-			                       <div class="content-text">
-			                           <h4 class="title"><a href="#">Call us</a></h4>
-			                           <span><a href="tel:(+088)589-8745">(+088)589-8745</a></span><br>
-			                          	<span> <a href="tel:(+088)222-9999">(+088)222-9999</a></span>
-			                       </div>
-			                   </div>
+			<!-- Blog Section Start -->
+			<div class="rs-inner-blog pt-120 pb-105 md-pt-80 md-pb-80">
+			    <div class="container">
+			        <div class="row">
+			            <div class="col-lg-8 md-mb-50">
+			                <div class="row">
+			                    <div class="col-lg-12 mb-50">
+			                        <div class="blog-item">
+			                            <div class="blog-img">
+			                                <a href="blog-single.html"><img src="assets/images/blog/style1/1.jpg" alt=""></a>
+			                            </div>
+			                            <div class="blog-content">
+			                                <h3 class="blog-title"><a href="blog-single.html">We really appreciate content about the construction</a></h3>
+			                                <div class="blog-meta">
+			                                    <ul class="btm-cate">
+			                                        <li>
+			                                            <div class="author">
+			                                                <i class="fi fi-rr-user"></i> Devsdesign                                                        
+			                                            </div>
+			                                        </li>
+			                                        <li>
+			                                            <div class="blog-date">
+			                                                <i class="fi fi-rr-calendar"></i> May 26, 2022 
+			                                            </div>
+			                                        </li> 
+			                                        <li>
+			                                            <div class="tag-line">
+			                                                <i class="fi fi-rr-book"></i>
+			                                                <a href="#">Educational</a>
+			                                            </div>
+			                                        </li> 
+			                                    </ul>
+			                                </div>
+			                                <div class="blog-desc">   
+			                                    The brand has responded by partnering with skincare experts on social and web content, providing ingredient deep-dives and re-sharing followers’ tips and tricks on social media. The trand has responded by partnering with skincare experts on social and web content, providing ingredient deep-dives and...         
+			                                </div>
+			                                <div class="blog-button inner-btn">
+			                                    <a class="blog-btn" href="blog-single.html">Continue Reading</a>
+			                                </div>
+			                            </div>
+			                        </div>
+			                    </div>
+			                    <div class="col-lg-12 mb-50">
+			                        <div class="blog-item">
+			                            <div class="blog-img">
+			                                <a href="blog-single.html"><img src="assets/images/blog/style1/2.jpg" alt=""></a>
+			                            </div>
+			                            <div class="blog-content">
+			                                <h3 class="blog-title"><a href="blog-single.html">Best practices construction law on construction</a></h3>
+			                                <div class="blog-meta">
+			                                    <ul class="btm-cate">
+			                                        <li>
+			                                            <div class="author">
+			                                                <i class="fi fi-rr-user"></i> Devsdesign                                                        
+			                                            </div>
+			                                        </li>
+			                                        <li>
+			                                            <div class="blog-date">
+			                                                <i class="fi fi-rr-calendar"></i> May 26, 2022 
+			                                            </div>
+			                                        </li> 
+			                                        <li>
+			                                            <div class="tag-line">
+			                                                <i class="fi fi-rr-book"></i>
+			                                                <a href="#">Educational</a>
+			                                            </div>
+			                                        </li> 
+			                                    </ul>
+			                                </div>
+			                                <div class="blog-desc">   
+			                                    The brand has responded by partnering with skincare experts on social and web content, providing ingredient deep-dives and re-sharing followers’ tips and tricks on social media. The trand has responded by partnering with skincare experts on social and web content, providing ingredient deep-dives and...         
+			                                </div>
+			                                <div class="blog-button inner-btn">
+			                                    <a class="blog-btn" href="blog-single.html">Continue Reading</a>
+			                                </div>
+			                            </div>
+			                        </div>
+			                    </div>
+			                    <div class="col-lg-12 mb-50">
+			                        <div class="blog-item">
+			                            <div class="blog-img">
+			                                <a href="blog-single.html"><img src="assets/images/blog/style1/3.jpg" alt=""></a>
+			                            </div>
+			                            <div class="blog-content">
+			                                <h3 class="blog-title"><a href="blog-single.html">Although many people may overlook the need</a></h3>
+			                                <div class="blog-meta">
+			                                    <ul class="btm-cate">
+			                                        <li>
+			                                            <div class="author">
+			                                                <i class="fi fi-rr-user"></i> Devsdesign                                                        
+			                                            </div>
+			                                        </li>
+			                                        <li>
+			                                            <div class="blog-date">
+			                                                <i class="fi fi-rr-calendar"></i> May 26, 2022 
+			                                            </div>
+			                                        </li> 
+			                                        <li>
+			                                            <div class="tag-line">
+			                                                <i class="fi fi-rr-book"></i>
+			                                                <a href="#">Educational</a>
+			                                            </div>
+			                                        </li> 
+			                                    </ul>
+			                                </div>
+			                                <div class="blog-desc">   
+			                                    The brand has responded by partnering with skincare experts on social and web content, providing ingredient deep-dives and re-sharing followers’ tips and tricks on social media. The trand has responded by partnering with skincare experts on social and web content, providing ingredient deep-dives and...         
+			                                </div>
+			                                <div class="blog-button inner-btn">
+			                                    <a class="blog-btn" href="blog-single.html">Continue Reading</a>
+			                                </div>
+			                            </div>
+			                        </div>
+			                    </div>
+			                    <div class="col-lg-12 mb-50">
+			                        <div class="blog-item">
+			                            <div class="blog-img">
+			                                <a href="blog-single.html"><img src="assets/images/blog/style1/4.jpg" alt=""></a>
+			                            </div>
+			                            <div class="blog-content">
+			                                <h3 class="blog-title"><a href="blog-single.html">Construction executive holds a very special place</a></h3>
+			                                <div class="blog-meta">
+			                                    <ul class="btm-cate">
+			                                        <li>
+			                                            <div class="author">
+			                                                <i class="fi fi-rr-user"></i> Devsdesign                                                        
+			                                            </div>
+			                                        </li>
+			                                        <li>
+			                                            <div class="blog-date">
+			                                                <i class="fi fi-rr-calendar"></i> May 26, 2022 
+			                                            </div>
+			                                        </li> 
+			                                        <li>
+			                                            <div class="tag-line">
+			                                                <i class="fi fi-rr-book"></i>
+			                                                <a href="#">Educational</a>
+			                                            </div>
+			                                        </li> 
+			                                    </ul>
+			                                </div>
+			                                <div class="blog-desc">   
+			                                    The brand has responded by partnering with skincare experts on social and web content, providing ingredient deep-dives and re-sharing followers’ tips and tricks on social media. The trand has responded by partnering with skincare experts on social and web content, providing ingredient deep-dives and...         
+			                                </div>
+			                                <div class="blog-button inner-btn">
+			                                    <a class="blog-btn" href="blog-single.html">Continue Reading</a>
+			                                </div>
+			                            </div>
+			                        </div>
+			                    </div>
+			                    <div class="col-lg-12 mb-50">
+			                        <div class="blog-item">
+			                            <div class="blog-img">
+			                                <a href="blog-single.html"><img src="assets/images/blog/style1/5.jpg" alt=""></a>
+			                            </div>
+			                            <div class="blog-content">
+			                                <h3 class="blog-title"><a href="blog-single.html">This is another massive sites with a ton of information</a></h3>
+			                                <div class="blog-meta">
+			                                    <ul class="btm-cate">
+			                                        <li>
+			                                            <div class="author">
+			                                                <i class="fi fi-rr-user"></i> Devsdesign                                                        
+			                                            </div>
+			                                        </li>
+			                                        <li>
+			                                            <div class="blog-date">
+			                                                <i class="fi fi-rr-calendar"></i> May 26, 2022 
+			                                            </div>
+			                                        </li> 
+			                                        <li>
+			                                            <div class="tag-line">
+			                                                <i class="fi fi-rr-book"></i>
+			                                                <a href="#">Educational</a>
+			                                            </div>
+			                                        </li> 
+			                                    </ul>
+			                                </div>
+			                                <div class="blog-desc">   
+			                                    The brand has responded by partnering with skincare experts on social and web content, providing ingredient deep-dives and re-sharing followers’ tips and tricks on social media. The trand has responded by partnering with skincare experts on social and web content, providing ingredient deep-dives and...         
+			                                </div>
+			                                <div class="blog-button inner-btn">
+			                                    <a class="blog-btn" href="blog-single.html">Continue Reading</a>
+			                                </div>
+			                            </div>
+			                        </div>
+			                    </div>
+			                    <div class="col-lg-12">
+			                        <div class="blog-item">
+			                            <div class="blog-img">
+			                                <a href="blog-single.html"><img src="assets/images/blog/style1/6.jpg" alt=""></a>
+			                            </div>
+			                            <div class="blog-content">
+			                                <h3 class="blog-title"><a href="blog-single.html">This is another massive sites with a ton of information</a></h3>
+			                                <div class="blog-meta">
+			                                    <ul class="btm-cate">
+			                                        <li>
+			                                            <div class="author">
+			                                                <i class="fi fi-rr-user"></i> Devsdesign                                                        
+			                                            </div>
+			                                        </li>
+			                                        <li>
+			                                            <div class="blog-date">
+			                                                <i class="fi fi-rr-calendar"></i> May 26, 2022 
+			                                            </div>
+			                                        </li> 
+			                                        <li>
+			                                            <div class="tag-line">
+			                                                <i class="fi fi-rr-book"></i>
+			                                                <a href="#">Educational</a>
+			                                            </div>
+			                                        </li> 
+			                                    </ul>
+			                                </div>
+			                                <div class="blog-desc">   
+			                                    The brand has responded by partnering with skincare experts on social and web content, providing ingredient deep-dives and re-sharing followers’ tips and tricks on social media. The trand has responded by partnering with skincare experts on social and web content, providing ingredient deep-dives and...         
+			                                </div>
+			                                <div class="blog-button inner-btn">
+			                                    <a class="blog-btn" href="blog-single.html">Continue Reading</a>
+			                                </div>
+			                            </div>
+			                        </div>
+			                    </div>
 			                </div>
 			            </div>
-			        </div>
-			    </div>
-			    <!-- Contact Icons Section End -->
-			</div>
-			<!-- Contact Section End -->
-
-			<!-- Partner Start -->
-			<div class="rs-partner partner-main-home partner-modify9">		
-			    <div class="container">               
-			        <div class="partner-content-widget">
-			        	<div class="rs-carousel owl-carousel" 
-			        	    data-loop="true" 
-			        	    data-items="5" 
-			        	    data-margin="30" 
-			        	    data-autoplay="true" 
-			        	    data-hoverpause="true" 
-			        	    data-autoplay-timeout="5000" 
-			        	    data-smart-speed="800" 
-			        	    data-dots="false" 
-			        	    data-nav="false" 
-			        	    data-nav-speed="false" 
-
-			        	    data-md-device="5" 
-			        	    data-md-device-nav="false" 
-			        	    data-md-device-dots="false" 
-			        	    data-center-mode="false"
-
-			        	    data-ipad-device2="3" 
-			        	    data-ipad-device-nav2="false" 
-			        	    data-ipad-device-dots2="false"
-
-			        	    data-ipad-device="3" 
-			        	    data-ipad-device-nav="false" 
-			        	    data-ipad-device-dots="false" 
-
-			        	    data-mobile-device="2" 
-			        	    data-mobile-device-nav="false" 
-			        	    data-mobile-device-dots="false">  
-			        	    <div class="logo-img">
-			        	        <a href="https://devsdesign.net">
-			        	            <img class="hovers-logos rs-grid-img" src="assets/images/partner/style2/1.png" title="" alt="">
-			        	            <img class="mains-logos rs-grid-img " src="assets/images/partner/style2/1.png" title="" alt="">
-			        	        </a>
-			        	    </div>
-			        	    <div class="logo-img">
-			        	        <a href="https://devsdesign.net">
-			        	            <img class="hovers-logos rs-grid-img" src="assets/images/partner/style2/2.png" title="" alt="">
-			        	            <img class="mains-logos rs-grid-img " src="assets/images/partner/style2/2.png" title="" alt="">
-			        	        </a>
-			        	    </div>
-			        	    <div class="logo-img">
-			        	        <a href="https://devsdesign.net">
-			        	            <img class="hovers-logos rs-grid-img" src="assets/images/partner/style2/3.png" title="" alt="">
-			        	            <img class="mains-logos rs-grid-img " src="assets/images/partner/style2/3.png" title="" alt="">
-			        	        </a>
-			        	    </div>
-			        	    <div class="logo-img">
-			        	        <a href="https://devsdesign.net">
-			        	            <img class="hovers-logos rs-grid-img" src="assets/images/partner/style2/4.png" title="" alt="">
-			        	            <img class="mains-logos rs-grid-img " src="assets/images/partner/style2/4.png" title="" alt="">
-			        	        </a>
-			        	    </div>
-			        	    <div class="logo-img">
-			        	        <a href="https://devsdesign.net">
-			        	            <img class="hovers-logos rs-grid-img" src="assets/images/partner/style2/5.png" title="" alt="">
-			        	            <img class="mains-logos rs-grid-img " src="assets/images/partner/style2/5.png" title="" alt="">
-			        	        </a>
-			        	    </div>
-			        	    <div class="logo-img">
-			        	        <a href="https://devsdesign.net">
-			        	            <img class="hovers-logos rs-grid-img" src="assets/images/partner/style2/6.png" title="" alt="">
-			        	            <img class="mains-logos rs-grid-img " src="assets/images/partner/style2/6.png" title="" alt="">
-			        	        </a>
-			        	    </div>
-			        	    <div class="logo-img">
-			        	        <a href="https://devsdesign.net">
-			        	            <img class="hovers-logos rs-grid-img" src="assets/images/partner/style2/7.png" title="" alt="">
-			        	            <img class="mains-logos rs-grid-img " src="assets/images/partner/style2/7.png" title="" alt="">
-			        	        </a>
-			        	    </div>
-			        	</div>
-			        </div>
+			            <div class="col-lg-4 col-md-12 pl-25 md-pl-15">
+			                <div class="widget-area">
+			                    <div class="search-widget mb-50">
+			                        <div class="search-wrap">
+			                            <input type="search" placeholder="Searching..." name="s" class="search-input" value="">
+			                            <button type="submit" value="Search"><i class="flaticon-search"></i></button>
+			                        </div>
+			                    </div>
+			                    <div class="recent-posts mb-50">
+			                        <div class="widget-title">
+			                            <h3 class="title">Recent Posts</h3>
+			                        </div>
+			                        <div class="recent-post-widget no-border">
+			                            <div class="post-img">
+			                                <a href="blog-single.html"><img src="assets/images/blog/style1/1.jpg" alt=""></a>
+			                            </div>
+			                            <div class="post-desc">
+			                                <a href="blog-single.html">We really appreciate content about the construction</a>
+			                                <span class="date-post"> <i class="fi fi-rr-calendar"></i>May 26, 2022</span>
+			                            </div>
+			                        </div>
+			                        <div class="recent-post-widget">
+			                            <div class="post-img">
+			                                <a href="blog-single.html"><img src="assets/images/blog/style1/2.jpg" alt=""></a>
+			                            </div>
+			                            <div class="post-desc">
+			                                <a href="blog-single.html">Best practices construction law on construction</a>
+			                                <span class="date-post"> <i class="fi fi-rr-calendar"></i>May 26, 2022</span>
+			                            </div>
+			                        </div>
+			                        <div class="recent-post-widget">
+			                            <div class="post-img">
+			                                <a href="blog-single.html"><img src="assets/images/blog/style1/3.jpg" alt=""></a>
+			                            </div>
+			                            <div class="post-desc">
+			                                <a href="blog-single.html">Although many people may overlook the need</a>
+			                                <span class="date-post"> <i class="fi fi-rr-calendar"></i>May 26, 2022</span>
+			                            </div>
+			                        </div> 
+			                        <div class="recent-post-widget">
+			                            <div class="post-img">
+			                                <a href="blog-single.html"><img src="assets/images/blog/style1/4.jpg" alt=""></a>
+			                            </div>
+			                            <div class="post-desc">
+			                                <a href="blog-single.html">Construction executive holds a very special place</a>
+			                                <span class="date-post"> <i class="fi fi-rr-calendar"></i>May 26, 2022</span>
+			                            </div>
+			                        </div>
+			                    </div>
+			                    <div class="categories mb-50">
+                                    <div class="widget-title mb-15">
+                                        <h3 class="title">Categories</h3>
+                                    </div>
+                                    <ul>
+                                        <li><a href="#">Commercial</a></li>
+                                        <li><a href="#">Educational</a></li>
+                                        <li><a href="#">Residential</a></li>
+                                    </ul>
+                                </div>
+			                    <div class="tags-cloud">
+			                        <div class="widget-title pb-23">
+			                            <h3 class="title">Tags</h3>
+			                        </div>
+			                        <div class="tagcloud">
+			                        	<a href="#">Architecture</a>
+			                        	<a href="#">Building</a>
+			                        	<a href="#">Business</a>
+			                        	<a href="#">Dental</a>
+			                        	<a href="#">Design</a>
+			                        	<a href="#">Kaouwa</a>
+			                        	<a href="#">Real Estates</a>
+			                        	<a href="#">World</a>
+			                        </div>
+			                    </div>
+			                </div>
+			            </div>
+			        </div> 
 			    </div>
 			</div>
-			<!-- Partner End -->
+			<!-- Blog Section End --> 
 
 		</div> 
 		<!-- Main content End -->
