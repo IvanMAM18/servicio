@@ -8,9 +8,9 @@
 							<div class="row-table">
 								<div class="col-cell header-logo">                                  
 								    <div class="logo-area">
-								        <a href="index.html">
-								            <img class="normal-logo" src="http://www.asiec.com.mx/wp-content/themes/asiec-site/public/images/ASIEC-SINFONDO.png" alt="logo" width="72px"	>  
-								            <img class="sticky-logo" src="http://www.asiec.com.mx/wp-content/themes/asiec-site/public/images/ASIEC-SINFONDO.png" alt="logo" width="72px" >
+								        <a href="index.php">
+								            <img class="normal-logo" src="http://www.asiec.com.mx/wp-content/themes/asiec-site/public/images/ASIEC-SINFONDO.png" alt="logo" width="100px"	>  
+								            <img class="sticky-logo" src="http://www.asiec.com.mx/wp-content/themes/asiec-site/public/images/ASIEC-SINFONDO.png" alt="logo" width="100px" >
 								        </a>
 								    </div>
 								</div>
@@ -23,12 +23,12 @@
 														<a href="index.php">Inicio</a>
 													</li>
 													<li class="menu-item-has-children">
-														<a href="https://devsdesign.net/products/html/konstruk/services.html">Servicios</a>
+														<a href="services.php">Servicios</a>
 														<ul class="sub-menu">
-															<li><a href="services-style1.php">Seguridad industrial</a></li>
-															<li><a href="services-style2.php">Extintores y control de incendios</a></li>
-															<li><a href="services-style2.php">Gestion ambiental</a></li>
-															<li><a href="services-style2.php">Fumigacion y desinfeccion</a></li>
+															<li><a href="servicesSelection.php">Seguridad industrial</a></li>
+															<li><a href="servicesSelection.php">Extintores y control de incendios</a></li>
+															<li><a href="servicesSelection.php">Gestion ambiental</a></li>
+															<li><a href="servicesSelection.php">Fumigacion y desinfeccion</a></li>
 														</ul>
 													</li>
 													<li>
@@ -41,7 +41,7 @@
 														<a href="proyects.php">Proyectos</a>
 													</li>
 													<li>
-														<a href="nosostros.php">Nosotros</a>
+														<a href="nosotros.php">Nosotros</a>
 													</li>
 													<li>
 														<a href="contact.php">Contacto</a>
@@ -107,12 +107,12 @@
 								<a href="index3.php">Inicio</a>
 							</li>
 							<li class="menu-item-has-children">
-								<a href="https://devsdesign.net/products/html/konstruk/services.html">Servicios</a>
+								<a href="services.php">Servicios</a>
 								<ul class="sub-menu">
-									<li><a href="services-style1.php">Seguridad industrial</a></li>
-									<li><a href="services-style2.php">Extintores y control de incendios</a></li>
-									<li><a href="services-style2.php">Gestion ambiental</a></li>
-									<li><a href="services-style2.php">Fumigacion y desinfeccion</a></li>
+									<li><a href="servicesSelection.php">Seguridad industrial</a></li>
+									<li><a href="servicesSelection.php">Extintores y control de incendios</a></li>
+									<li><a href="servicesSelection.php">Gestion ambiental</a></li>
+									<li><a href="servicesSelection.php">Fumigacion y desinfeccion</a></li>
 								</ul>
 							</li>
 							<li>
@@ -125,7 +125,7 @@
 								<a href="proyects.php">Proyectos</a>
 							</li>
 							<li>
-								<a href="nosostros.php">Nosotros</a>
+								<a href="nosotros.php">Nosotross</a>
 							</li>
 							<li>
 								<a href="contact.php">Contacto</a>

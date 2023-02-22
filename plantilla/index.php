@@ -8,19 +8,13 @@
 		<div class="offwrap"></div>
 
 		<!--Preloader start here-->
-	   	<div id="pre-load">
-            <div id="loader" class="loader">
-                <div class="loader-container">
-                    <div class="loader-icon"><img src="assets/images/fav.png" alt="Konstruk - Construction & Building Html Template "></div>
-                </div>
-            </div>              
-        </div>
+	   	<?php include('components/preloador.php'); ?>
 		<!--Preloader area end here-->
 			
 		<!-- Main content Start -->
 		<div class="main-content">
 
-			<?php include('components/header.php') ?>
+			<?php include('components/header.php'); ?>
 			
 			<!--Full width header End-->
 
@@ -306,6 +300,6 @@
 		<!-- Search Modal End -->
 
 		<!-- modernizr js -->
-		<?php include('components/scripts.php') ?>
+		<?php include('components/scripts.php'); ?>
 	</body>
 </html>

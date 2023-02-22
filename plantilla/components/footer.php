@@ -5,7 +5,7 @@
 					<div class="row">
 						<div class="col-lg-3 pr-20 md-pr-15 md-mb-20">
 							<div class="footer-logo mb-51 md-mb-30">
-								<a href="index.html"><img src="http://www.asiec.com.mx/wp-content/themes/asiec-site/public/images/ASIEC-SINFONDO.png" alt="logo" width="72px"></a>
+								<a href="index.php"><img src="http://www.asiec.com.mx/wp-content/themes/asiec-site/public/images/ASIEC-SINFONDO.png" alt="logo" width="100px"></a>
 							</div>
 							<div class="textwidget">
 								<p class="pb-20">En ASIEC® nos apasiona proveer productos y servicios en seguridad industrial, prevención de riesgos y cuidado del medio ambiente.</p>
@@ -45,12 +45,12 @@
 						<div class="col-lg-3 md-mb-10">
 							<h3 class="footer-title">Enlaces utiles</h3>
 							<ul class="site-map">
-                                <li><a href="general-construction.html">Acerca de Nosotros</a></li>
-                                <li><a href="property-maintenance.html">FAQ</a></li>
-                                <li><a href="project-managment.html">Servicios</a></li>
-                                <li><a href="virtual-design-build.html">Clientes</a></li>
-                                <li><a href="preconstruction.html">Proyectos</a></li>
-                                <li><a href="design-build.html">Aviso de privacidad</a></li>
+                                <li><a href="nosotros.php">Acerca de Nosotros</a></li>
+                                <li><a href="fAQ.php">FAQ</a></li>
+                                <li><a href="services.php">Servicios</a></li>
+                                <li><a href="clients.php">Clientes</a></li>
+                                <li><a href="proyects.php">Proyectos</a></li>
+                                <li><a href="privaciti.php">Aviso de privacidad</a></li>
                             </ul>
 						</div>
 					</div>
@@ -61,12 +61,12 @@
                     <div class="row y-middle">
                         <div class="col-lg-6 md-mb-10 text-lg-end text-center order-last">
                             <ul class="copy-right-menu">
-                                <li><a href="index3.php">Inicio</a></li>
-                                <li><a href="indexServicios.php">Servicios</a></li>
+                                <li><a href="index.php">Inicio</a></li>
+                                <li><a href="services.php">Servicios</a></li>
                                 <li><a href="blog.php">Blog</a></li>
                                 <li><a href="clients.php">Clientes</a></li>
                                 <li><a href="proyects.php">Proyectos</a></li>
-                                <li><a href="nosostros.php">Nosotros</a></li>
+                                <li><a href="nosotros.php">Nosotros</a></li>
                                 <li><a href="contact.php">Contacto</a></li>
                             </ul>
                         </div>
