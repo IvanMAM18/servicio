@@ -50,7 +50,7 @@
                                 <li><a href="services.php">Servicios</a></li>
                                 <li><a href="clients.php">Clientes</a></li>
                                 <li><a href="proyects.php">Proyectos</a></li>
-                                <li><a href="privaciti.php">Aviso de privacidad</a></li>
+                                <li><a href="pr.php">Aviso de privacidad</a></li>
                             </ul>
 						</div>
 					</div>

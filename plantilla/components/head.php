@@ -7,7 +7,7 @@
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!-- favicon -->
-	<link rel="apple-touch-icon" href="https://devsdesign.net/products/html/konstruk/apple-touch-icon.png">
+	<link rel="apple-touch-icon" href="assets/images/ASIEC-SINFONDO.png">
 	<link rel="shortcut icon" type="image/x-icon" href="assets/images/ASIEC-SINFONDO.png">
 	<!-- Bootstrap v4.4.1 css -->
 	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
