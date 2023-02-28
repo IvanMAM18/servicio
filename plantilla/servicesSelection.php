@@ -114,7 +114,7 @@
 						<div class="container custom3">
 							<div class="process-bg">
 								<div class="row">
-									<div class="col-xl-3 col-md-6 md-40">
+									<div class="col-xl-4 col-md-6 md-40">
 										<div class="process-item process-gap">
 											<div class="number-image">
 												<img src="assets/images/process/style3/icons/p1.png" alt="Images">
@@ -127,7 +127,7 @@
 											</div>
 										</div>
 									</div>
-									<div class="col-xl-3 col-md-6 md-40">
+									<div class="col-xl-4 col-md-6 md-40">
 										<div class="process-item process-gap">
 											<div class="number-image">
 												<img src="assets/images/process/style3/icons/p2.png" alt="Images">
@@ -140,7 +140,7 @@
 											</div>
 										</div>
 									</div>
-									<div class="col-xl-3 col-md-6 sm-mb-40">
+									<div class="col-xl-4 col-md-6 sm-mb-40">
 										<div class="process-item">
 											<div class="number-image">
 												<img src="assets/images/process/style3/icons/p3.png" alt="Images">
@@ -165,109 +165,43 @@
 							<div class="row">
 								<div class="col-lg-4 col-md-6 md-mb-50">
 									<div class="pricing-table-wrap">
-										<div class="pricing-table-header">
-											<h3 class="pricing-table-title">Basic</h3>
-										</div>
 										<div class="pricing-icon">
 											<img src="assets/images/pricing/style1/icons1.png" alt="Images">
 										</div>
 										<div class="pricing-table-price-tag">
-											<span class="pricing-table-currency">$</span>
-											<span class="pricing-table-price-text">3500</span>
-											<span class="pricing-table-period">Month</span>
+											<span class="pricing-table-price-text">Servicios</span>
+											<span class="pricing-table-period">PDF</span>
 										</div>
-										<ul class="pricing-table-features-list">
-											<li>
-												<i class="fa fa-check"></i>
-												<span class="feature-text">Target estimate</span>
-											</li>
-											<li>
-												<i class="fa fa-check"></i>
-												<span class="feature-text">Cost plus fixed fee</span>
-											</li>
-											<li>
-												<i class="fa fa-close"></i>
-												<span class="feature-text">Professional Design</span>
-											</li>
-											<li>
-												<i class="fa fa-close"></i>
-												<span class="feature-text">10 Year maintenance</span>
-											</li>
-										</ul>
 										<div class="btn-part mt-45 md-mt-30 text-center">
-											<a class="readon more pricing" href="contact.html"><span>Book Now</span></a>
+											<a class="readon more pricing" href="contact.html"><span>Descargar</span></a>
 										</div>
 									</div>
 								</div>
 								<div class="col-lg-4 col-md-6 md-mb-50">
 									<div class="pricing-table-wrap">
-										<div class="pricing-table-header">
-											<h3 class="pricing-table-title">Standard</h3>
-										</div>
 										<div class="pricing-icon">
 											<img src="assets/images/pricing/style1/icons2.png" alt="Images">
 										</div>
 										<div class="pricing-table-price-tag">
-											<span class="pricing-table-currency">$</span>
-											<span class="pricing-table-price-text">4500</span>
-											<span class="pricing-table-period">Month</span>
+											<span class="pricing-table-price-text">Extintores</span>
+											<span class="pricing-table-period">PDF</span>
 										</div>
-										<ul class="pricing-table-features-list">
-											<li>
-												<i class="fa fa-check"></i>
-												<span class="feature-text">Target estimate</span>
-											</li>
-											<li>
-												<i class="fa fa-check"></i>
-												<span class="feature-text">Cost plus fixed fee</span>
-											</li>
-											<li>
-												<i class="fa fa-check"></i>
-												<span class="feature-text">Professional Design</span>
-											</li>
-											<li>
-												<i class="fa fa-close"></i>
-												<span class="feature-text">10 Year maintenance</span>
-											</li>
-										</ul>
 										<div class="btn-part mt-45 md-mt-30 text-center">
-											<a class="readon more pricing" href="contact.html"><span>Book Now</span></a>
+											<a class="readon more pricing" href="contact.html"><span>Descargar</span></a>
 										</div>
 									</div>
 								</div>
 								<div class="col-lg-4 col-md-6">
 									<div class="pricing-table-wrap">
-										<div class="pricing-table-header">
-											<h3 class="pricing-table-title">Premium</h3>
-										</div>
 										<div class="pricing-icon">
 											<img src="assets/images/pricing/style1/icons3.png" alt="Images">
 										</div>
 										<div class="pricing-table-price-tag">
-											<span class="pricing-table-currency">$</span>
-											<span class="pricing-table-price-text">6500</span>
-											<span class="pricing-table-period">Month</span>
+											<span class="pricing-table-price-text">Ambienta</span>
+											<span class="pricing-table-period">PDF</span>
 										</div>
-										<ul class="pricing-table-features-list">
-											<li>
-												<i class="fa fa-check"></i>
-												<span class="feature-text">Target estimate</span>
-											</li>
-											<li>
-												<i class="fa fa-check"></i>
-												<span class="feature-text">Cost plus fixed fee</span>
-											</li>
-											<li>
-												<i class="fa fa-check"></i>
-												<span class="feature-text">Professional Design</span>
-											</li>
-											<li>
-												<i class="fa fa-close"></i>
-												<span class="feature-text">10 Year maintenance</span>
-											</li>
-										</ul>
 										<div class="btn-part mt-45 md-mt-30 text-center">
-											<a class="readon more pricing" href="contact.html"><span>Book Now</span></a>
+											<a class="readon more pricing" href="contact.html"><span>Descargar</span></a>
 										</div>
 									</div>
 								</div>
