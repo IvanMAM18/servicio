@@ -99,64 +99,325 @@
 	    	    </div>
 				<br><br>
 				<!-- Process Section Start -->
-					<div class="rs-process process-style3 bg23 pt-150 pb-115 md-pt-115 md-pb-80">
-						<div class="container">
-							<div class="row">
-								<div class="col-lg-8">
-									<div class="sec-title mb-70 md-mb-15">
-										<h2 class="title title4 ser-style1">
-											Capacitacion y entrenamiento
-										</h2>
-									</div>
+				<div class="rs-process process-style3 bg8 pt-150 pb-115 md-pt-115 md-pb-80">
+					<div class="container">
+						<div class="row">
+							<div class="col-lg-8">
+								<div class="sec-title mb-70 md-mb-15">
+									<h2 class="title title4 ser-style2">
+										Capacitacion y entrenamiento
+									</h2>
 								</div>
 							</div>
 						</div>
-						<div class="container custom3">
-							<div class="process-bg">
-								<div class="row">
-									<div class="col-xl-4 col-md-6 md-40">
-										<div class="process-item process-gap">
-											<div class="number-image">
-												<img src="assets/images/process/style3/icons/p1.png" alt="Images">
+					</div>
+					<div class="container custom3">
+						<div class="process-bg">
+							<div class="row">
+								<div class="col-xl-4 col-md-6 md-40">
+									<div class="process-item process-gap">
+										<div class="number-image">
+											<img src="assets/images/process/style3/icons/p1.png" alt="Images">
+										</div>
+										<div class="number-text">
+											<div class="number-area">
+												<span class="number-prefix">01</span>
 											</div>
-											<div class="number-text">
-												<div class="number-area">
-													<span class="number-prefix">01</span>
-												</div>
-												<p class="number-txt">Somos agente capacitador externo registrado ante la STPS.</p>
-											</div>
+											<p >Somos agente capacitador externo registrado ante la STPS.</p>
 										</div>
 									</div>
-									<div class="col-xl-4 col-md-6 md-40">
-										<div class="process-item process-gap">
-											<div class="number-image">
-												<img src="assets/images/process/style3/icons/p2.png" alt="Images">
+								</div>
+								<div class="col-xl-4 col-md-6 md-40">
+									<div class="process-item process-gap">
+										<div class="number-image">
+											<img src="assets/images/process/style3/icons/p2.png" alt="Images">
+										</div>
+										<div class="number-text">
+											<div class="number-area">
+												<span class="number-prefix">02</span>
 											</div>
-											<div class="number-text">
-												<div class="number-area">
-													<span class="number-prefix">02</span>
-												</div>
-												<p class="number-txt">Capacitación y entrenamiento.</p>
-											</div>
+											<p >Capacitación y entrenamiento.</p>
 										</div>
 									</div>
-									<div class="col-xl-4 col-md-6 sm-mb-40">
-										<div class="process-item">
-											<div class="number-image">
-												<img src="assets/images/process/style3/icons/p3.png" alt="Images">
+								</div>
+								<div class="col-xl-4 col-md-6 sm-mb-40">
+									<div class="process-item">
+										<div class="number-image">
+											<img src="assets/images/process/style3/icons/p3.png" alt="Images">
+										</div>
+										<div class="number-text">
+											<div class="number-area">
+												<span class="number-prefix">03</span>
 											</div>
-											<div class="number-text">
-												<div class="number-area">
-													<span class="number-prefix">03</span>
-												</div>
-												<p class="number-txt">Cursos en línea.</p>
-											</div>
+											<p >Cursos en línea.</p>
 										</div>
 									</div>
 								</div>
 							</div>
 						</div>
 					</div>
+				</div>
+				<div class="rs-process process-style3 bg25 pt-150 pb-115 md-pt-115 md-pb-80">
+					<div class="container">
+						<div class="row">
+							<div class="col-lg-8">
+								<div class="sec-title mb-70 md-mb-15">
+									<h2 class="title title4 ser-style2">
+										Pólizas y Servicios
+									</h2>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="container custom3">
+						<div class="process-bg">
+							<div class="row">
+								<div class="col-xl-2 col-md-6 md-40">
+									<div class="process-item process-gap">
+										<div class="number-image">
+											<img src="assets/images/process/style3/icons/p1.png" alt="Images">
+										</div>
+										<div class="number-text">
+											<div class="number-area">
+												<span class="number-prefix">01</span>
+											</div>
+											<p >Implementación de programa de autogestión.</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-xl-2 col-md-6 md-40">
+									<div class="process-item process-gap">
+										<div class="number-image">
+											<img src="assets/images/process/style3/icons/p2.png" alt="Images">
+										</div>
+										<div class="number-text">
+											<div class="number-area">
+												<span class="number-prefix">02</span>
+											</div>
+											<p >Pólizas integrales de servicios, capacitación, entrenamiento y asesoría.</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-xl-3 col-md-6 sm-mb-40">
+									<div class="process-item">
+										<div class="number-image">
+											<img src="assets/images/process/style3/icons/p3.png" alt="Images">
+										</div>
+										<div class="number-text">
+											<div class="number-area">
+												<span class="number-prefix">03</span>
+											</div>
+											<p >Acompañamiento y asesoría para cumplimiento de las normativas aplicables a tu centro de trabajo.</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-xl-2 col-md-6 sm-mb-40">
+									<div class="process-item">
+										<div class="number-image">
+											<img src="assets/images/process/style3/icons/p3.png" alt="Images">
+										</div>
+										<div class="number-text">
+											<div class="number-area">
+												<span class="number-prefix">04</span>
+											</div>
+											<p >Sistemas de gestión de seguridad y salud en el trabajo .</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-xl-2 col-md-6 sm-mb-40">
+									<div class="process-item">
+										<div class="number-image">
+											<img src="assets/images/process/style3/icons/p3.png" alt="Images">
+										</div>
+										<div class="number-text">
+											<div class="number-area">
+												<span class="number-prefix">05</span>
+											</div>
+											<p >Análisis de riesgos de procesos.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="rs-process process-style3 bg8 pt-150 pb-115 md-pt-115 md-pb-80">
+					<div class="container">
+						<div class="row">
+							<div class="col-lg-8">
+								<div class="sec-title mb-70 md-mb-15">
+									<h2 class="title title4 ser-style2">
+										Protección civil
+									</h2>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="container custom3">
+						<div class="process-bg">
+							<div class="row">
+								<div class="col-xl-4 col-md-6 md-40">
+									<div class="process-item process-gap">
+										<div class="number-image">
+											<img src="assets/images/process/style3/icons/p1.png" alt="Images">
+										</div>
+										<div class="number-text">
+											<div class="number-area">
+												<span class="number-prefix">01</span>
+											</div>
+											<p >Entrenamiento de brigadas.</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-xl-4 col-md-6 md-40">
+									<div class="process-item process-gap">
+										<div class="number-image">
+											<img src="assets/images/process/style3/icons/p2.png" alt="Images">
+										</div>
+										<div class="number-text">
+											<div class="number-area">
+												<span class="number-prefix">02</span>
+											</div>
+											<p >Acompañamiento y asesoría para implementación del programa interno de protección civil.</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-xl-4 col-md-6 sm-mb-40">
+									<div class="process-item">
+										<div class="number-image">
+											<img src="assets/images/process/style3/icons/p3.png" alt="Images">
+										</div>
+										<div class="number-text">
+											<div class="number-area">
+												<span class="number-prefix">03</span>
+											</div>
+											<p >Evaluación de riesgos.</p>
+										</div>
+									</div>
+								</div>
+								
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="rs-process process-style3 bg25 pt-150 pb-115 md-pt-115 md-pb-80">
+					<div class="container">
+						<div class="row">
+							<div class="col-lg-8">
+								<div class="sec-title mb-70 md-mb-15">
+									<h2 class="title title4 ser-style2">
+										Laboratorio de pruebas y unidad de verificación
+									</h2>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="container custom3">
+						<div class="process-bg">
+							<div class="row">
+								<div class="col-xl-4 col-md-6 md-40">
+									<div class="process-item process-gap">
+										<div class="number-image">
+											<img src="assets/images/process/style3/icons/p1.png" alt="Images">
+										</div>
+										<div class="number-text">
+											<div class="number-area">
+												<span class="number-prefix">01</span>
+											</div>
+											<p >Estudios normativos: Ruido, radiaciones (ionizantes y no ionizantes), temperaturas (elevadas y abatidas), tierras (estática y para rayos), iluminación y vibraciones.</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-xl-4 col-md-6 md-40">
+									<div class="process-item process-gap">
+										<div class="number-image">
+											<img src="assets/images/process/style3/icons/p2.png" alt="Images">
+										</div>
+										<div class="number-text">
+											<div class="number-area">
+												<span class="number-prefix">02</span>
+											</div>
+											<p >Pruebas no destructivas: Recipientes sujetos a presión, calderas y generadores de vapor.</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-xl-4 col-md-6 sm-mb-40">
+									<div class="process-item">
+										<div class="number-image">
+											<img src="assets/images/process/style3/icons/p3.png" alt="Images">
+										</div>
+										<div class="number-text">
+											<div class="number-area">
+												<span class="number-prefix">03</span>
+											</div>
+											<p >Dictamenes eléctricos y estructurales.</p>
+										</div>
+									</div>
+								</div>
+								
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="rs-process process-style3 bg25 pt-150 pb-115 md-pt-115 md-pb-80">
+					<div class="container">
+						<div class="row">
+							<div class="col-lg-8">
+								<div class="sec-title mb-70 md-mb-15">
+									<h2 class="title title4 ser-style2">
+										Proyectos y servicios
+									</h2>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="container custom3">
+						<div class="process-bg">
+							<div class="row">
+								<div class="col-xl-4 col-md-6 md-40">
+									<div class="process-item process-gap">
+										<div class="number-image">
+											<img src="assets/images/process/style3/icons/p1.png" alt="Images">
+										</div>
+										<div class="number-text">
+											<div class="number-area">
+												<span class="number-prefix">01</span>
+											</div>
+											<p >Cálculo y diseño de sistemas de tierras y descargas atmosfericas.</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-xl-4 col-md-6 md-40">
+									<div class="process-item process-gap">
+										<div class="number-image">
+											<img src="assets/images/process/style3/icons/p2.png" alt="Images">
+										</div>
+										<div class="number-text">
+											<div class="number-area">
+												<span class="number-prefix">02</span>
+											</div>
+											<p >Cálculos eléctricos (diagramas unifilares, balanceo de cargas).</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-xl-4 col-md-6 sm-mb-40">
+									<div class="process-item">
+										<div class="number-image">
+											<img src="assets/images/process/style3/icons/p3.png" alt="Images">
+										</div>
+										<div class="number-text">
+											<div class="number-area">
+												<span class="number-prefix">03</span>
+											</div>
+											<p >Cálculo de atmosferas explosivas (determinación y emplazamiento de zonas ATEX).</p>
+										</div>
+									</div>
+								</div>
+								
+							</div>
+						</div>
+					</div>
+				</div>
 				<!-- Process Section End -->
 
 	    	    <!-- Pricing Section Start -->

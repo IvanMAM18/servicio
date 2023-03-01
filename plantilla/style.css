@@ -263,6 +263,12 @@ ul {
   background-repeat: no-repeat;
   background-size: cover;
 }
+.bg25 {
+  background: url(assets/images/bg/about-bg3.jpg);
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .bg9 {
   background-color: #010D14;
   background: url(assets/images/bg/cta-bg2.jpg);
@@ -6090,7 +6096,7 @@ body .search-modal .close:hover {
   padding: 0 33px;
 }
 .rs-process.process-style3 .process-bg .process-item .number-image {
-  background: #fff;
+  background: #ffb703;
   padding: 50px;
   border-radius: 50%;
   width: 140px;
@@ -6149,7 +6155,7 @@ body .search-modal .close:hover {
   margin: 0 0 10px;
 }
 .rs-process.process-style3 .process-bg .process-item .number-text .number-txt {
-  color: #FFFFFF;
+  color: #010d14;
   margin-bottom: 0;
 }
 /* ------------------------------------
