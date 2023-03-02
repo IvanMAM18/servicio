@@ -99,7 +99,7 @@
 	    	    </div>
 				<br><br>
 				<!-- Process Section Start -->
-				<div class="rs-process process-style3 bg8 pt-150 pb-115 md-pt-115 md-pb-80">
+				<div class="rs-process process-style3 bg25 pt-150 pb-115 md-pt-115 md-pb-80">
 					<div class="container">
 						<div class="row">
 							<div class="col-lg-8">
@@ -241,7 +241,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="rs-process process-style3 bg8 pt-150 pb-115 md-pt-115 md-pb-80">
+				<div class="rs-process process-style3 bg25 pt-150 pb-115 md-pt-115 md-pb-80">
 					<div class="container">
 						<div class="row">
 							<div class="col-lg-8">
