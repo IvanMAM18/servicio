@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="app">
+        <!--Se llama las variables creadas en la data-->
+        Hola {{nombre}}
+        Estamos en el año {{anio}} {{meses[1]}}
+    </div>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script>
+        //data, methods, props, mounted, created, computed, watch, destroyed
+        const holaMundo={
+            //Son como un objeto en javaScript
+            data(){
+                return{
+                    nombre:'ivan',
+                    anio: 2023,
+                    meses: ['Enero', 'Marzo']
+                }
+            }
+        }
+        //Desde la consola de inspeccionador se llama esta variables y se puede 
+        //cambiar lo que se desee dentro de la data ejemplo: mountedApp.nombre = "Nombre nuevo"
+        var mountedApp = Vue.createApp(holaMundo).mount('#app');
+    </script>
+</body>
+</html>l
