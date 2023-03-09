@@ -11,7 +11,61 @@
         <!--Se llama las variables creadas en la data-->
         Hola {{nombre}}
         Estamos en el año {{anio}} {{meses[1]}}
+        Contador{{contador}}
+        <button type="button" v-on:click="stopInterval">{{btnMessage}}</button>
+        <label v-bind:title="titulo" v-bind:data-hola="titulo">Hola mundo</label>
+        <br>
+        <button v-on:click="mostrarImagen('imagenes/js.png')">JS</button>
+        <button v-on:click="mostrarImagen('imagenes/css.jpg')">CSS</button>
+        <img v-bind:src="imagen">
+        <br>
+        <label>Escribe tu nombre</label>
+        <input type="text" v-model="nombreDos">
+        <br>
+        <h5>Hola {{nombreDos}}</h5>
+        <br>
+        <select v-model="fruta">
+            <option value="Manzana">Manzana</option>
+            <option value="Pera">Pera</option>
+            <option value="Uva">Uva</option>
+        </select>
+        Fruta seleccionada: {{fruta}}
+        <br>
+        <input type="checkbox" v-model="activo">
+        {{activo}}
+        <br>
+        <ul>
+            <!--v-for es como un for normal, el primer elemento se crea es una variable nueva y el segundo es o un arreglo o objeto que se manda llamar y
+            la variable creada hace el recorrido de lo que contiene dicho arreglo o objeto.
+            v-binf:key diferencia a cada aparatado creado de la variable nueva -->
+            <li v-for="fruta in frutas" v-binf:key="fruta">{{fruta}}</li>
+        </ul>
+        <br>
+        <ul>
+            <li v-for="(fruta, index) in furtasConId" v-bind:key="fruta">
+                Indice: {{index}} {{fruta.id}} - {{fruta.nombre}}
+            </li>
+            <ul>
+                <li v-for="pais in furtasConId.paisesOrigen" v-bind:key="pais">
+                    Pais: {{pais.idPais}} - {{pais.pais}}
+                </li>
+            </ul>
+        </ul>
+        <br>
+        <select v-model="frutaId">
+            <option v-for="fruta in furtasConId" v-bind:value="fruta.id">{{fruta.nombre}}</option>
+        </select>
+        <br>
+        <ul>
+            <li v-for="l in letras"> {{l}}</li>
+        </ul>
+        <br>
+        <ul>
+            <li v-for="numeros in 10"> {{numeros}}</li>
+        </ul>
+
     </div>
+
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
     <script>
         //data, methods, props, mounted, created, computed, watch, destroyed
@@ -21,7 +75,88 @@
                 return{
                     nombre:'ivan',
                     anio: 2023,
-                    meses: ['Enero', 'Marzo']
+                    meses: ['Enero', 'Marzo'],
+                    contador:0,
+                    interval:null,
+                    isRunning:false,
+                    btnMessage: "Detener",
+                    titulo: "Este es un titulo dianmico",
+                    imagen:"",//Se coloca la url de la imagen normal
+                    nombreDos:"",
+                    fruta:"Selecciona fruta",
+                    activo:false,
+                    frutas:['Manzana','Uva','Pera'],
+                    furtasConId:[
+                        {
+                            id:1,
+                            nombre:"Manzana",
+                            paisesOrigen: [
+                                {
+                                    idPais:1,
+                                    pais:"Mexico"
+                                },
+                                {
+                                    idPais:2,
+                                    pais:"UAS"
+                                }
+                            ]
+                        },{
+                            id:2,
+                            nombre:"Pera",
+                            paisesOrigen: [
+                                {
+                                    idPais:1,
+                                    pais:"Mexico"
+                                },
+                                {
+                                    idPais:2,
+                                    pais:"UAS"
+                                }
+                            ]
+                        },{
+                            id:3,
+                            nombre:"Uva",
+                            paisesOrigen: [
+                                {
+                                    idPais:1,
+                                    pais:"Mexico"
+                                },
+                                {
+                                    idPais:2,
+                                    pais:"UAS"
+                                }
+                            ]
+                        }
+                    ],
+                    frutaId:2,
+                    letras:"abcdef",
+
+
+                }
+            },
+            mounted(){
+                this.interval = setInterval(()=>{
+                    this.contador ++;
+                },1000);
+                this.isRunning=true;
+            },
+            methods:{
+                stopInterval(){
+                    if(this.isRunning===true){
+                        clearInterval(this.interval);
+                        this.isRunning=false;
+                        this.btnMessage="Continuar";
+                    }else{
+                        this.interval = setInterval(()=>{
+                        this.contador ++;
+                        },1000);
+                        this.isRunning=true;
+                        this.btnMessage="Detener";
+
+                    }
+                },
+                mostrarImagen(imagen){
+                    this.imagen=imagen;
                 }
             }
         }
