@@ -10,7 +10,15 @@
 
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-            
+    <style>
+        .rounded{
+            border-radius: 50px;
+        }
+        .square{
+            height: 100px;
+            width: 100px;
+        }
+    </style>
 </head>
 <body>
     <div id="app">
@@ -66,6 +74,60 @@
             <option value="imagenes/js.png">JS</option>
         </select>
         <img :src="imagen">
+        <br><br><br>
+        <!--v-if: v-show: si va a ser un elemento que solo se va a mostrar y ocultar una vez v-if si no v-show-->
+        <a href="#!" v-if="esAdministrador">Administrador</a>
+        <img src="imagenes/css.jpg" height="200" v-if="mostrarImagen">
+        <img src="imagenes/js.png" height="200" v-show="mostrarImagen">
+        <br><br>
+        <!--v-bind: es igual a solo poner :-->
+        <input type="text" :disabled="(usuariosDos == 5)">
+        <br>
+        <label >
+            <input type="checkbox" :checked="chkChecked">
+            <span></span>
+        </label>
+        <br><br><br>
+        <form method="POST">
+            <input type="text" :required="obligatorio">
+            <button type="submit">Enviar</button>
+        </form>
+        <br><br>
+        <select v-model="idFrutas" class="browser-default">
+            <option v-for="fruta in frutas" v-bind:value="fruta.id">{{fruta.id}} - {{fruta.nombre}}</option>
+        </select>
+        <br>
+        <select class="browser-default">
+            <option v-for="fruta in frutas" v-bind:value="fruta.id" :selected="fruta.selected">{{fruta.id}} - {{fruta.nombre}}</option>
+        </select>
+        <br><br>
+        <!--Activar una clase-->
+        <div class="container" style="padding-top: 50px;">
+            <!--<div class="teal" v-bind:class="{rounded,square}"></div> sin la clase-->
+            <!--<div class="teal" v-bind:class="myClass"></div> con clase-->
+            <!--<button @click="(rounded = !rounded)">Cambiar</button>-->
+            <div v-bind:class="[ebableRoundedClass ? roundedClass: '',squareClass]"></div>
+            <button @click="(ebableRoundedClass = !ebableRoundedClass)">Cambiar</button>
+        </div>
+        <br><br>
+        <!--Activar style-->
+        <div v-bind:style="[myStyle,myStyle2]">
+            Hola mundo
+        </div>
+        <br><br>
+        <div class="container" style="padding-top: 50px;">
+            <input type="text" v-model="n1">
+            <input type="text" v-model="n2">
+            <h5>La suma es {{resultado}}</h5>
+        </div>
+        <br><br>
+        <label >Escriba una fruta</label>
+        <input type="text" v-model="frutaDos">
+        <button type="button" @click="agregarFruta">Agregar fruta</button>
+        <label >Ha agregado un total de {{totalFrutasDos}} frutas</label>
+        <ul>
+            <li v-for="fruta in frutaDosArreglo">{{fruta}}</li>
+        </ul>
     </div>
 
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
@@ -82,11 +144,69 @@
                     numeroDos: 6,
                     contador:0,
                     estado:false,
-                    imagen:''
+                    imagen:'',
+                    mostrarImagen:false,
+                    esAdministrador:false,
+                    usuariosDos:5,
+                    chkChecked:false,
+                    obligatorio:false,
+                    frutas:[
+                        {
+                            id:1,
+                            nombre: 'manzana',
+                            selected:true
+                        },
+                        {
+                            id:2,
+                            nombre: "Pera",
+                            selected:false
+                        },
+                        {
+                            id:3,
+                            nombre: "Sandia",
+                            selected:false
+                        }
+                    ],
+                    idFrutas:2,
+                    myClass:{
+                        rounded:false,
+                        square:true
+                    },
+                    roundedClass: 'rounded red btn',
+                    squareClass: 'square',
+                    ebableRoundedClass: true,
+                    myStyle:{
+                        'font-size':'16px',
+                        height:'50px',
+                        width:'50px',
+                        backgroundColor:'green'
+                    },
+                    myStyle2:{
+                        'border':'dashed 1px black'
+                    },
+                    n1:0,
+                    n2:0,
+                    frutaDos:'',
+                    frutaDosArreglo:[]
+
+                    
+                }
+            },
+            //los computed son campos calculados donde se encuentran operaciones no tan pesadas se mandan llamar normal sin necesidad de crearla en la data
+            computed:{
+                resultado: function(){
+                    return parseFloat(this.n1)+parseFloat(this.n2);
+                },
+                totalFrutasDos:function(){
+                    return this.frutaDosArreglo.length;
                 }
             },
             
             methods:{
+                agregarFruta(){
+                    this.frutaDosArreglo.push(this.frutaDos);
+                    this.frutaDos='';
+                },
                 getUsuarios(){
                     //Hace peticiones desde data
                     fetch('https://jsonplaceholder.typicode.com/users')
