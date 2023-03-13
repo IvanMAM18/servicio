@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {
+      margin: 0;
+    }
+  </style>
+  </head>
+  <body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/p5.min.js" integrity="sha512-3RlxD1bW34eFKPwj9gUXEWtdSMC59QqIqHnD8O/NoTwSJhgxRizdcFVQhUMFyTp5RwLTDL0Lbcqtl8b7bFAzog==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> 
+  <script src="./ball.js"></script>
+  <script src="./paddle.js"></script>
+  <script>
+    const p1 = {
+      x: 0,
+      y: 0,
+      w: 25,
+      h: 100,
+      step: 1,
+      move: function() {
+        if(this.y + this.h === height) 
+          this.step = -1;
+        else if(this.y === 0)
+          this.step = 1;
+        this.y = this.y + this.step;
+      }
+    }
+    let ball;
+    let paddleR;
+    let paddleL;
+
+    function setup() {
+      createCanvas(windowWidth, windowHeight);
+      ball = new Ball();
+      paddleR = new Paddle(0,20,'p1');
+      paddleL = new Paddle((width-20),20,'p2');
+    }
+    
+    function draw() {
+      background('white')
+      //rect(p1.x, p1.y, p1.w, p1.h);
+      ball.draw();
+      paddleR.draw();
+      paddleL.draw();
+      ball.move();
+      paddleR.movimiento();
+      paddleL.movimiento();
+      textSize(32);
+      text((ball.contadorIz+'-'+ball.contadorDr), (width/2), 20);
+      console.log("aquiiiiiii "+paddleR.y);
+      //p1.move();
+      //movePaddle();
+
+      ball.edge();
+    }
+    function movePaddle(){
+      if((p1.y+p1.h) === (height+2)){
+        console.log("maximo");
+        p1.y=p1.y-5;
+      }
+      if(p1.y === 0){
+        console.log(p1.y+"--"+height+"--"+p1.h);
+        p1.y=p1.y+5;
+      }
+      
+      if (keyIsDown(87)) {
+        p1.y -= 5;
+
+      }
+      if (keyIsDown(83)) {
+        p1.y += 5;
+        console.log(p1.y+"--"+height+"--"+p1.h);
+      }
+      if (keyIsDown(UP_ARROW)) {
+        y -= 5;
+      }
+
+      if (keyIsDown(DOWN_ARROW)) {
+        y += 5;
+      }
+      
+    }
+    
+    /*
+    function keyPressed() {
+      if(keyCode === 87)
+        p1.x-=5;
+        console.log('p1 up');
+      if(keyCode === 83)
+        console.log('p1 down');
+        p1.y+=5;
+      if(keyCode === UP_ARROW) 
+        console.log('p2 up');
+      if(keyCode === DOWN_ARROW)
+        console.log('p2 down');
+    }*/
+  </script>
+  </body>
+</html>
