@@ -26,7 +26,6 @@ class Paddle {
 		if (keyIsDown(UP_ARROW) && this.pd==='p2') {
 			this.y -= 5;
 		}
-	
 		if (keyIsDown(DOWN_ARROW) && this.pd==='p2') {
 			this.y += 5;
 		}

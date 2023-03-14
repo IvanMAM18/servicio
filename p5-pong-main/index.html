@@ -15,6 +15,7 @@
   <script src="./ball.js"></script>
   <script src="./paddle.js"></script>
   <script>
+    /*
     const p1 = {
       x: 0,
       y: 0,
@@ -28,16 +29,16 @@
           this.step = 1;
         this.y = this.y + this.step;
       }
-    }
+    }*/
     let ball;
     let paddleR;
     let paddleL;
 
     function setup() {
       createCanvas(windowWidth, windowHeight);
-      ball = new Ball();
       paddleR = new Paddle(0,20,'p1');
       paddleL = new Paddle((width-20),20,'p2');
+      ball = new Ball();
     }
     
     function draw() {
@@ -47,16 +48,17 @@
       paddleR.draw();
       paddleL.draw();
       ball.move();
+      ball.edge(paddleR.x,paddleR.y,paddleL.x,paddleL.y);
       paddleR.movimiento();
       paddleL.movimiento();
       textSize(32);
-      text((ball.contadorIz+'-'+ball.contadorDr), (width/2), 20);
-      console.log("aquiiiiiii "+paddleR.y);
+      text((ball.contadorDr+'-'+ball.contadorIz), (width/2), 20);
+      //console.log("aquiiiiiii: "+(paddleR.y+100)+"--"+(paddleR.x+20));
       //p1.move();
       //movePaddle();
 
-      ball.edge();
     }
+    /*
     function movePaddle(){
       if((p1.y+p1.h) === (height+2)){
         console.log("maximo");
@@ -85,7 +87,7 @@
       
     }
     
-    /*
+    
     function keyPressed() {
       if(keyCode === 87)
         p1.x-=5;

@@ -1,0 +1,30 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<h1>Aquiii</h1>
+<div id="app">
+   
+   {{frutas}}
+</div>
+
+<script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+<script>
+    const app ={
+        data(){
+            return{
+                frutas: ['Manzana','Pera','Uva']
+            }
+        }
+    }
+    const _app = Vue.createApp(app);
+    const mountedApp = _app.mount('#app');
+</script>
+sudo nano /etc/apache2/httpd.conf
+brew search php
+brew install php
+mv composer.phar /usr/local/bin/composer
+cd Desktop/
+composer global require "laravel/installer"
+nano ~/.bash_profile
+export PATH="$PATH:$HOME"/.composer/vendor/bin
+source ~/.bash_profile
