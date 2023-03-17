@@ -1,6 +1,8 @@
+const SPACE_K = " ";
 let bgImg;
 let bg1;
 let bg2;
+let x=0;
 let rapidashImg;
 let rapidash;
 
@@ -25,4 +27,11 @@ function draw() {
 
     bg1.scroll();
     bg2.scroll();
+    rapidash.update();
+}
+
+function keyPressed(){
+    if(key === SPACE_K){
+        rapidash.jump();
+    }
 }
