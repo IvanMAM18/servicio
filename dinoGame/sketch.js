@@ -5,10 +5,14 @@ let bg2;
 let x=0;
 let rapidashImg;
 let rapidash;
+let exeggutorImg;
+let exeggutor;
+const exeggutors = [];
 
 function preload() {
 	bgImg = loadImage('assets/bg.png');
     rapidashImg = loadImage('assets/rapidash.png');
+    exeggutorImg = loadImage('assets/exeggutor.png');
 }
 
 function setup() {
@@ -16,14 +20,23 @@ function setup() {
     bg1 = new Bg(bgImg,0);
     bg2 = new Bg(bgImg,width);
     rapidash = new Rapidash(rapidashImg);
+    exeggutor = new Exeggutor(exeggutorImg);
 }
 
 function draw() {
+    // para parara el juego noLoop();
     //image(bgImg,x++,0,width,height);
     background('white');
+    if(random(1) < 0.005){
+        exeggutors.push(new Exeggutor(exeggutorImg));
+    }
     bg1.draw();
     bg2.draw();
     rapidash.draw();
+    for(let exeggutor of exeggutors){
+        exeggutor.draw();
+        exeggutor.move();
+    }
 
     bg1.scroll();
     bg2.scroll();
