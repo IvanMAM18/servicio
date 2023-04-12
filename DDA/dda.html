@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DDA</title>
+</head>
+<script>
+ function Sumar(){
+    var x1 = parseInt(document.getElementById('x1').value);
+    var x2 = parseInt(document.getElementById('x2').value);
+    var y1 = parseInt(document.getElementById('y1').value);
+    var y2 = parseInt(document.getElementById('y2').value);
+    var respuesta = document.getElementById('respuesta');
+
+    var suma = x1 + y1 + x2 + y2;
+    respuesta.innerHTML = suma;
+}
+</script>
+<body>
+    <h1>Ingresa coordenadas</h1>
+    <label for="">X1: </label>
+    <input type="number" id="x1">
+    <br>
+    <label for="">Y1: </label>
+    <input type="number" id="y1">
+    <br>
+    <label for="">X2: </label>
+    <input type="number" id="x2">
+    <br>
+    <label for="">Y2: </label>
+    <input type="number" id="y2">
+    <input value="Sumar" type="button" onclick="Sumar()"></input>
+    <label for="" id="respuesta"></label>
+
+    <br><br>
+    <canvas style="background-color: lightyellow; border: 1px solid black" id="canvas" width="300" height="300"></canvas>
+</body>
+</html>
