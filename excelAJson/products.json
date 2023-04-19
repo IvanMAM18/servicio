@@ -1,0 +1,2985 @@
+[
+    {
+        "name":"Caja cubo kraft",
+        "slug": "caja-cubo-kraft",
+        "description":"Caja cubo kraft",
+        "status": "activo",
+        "brand_id": 2,
+        "tax_type_id" : 3,
+        "product_type_id" : 1,
+        "online_sale_without_stock" : true,
+        "sku_ean" : "caja-cubo-kraft",
+        "categories":[
+            "Caja",
+            "Cubo",
+            "Kraft"
+        ],
+        "images": [
+            "caja-cubo-kraft.png"
+        ],  
+        "presentations":[
+            {
+                "description":"Caja cubo kraft 10x10x10",
+                "code":"caja-cubo-kraft-10x10x10", 
+                "weight_in_grams":0,
+                "max_stock":100,
+                "min_stock":1,
+                "status":"activo",
+                "sku_ean":"caja-cubo-kraft-10x10x10",
+                "sale_without_stock":true,
+                "price":17,
+                "unit_key_id":1,
+                "product_service_key_id":1,
+                "inventories":[
+                    {
+                        "stock": 10,
+                        "unit_id": 1,
+                        "storage_id": 1
+                    }
+                ]
+            },
+            {
+                "description":"Caja cubo kraft 12x12x12",
+                "code":"caja-cubo-kraft-12x12x12", 
+                "weight_in_grams":0,
+                "max_stock":100,
+                "min_stock":1,
+                "status":"activo",
+                "sku_ean":"caja-cubo-kraft-12x12x12",
+                "sale_without_stock":true,
+                "price": 25,
+                "unit_key_id":1,
+                "product_service_key_id":1,
+                "inventories":[
+                    {
+                        "stock": 10,
+                        "unit_id": 1,
+                        "storage_id": 1
+                    }
+                ]
+            },
+            {
+                "description":"Caja cubo kraft 16x16x16",
+                "code":"caja-cubo-kraft-16x16x16", 
+                "weight_in_grams":0,
+                "max_stock":100,
+                "min_stock":1,
+                "status":"activo",
+                "sku_ean":"caja-cubo-kraft-16x16x16",
+                "sale_without_stock":true,
+                "price": 30,
+                "unit_key_id":1,
+                "product_service_key_id":1,
+                "inventories":[
+                    {
+                        "stock": 10,
+                        "unit_id": 1,
+                        "storage_id": 1
+                    }
+                ]
+            },
+            {
+                "description":"Caja cubo kraft 22x22x22",
+                "code":"caja-cubo-kraft-22x22x22", 
+                "weight_in_grams":0,
+                "max_stock":100,
+                "min_stock":1,
+                "status":"activo",
+                "sku_ean":"caja-cubo-kraft-22x22x22",
+                "sale_without_stock":true,
+                "price": 47,
+                "unit_key_id":1,
+                "product_service_key_id":1,
+                "inventories":[
+                    {
+                        "stock": 10,
+                        "unit_id": 1,
+                        "storage_id": 1
+                    }
+                ]
+            },
+            {
+                "description":"Caja cubo kraft 30x30x30",
+                "code":"caja-cubo-kraft-30x30x30", 
+                "weight_in_grams":0,
+                "max_stock":100,
+                "min_stock":1,
+                "status":"activo",
+                "sku_ean":"caja-cubo-kraft-30x30x30",
+                "sale_without_stock":true,
+                "price": 72,
+                "unit_key_id":1,
+                "product_service_key_id":1,
+                "inventories":[
+                    {
+                        "stock": 10,
+                        "unit_id": 1,
+                        "storage_id": 1
+                    }
+                ]
+            },
+            {
+                "description":"Caja cubo kraft 40x40x40",
+                "code":"caja-cubo-kraft-40x40x40", 
+                "weight_in_grams":0,
+                "max_stock":100,
+                "min_stock":1,
+                "status":"activo",
+                "sku_ean":"caja-cubo-kraft-40x40x40",
+                "sale_without_stock":true,
+                "price": 125,
+                "unit_key_id":1,
+                "product_service_key_id":1,
+                "inventories":[
+                    {
+                        "stock": 10,
+                        "unit_id": 1,
+                        "storage_id": 1
+                    }
+                ]
+            },
+            {
+                "description":"Caja cubo kraft 50x50x50",
+                "code":"caja-cubo-kraft-50x50x50", 
+                "weight_in_grams":0,
+                "max_stock":100,
+                "min_stock":1,
+                "status":"activo",
+                "sku_ean":"caja-cubo-kraft-50x50x50",
+                "sale_without_stock":true,
+                "price": 175,
+                "unit_key_id":1,
+                "product_service_key_id":1,
+                "inventories":[
+                    {
+                        "stock": 10,
+                        "unit_id": 1,
+                        "storage_id": 1
+                    }
+                ]
+            },
+            {
+                "description":"Caja camisera kraft 21x26x8",
+                "code":"caja-camisera-kraft-21x26x8", 
+                "weight_in_grams":0,
+                "max_stock":100,
+                "min_stock":1,
+                "status":"activo",
+                "sku_ean":"caja-camisera-kraft-21x26x8",
+                "sale_without_stock":true,
+                "price": 35,
+                "unit_key_id":1,
+                "product_service_key_id":1,
+                "inventories":[
+                    {
+                        "stock": 10,
+                        "unit_id": 1,
+                        "storage_id": 1
+                    }
+                ]
+            },
+            {
+                "description":"Caja camisera kraft 30x27x8",
+                "code":"caja-camisera-kraft-30x27x8", 
+                "weight_in_grams":0,
+                "max_stock":100,
+                "min_stock":1,
+                "status":"activo",
+                "sku_ean":"caja-camisera-kraft-30x27x8",
+                "sale_without_stock":true,
+                "price": 45,
+                "unit_key_id":1,
+                "product_service_key_id":1,
+                "inventories":[
+                    {
+                        "stock": 10,
+                        "unit_id": 1,
+                        "storage_id": 1
+                    }
+                ]
+            },
+            {
+                "description":"Caja camisera kraft 35x27x8",
+                "code":"caja-camisera-kraft-35x27x8", 
+                "weight_in_grams":0,
+                "max_stock":100,
+                "min_stock":1,
+                "status":"activo",
+                "sku_ean":"caja-camisera-kraft-35x27x8",
+                "sale_without_stock":true,
+                "price": 55,
+                "unit_key_id":1,
+                "product_service_key_id":1,
+                "inventories":[
+                    {
+                        "stock": 10,
+                        "unit_id": 1,
+                        "storage_id": 1
+                    }
+                ]
+            },
+            {
+                "description":"Caja zapatera kraft 15x15x10",
+                "code":"caja-zapatera-kraft-15x15x10", 
+                "weight_in_grams":0,
+                "max_stock":100,
+                "min_stock":1,
+                "status":"activo",
+                "sku_ean":"caja-zapatera-kraft-15x15x10",
+                "sale_without_stock":true,
+                "price": 31,
+                "unit_key_id":1,
+                "product_service_key_id":1,
+                "inventories":[
+                    {
+                        "stock": 10,
+                        "unit_id": 1,
+                        "storage_id": 1
+                    }
+                ]
+            },
+            {
+                "description":"Caja zapatera kraft 26x21x16",
+                "code":"caja-zapatera-kraft-26x21x16", 
+                "weight_in_grams":0,
+                "max_stock":100,
+                "min_stock":1,
+                "status":"activo",
+                "sku_ean":"caja-zapatera-kraft-26x21x16",
+                "sale_without_stock":true,
+                "price": 45,
+                "unit_key_id":1,
+                "product_service_key_id":1,
+                "inventories":[
+                    {
+                        "stock": 10,
+                        "unit_id": 1,
+                        "storage_id": 1
+                    }
+                ]
+            },
+            {
+                "description":"Caja zapatera kraft 30x27x16",
+                "code":"caja-zapatera-kraft-30x27x16", 
+                "weight_in_grams":0,
+                "max_stock":100,
+                "min_stock":1,
+                "status":"activo",
+                "sku_ean":"caja-zapatera-kraft-30x27x16",
+                "sale_without_stock":true,
+                "price": 55,
+                "unit_key_id":1,
+                "product_service_key_id":1,
+                "inventories":[
+                    {
+                        "stock": 10,
+                        "unit_id": 1,
+                        "storage_id": 1
+                    }
+                ]
+            },
+            {
+                "description":"Caja zapatera kraft 40x42x16",
+                "code":"caja-zapatera-kraft-40x42x16", 
+                "weight_in_grams":0,
+                "max_stock":100,
+                "min_stock":1,
+                "status":"activo",
+                "sku_ean":"caja-zapatera-kraft-40x42x16",
+                "sale_without_stock":true,
+                "price": 102,
+                "unit_key_id":1,
+                "product_service_key_id":1,
+                "inventories":[
+                    {
+                        "stock": 10,
+                        "unit_id": 1,
+                        "storage_id": 1
+                    }
+                ]
+            },
+            {
+                "description":"Caja peluchera kraft 20x20x35",
+                "code":"caja-peluchera-kraft-20x20x35", 
+                "weight_in_grams":0,
+                "max_stock":100,
+                "min_stock":1,
+                "status":"activo",
+                "sku_ean":"caja-peluchera-kraft-20x20x35",
+                "sale_without_stock":true,
+                "price": 58,
+                "unit_key_id":1,
+                "product_service_key_id":1,
+                "inventories":[
+                    {
+                        "stock": 10,
+                        "unit_id": 1,
+                        "storage_id": 1
+                    }
+                ]
+            },
+            {
+                "description":"Caja peluchera kraft 27x27x48",
+                "code":"caja-peluchera-kraft-27x27x48", 
+                "weight_in_grams":0,
+                "max_stock":100,
+                "min_stock":1,
+                "status":"activo",
+                "sku_ean":"caja-peluchera-kraft-27x27x48",
+                "sale_without_stock":true,
+                "price": 68,
+                "unit_key_id":1,
+                "product_service_key_id":1,
+                "inventories":[
+                    {
+                        "stock": 10,
+                        "unit_id": 1,
+                        "storage_id": 1
+                    }
+                ]
+            },
+            {
+                "description":"Caja peluchera kraft 40x40x80",
+                "code":"caja-peluchera-kraft-40x40x80", 
+                "weight_in_grams":0,
+                "max_stock":100,
+                "min_stock":1,
+                "status":"activo",
+                "sku_ean":"caja-peluchera-kraft-40x40x80",
+                "sale_without_stock":true,
+                "price": 218,
+                "unit_key_id":1,
+                "product_service_key_id":1,
+                "inventories":[
+                    {
+                        "stock": 10,
+                        "unit_id": 1,
+                        "storage_id": 1
+                    }
+                ]
+            },
+            {
+                "description":"Caja peluchera kraft 1mtx70x70",
+                "code":"caja-peluchera-kraft-1mtx70x70", 
+                "weight_in_grams":0,
+                "max_stock":100,
+                "min_stock":1,
+                "status":"activo",
+                "sku_ean":"caja-peluchera-kraft-1mtx70x70",
+                "sale_without_stock":true,
+                "price": 315,
+                "unit_key_id":1,
+                "product_service_key_id":1,
+                "inventories":[
+                    {
+                        "stock": 10,
+                        "unit_id": 1,
+                        "storage_id": 1
+                    }
+                ]
+            },
+
+            {
+                "description":"Caja para taza kraft 15x8x20",
+                "code":"caja-cubo-corazones-kraft-15x8x20", 
+                "weight_in_grams":0,
+                "max_stock":100,
+                "min_stock":1,
+                "status":"activo",
+                "sku_ean":"caja-cubo-corazones-kraft-15x8x20",
+                "sale_without_stock":true,
+                "price": 16,
+                "unit_key_id":1,
+                "product_service_key_id":1,
+                "inventories":[
+                    {
+                        "stock": 10,
+                        "unit_id": 1,
+                        "storage_id": 1
+                    }
+                ]
+            },
+            {
+                "description":"Caja para taza kraft 12x10x18",
+                "code":"caja-cubo-corazones-kraft-12x10x18", 
+                "weight_in_grams":0,
+                "max_stock":100,
+                "min_stock":1,
+                "status":"activo",
+                "sku_ean":"caja-cubo-corazones-kraft-12x10x18",
+                "sale_without_stock":true,
+                "price": 22,
+                "unit_key_id":1,
+                "product_service_key_id":1,
+                "inventories":[
+                    {
+                        "stock": 10,
+                        "unit_id": 1,
+                        "storage_id": 1
+                    }
+                ]
+            },
+            {
+                "description":"Caja para taza kraft 13x10x10",
+                "code":"caja-cubo-corazones-kraft-13x10x10", 
+                "weight_in_grams":0,
+                "max_stock":100,
+                "min_stock":1,
+                "status":"activo",
+                "sku_ean":"caja-cubo-corazones-kraft-13x10x10",
+                "sale_without_stock":true,
+                "price": 19,
+                "unit_key_id":1,
+                "product_service_key_id":1,
+                "inventories":[
+                    {
+                        "stock": 10,
+                        "unit_id": 1,
+                        "storage_id": 1
+                    }
+                ]
+            },
+            {
+                "description":"Caja cubo corazones kraft 20x20x20",
+                "code":"caja-cubo-corazones-kraft-20x20x20", 
+                "weight_in_grams":0,
+                "max_stock":100,
+                "min_stock":1,
+                "status":"activo",
+                "sku_ean":"caja-cubo-corazones-kraft-20x20x20",
+                "sale_without_stock":true,
+                "price": 68,
+                "unit_key_id":1,
+                "product_service_key_id":1,
+                "inventories":[
+                    {
+                        "stock": 10,
+                        "unit_id": 1,
+                        "storage_id": 1
+                    }
+                ]
+            },
+            {
+                "description":"Caja cubo corazones kraft 30x30x30",
+                "code":"caja-cubo-corazones-kraft-30x30x30", 
+                "weight_in_grams":0,
+                "max_stock":100,
+                "min_stock":1,
+                "status":"activo",
+                "sku_ean":"caja-cubo-corazones-kraft-30x30x30",
+                "sale_without_stock":true,
+                "price": 88,
+                "unit_key_id":1,
+                "product_service_key_id":1,
+                "inventories":[
+                    {
+                        "stock": 10,
+                        "unit_id": 1,
+                        "storage_id": 1
+                    }
+                ]
+            },
+            {
+                "description":"Caja en forma corazones kraft 39x33x12",
+                "code":"caja-cubo-corazones-kraft-39x33x12", 
+                "weight_in_grams":0,
+                "max_stock":100,
+                "min_stock":1,
+                "status":"activo",
+                "sku_ean":"caja-cubo-corazones-kraft-39x33x12",
+                "sale_without_stock":true,
+                "price": 75,
+                "unit_key_id":1,
+                "product_service_key_id":1,
+                "inventories":[
+                    {
+                        "stock": 10,
+                        "unit_id": 1,
+                        "storage_id": 1
+                    }
+                ]
+            },
+            {
+                "description":"Caja octagonal kraft 15x15x10",
+                "code":"caja-octagonal-kraft-15x15x10", 
+                "weight_in_grams":0,
+                "max_stock":100,
+                "min_stock":1,
+                "status":"activo",
+                "sku_ean":"caja-octagonal-kraft-15x15x10",
+                "sale_without_stock":true,
+                "price": 28,
+                "unit_key_id":1,
+                "product_service_key_id":1,
+                "inventories":[
+                    {
+                        "stock": 10,
+                        "unit_id": 1,
+                        "storage_id": 1
+                    }
+                ]
+            },
+            {
+                "description":"Caja octagonal kraft 28x28x11",
+                "code":"caja-octagonal-kraft-28x28x11", 
+                "weight_in_grams":0,
+                "max_stock":100,
+                "min_stock":1,
+                "status":"activo",
+                "sku_ean":"caja-octagonal-kraft-28x28x11",
+                "sale_without_stock":true,
+                "price": 46,
+                "unit_key_id":1,
+                "product_service_key_id":1,
+                "inventories":[
+                    {
+                        "stock": 10,
+                        "unit_id": 1,
+                        "storage_id": 1
+                    }
+                ]
+            },
+            {
+                "description":"Caja octagonal kraft 33x33x14",
+                "code":"caja-octagonal-kraft-33x33x14", 
+                "weight_in_grams":0,
+                "max_stock":100,
+                "min_stock":1,
+                "status":"activo",
+                "sku_ean":"caja-octagonal-kraft-33x33x14",
+                "sale_without_stock":true,
+                "price": 55,
+                "unit_key_id":1,
+                "product_service_key_id":1,
+                "inventories":[
+                    {
+                        "stock": 10,
+                        "unit_id": 1,
+                        "storage_id": 1
+                    }
+                ]
+            },
+            {
+                "description":"Caja octagonal torre kraft 33x33x14",
+                "code":"caja-octagonal-torre-kraft-33x33x14", 
+                "weight_in_grams":0,
+                "max_stock":100,
+                "min_stock":1,
+                "status":"activo",
+                "sku_ean":"caja-octagonal-torre-kraft-33x33x14",
+                "sale_without_stock":true,
+                "price": 55,
+                "unit_key_id":1,
+                "product_service_key_id":1,
+                "inventories":[
+                    {
+                        "stock": 10,
+                        "unit_id": 1,
+                        "storage_id": 1
+                    }
+                ]
+            },
+            {
+                "description":"Caja cofre kraft 30x26x26",
+                "code":"caja-cofre-kraft-30x26x26", 
+                "weight_in_grams":0,
+                "max_stock":100,
+                "min_stock":1,
+                "status":"activo",
+                "sku_ean":"caja-cofre-kraft-30x26x26",
+                "sale_without_stock":true,
+                "price": 80,
+                "unit_key_id":1,
+                "product_service_key_id":1,
+                "inventories":[
+                    {
+                        "stock": 10,
+                        "unit_id": 1,
+                        "storage_id": 1
+                    }
+                ]
+            },
+            {
+                "description":"Caja canasta kraft 23x10x12x36",
+                "code":"caja-canasta-kraft-23x10x12x36", 
+                "weight_in_grams":0,
+                "max_stock":100,
+                "min_stock":1,
+                "status":"activo",
+                "sku_ean":"caja-canasta-kraft-23x10x12x36",
+                "sale_without_stock":true,
+                "price": 26,
+                "unit_key_id":1,
+                "product_service_key_id":1,
+                "inventories":[
+                    {
+                        "stock": 10,
+                        "unit_id": 1,
+                        "storage_id": 1
+                    }
+                ]
+            },
+            {
+                "description":"Caja canasta kraft 25x25x12",
+                "code":"caja-canasta-kraft-25x25x12", 
+                "weight_in_grams":0,
+                "max_stock":100,
+                "min_stock":1,
+                "status":"activo",
+                "sku_ean":"caja-canasta-kraft-25x25x12",
+                "sale_without_stock":true,
+                "price": 22,
+                "unit_key_id":1,
+                "product_service_key_id":1,
+                "inventories":[
+                    {
+                        "stock": 10,
+                        "unit_id": 1,
+                        "storage_id": 1
+                    }
+                ]
+            },
+            {
+                "description":"Caja charola asa incluida kraft 26x36x6.5",
+                "code":"caja-charola-asa-incluida-kraft-26x36x6.5", 
+                "weight_in_grams":0,
+                "max_stock":100,
+                "min_stock":1,
+                "status":"activo",
+                "sku_ean":"caja-charola-asa-incluida-kraft-26x36x6.5",
+                "sale_without_stock":true,
+                "price": 34,
+                "unit_key_id":1,
+                "product_service_key_id":1,
+                "inventories":[
+                    {
+                        "stock": 10,
+                        "unit_id": 1,
+                        "storage_id": 1
+                    }
+                ]
+            },
+            {
+                "description":"Caja charola asa redonda kraft 26x36x6.5",
+                "code":"caja-charola-asa-redonda-kraft-26x36x6.5", 
+                "weight_in_grams":0,
+                "max_stock":100,
+                "min_stock":1,
+                "status":"activo",
+                "sku_ean":"caja-charola-asa-redonda-kraft-26x36x6.5",
+                "sale_without_stock":true,
+                "price": 34,
+                "unit_key_id":1,
+                "product_service_key_id":1,
+                "inventories":[
+                    {
+                        "stock": 10,
+                        "unit_id": 1,
+                        "storage_id": 1
+                    }
+                ]
+            },
+            {
+                "description":"Caja de pizza kraft 30x30x5",
+                "code":"caja-de-pizza-kraft-30x30x5", 
+                "weight_in_grams":0,
+                "max_stock":100,
+                "min_stock":1,
+                "status":"activo",
+                "sku_ean":"caja-de-pizza-kraft-30x30x5",
+                "sale_without_stock":true,
+                "price": 16,
+                "unit_key_id":1,
+                "product_service_key_id":1,
+                "inventories":[
+                    {
+                        "stock": 10,
+                        "unit_id": 1,
+                        "storage_id": 1
+                    }
+                ]
+            },
+            {
+                "description":"Caja de pizza kraft 35x35x5",
+                "code":"caja-de-pizza-kraft-35x35x5", 
+                "weight_in_grams":0,
+                "max_stock":100,
+                "min_stock":1,
+                "status":"activo",
+                "sku_ean":"caja-de-pizza-kraft-35x35x5",
+                "sale_without_stock":true,
+                "price": 16,
+                "unit_key_id":1,
+                "product_service_key_id":1,
+                "inventories":[
+                    {
+                        "stock": 10,
+                        "unit_id": 1,
+                        "storage_id": 1
+                    }
+                ]
+            },
+            {
+                "description":"Caja maletin kraft 37x26x10",
+                "code":"caja-maletin-kraft-37x26x10", 
+                "weight_in_grams":0,
+                "max_stock":100,
+                "min_stock":1,
+                "status":"activo",
+                "sku_ean":"caja-maletin-kraft-37x26x10",
+                "sale_without_stock":true,
+                "price": 62,
+                "unit_key_id":1,
+                "product_service_key_id":1,
+                "inventories":[
+                    {
+                        "stock": 10,
+                        "unit_id": 1,
+                        "storage_id": 1
+                    }
+                ]
+            },
+            {
+                "description":"Caja bolso 37x26x10",
+                "code":"caja-bolso-37x26x10", 
+                "weight_in_grams":0,
+                "max_stock":100,
+                "min_stock":1,
+                "status":"activo",
+                "sku_ean":"caja-bolso-37x26x10",
+                "sale_without_stock":true,
+                "price": 55,
+                "unit_key_id":1,
+                "product_service_key_id":1,
+                "inventories":[
+                    {
+                        "stock": 10,
+                        "unit_id": 1,
+                        "storage_id": 1
+                    }
+                ]
+            },
+            {
+                "description":"Caja lunchbox 15x9x10 blanca",
+                "code":"caja-lunchbox-15x9x10-blanca", 
+                "weight_in_grams":0,
+                "max_stock":100,
+                "min_stock":1,
+                "status":"activo",
+                "sku_ean":"caja-lunchbox-15x9x10-blanca",
+                "sale_without_stock":true,
+                "price": 16,
+                "unit_key_id":1,
+                "product_service_key_id":1,
+                "inventories":[
+                    {
+                        "stock": 10,
+                        "unit_id": 1,
+                        "storage_id": 1
+                    }
+                ]
+            },
+            {
+                "description":"Caja lunchbox 15x9x10 kraft",
+                "code":"caja-lunchbox-15x9x10-kraft", 
+                "weight_in_grams":0,
+                "max_stock":100,
+                "min_stock":1,
+                "status":"activo",
+                "sku_ean":"caja-lunchbox-15x9x10-kraft",
+                "sale_without_stock":true,
+                "price": 16,
+                "unit_key_id":1,
+                "product_service_key_id":1,
+                "inventories":[
+                    {
+                        "stock": 10,
+                        "unit_id": 1,
+                        "storage_id": 1
+                    }
+                ]
+            },
+            {
+                "description":"Caja lunchbox 18x12x12 blanca",
+                "code":"caja-lunchbox-18x12x12-blanca", 
+                "weight_in_grams":0,
+                "max_stock":100,
+                "min_stock":1,
+                "status":"activo",
+                "sku_ean":"caja-lunchbox-18x12x12-blanca",
+                "sale_without_stock":true,
+                "price": 21,
+                "unit_key_id":1,
+                "product_service_key_id":1,
+                "inventories":[
+                    {
+                        "stock": 10,
+                        "unit_id": 1,
+                        "storage_id": 1
+                    }
+                ]
+            },
+            {
+                "description":"Caja lunchbox 18x12x12 kraft",
+                "code":"caja-lunchbox-18x12x12-kraft", 
+                "weight_in_grams":0,
+                "max_stock":100,
+                "min_stock":1,
+                "status":"activo",
+                "sku_ean":"caja-lunchbox-18x12x12-kraft",
+                "sale_without_stock":true,
+                "price": 21,
+                "unit_key_id":1,
+                "product_service_key_id":1,
+                "inventories":[
+                    {
+                        "stock": 10,
+                        "unit_id": 1,
+                        "storage_id": 1
+                    }
+                ]
+            },
+            {
+                "description":"Caja lunchbox 23x15x15 blanca",
+                "code":"caja-lunchbox-23x15x15-blanca", 
+                "weight_in_grams":0,
+                "max_stock":100,
+                "min_stock":1,
+                "status":"activo",
+                "sku_ean":"caja-lunchbox-23x15x15-blanca",
+                "sale_without_stock":true,
+                "price": 43,
+                "unit_key_id":1,
+                "product_service_key_id":1,
+                "inventories":[
+                    {
+                        "stock": 10,
+                        "unit_id": 1,
+                        "storage_id": 1
+                    }
+                ]
+            },
+            {
+                "description":"Caja lunchbox 23x15x15 kraft",
+                "code":"caja-lunchbox-23x15x15-kraft", 
+                "weight_in_grams":0,
+                "max_stock":100,
+                "min_stock":1,
+                "status":"activo",
+                "sku_ean":"caja-lunchbox-23x15x15-kraft",
+                "sale_without_stock":true,
+                "price": 33,
+                "unit_key_id":1,
+                "product_service_key_id":1,
+                "inventories":[
+                    {
+                        "stock": 10,
+                        "unit_id": 1,
+                        "storage_id": 1
+                    }
+                ]
+            },
+            {
+                "description":"Caja lunchbox 30x20x20 blanca",
+                "code":"caja-lunchbox-30x20x20-blanca", 
+                "weight_in_grams":0,
+                "max_stock":100,
+                "min_stock":1,
+                "status":"activo",
+                "sku_ean":"caja-lunchbox-30x20x20-blanca",
+                "sale_without_stock":true,
+                "price": 73,
+                "unit_key_id":1,
+                "product_service_key_id":1,
+                "inventories":[
+                    {
+                        "stock": 10,
+                        "unit_id": 1,
+                        "storage_id": 1
+                    }
+                ]
+            },
+            {
+                "description":"Caja lunchbox 15x9x10 kraft",
+                "code":"caja-lunchbox-30x20x20-kraft", 
+                "weight_in_grams":0,
+                "max_stock":100,
+                "min_stock":1,
+                "status":"activo",
+                "sku_ean":"caja-lunchbox-30x20x20-kraft",
+                "sale_without_stock":true,
+                "price": 54,
+                "unit_key_id":1,
+                "product_service_key_id":1,
+                "inventories":[
+                    {
+                        "stock": 10,
+                        "unit_id": 1,
+                        "storage_id": 1
+                    }
+                ]
+            },
+            {
+                "description":"Caja lunchbox corta kraft 18x9x15",
+                "code":"caja-lunchbox-corta-kraft-18x9x15", 
+                "weight_in_grams":0,
+                "max_stock":100,
+                "min_stock":1,
+                "status":"activo",
+                "sku_ean":"caja-lunchbox-corta-kraft-18x9x15",
+                "sale_without_stock":true,
+                "price": 26,
+                "unit_key_id":1,
+                "product_service_key_id":1,
+                "inventories":[
+                    {
+                        "stock": 10,
+                        "unit_id": 1,
+                        "storage_id": 1
+                    }
+                ]
+            },
+            {
+                "description":"Caja lunchbox corta kraft 18x18x7",
+                "code":"caja-lunchbox-corta-kraft-18x18x7", 
+                "weight_in_grams":0,
+                "max_stock":100,
+                "min_stock":1,
+                "status":"activo",
+                "sku_ean":"caja-lunchbox-corta-kraft-18x18x7",
+                "sale_without_stock":true,
+                "price": 32,
+                "unit_key_id":1,
+                "product_service_key_id":1,
+                "inventories":[
+                    {
+                        "stock": 10,
+                        "unit_id": 1,
+                        "storage_id": 1
+                    }
+                ]
+            },
+            {
+                "description":"Caja lunchbox corta negra 14x11x11",
+                "code":"caja-lunchbox-corta-negra-14x11x11", 
+                "weight_in_grams":0,
+                "max_stock":100,
+                "min_stock":1,
+                "status":"activo",
+                "sku_ean":"caja-lunchbox-corta-negra-14x11x11",
+                "sale_without_stock":true,
+                "price": 29,
+                "unit_key_id":1,
+                "product_service_key_id":1,
+                "inventories":[
+                    {
+                        "stock": 10,
+                        "unit_id": 1,
+                        "storage_id": 1
+                    }
+                ]
+            },
+            {
+                "description":"Caja lunchbox corta negra 18x9x15",
+                "code":"caja-lunchbox-corta-negra-18x9x15", 
+                "weight_in_grams":0,
+                "max_stock":100,
+                "min_stock":1,
+                "status":"activo",
+                "sku_ean":"caja-lunchbox-corta-negra-18x9x15",
+                "sale_without_stock":true,
+                "price": 32,
+                "unit_key_id":1,
+                "product_service_key_id":1,
+                "inventories":[
+                    {
+                        "stock": 10,
+                        "unit_id": 1,
+                        "storage_id": 1
+                    }
+                ]
+            },
+            {
+                "description":"Caja lunchbox corta negra 18x17x17",
+                "code":"caja-lunchbox-corta-negra-18x17x17", 
+                "weight_in_grams":0,
+                "max_stock":100,
+                "min_stock":1,
+                "status":"activo",
+                "sku_ean":"caja-lunchbox-corta-negra-18x17x17",
+                "sale_without_stock":true,
+                "price": 44,
+                "unit_key_id":1,
+                "product_service_key_id":1,
+                "inventories":[
+                    {
+                        "stock": 10,
+                        "unit_id": 1,
+                        "storage_id": 1
+                    }
+                ]
+            },
+            {
+                "description":"Caja lunchbox 15x9x10 transparente",
+                "code":"caja-lunchbox-15x9x10-transparente", 
+                "weight_in_grams":0,
+                "max_stock":100,
+                "min_stock":1,
+                "status":"activo",
+                "sku_ean":"caja-lunchbox-15x9x10-transparente",
+                "sale_without_stock":true,
+                "price": 27,
+                "unit_key_id":1,
+                "product_service_key_id":1,
+                "inventories":[
+                    {
+                        "stock": 10,
+                        "unit_id": 1,
+                        "storage_id": 1
+                    }
+                ]
+            },
+            {
+                "description":"Caja lunchbox 11x7x7 transparente",
+                "code":"caja-lunchbox-11x7x7-transparente", 
+                "weight_in_grams":0,
+                "max_stock":100,
+                "min_stock":1,
+                "status":"activo",
+                "sku_ean":"caja-lunchbox-11x7x7-transparente",
+                "sale_without_stock":true,
+                "price": 23,
+                "unit_key_id":1,
+                "product_service_key_id":1,
+                "inventories":[
+                    {
+                        "stock": 10,
+                        "unit_id": 1,
+                        "storage_id": 1
+                    }
+                ]
+            },
+            {
+                "description":"Caja lunchbox 15x9x10 dorado",
+                "code":"caja-lunchbox-15x9x10-dorado", 
+                "weight_in_grams":0,
+                "max_stock":100,
+                "min_stock":1,
+                "status":"activo",
+                "sku_ean":"caja-lunchbox-15x9x10-dorado",
+                "sale_without_stock":true,
+                "price": 27,
+                "unit_key_id":1,
+                "product_service_key_id":1,
+                "inventories":[
+                    {
+                        "stock": 10,
+                        "unit_id": 1,
+                        "storage_id": 1
+                    }
+                ]
+            },
+            {
+                "description":"Caja lunchbox 11x7x7 dorado",
+                "code":"caja-lunchbox-11x7x7-dorado", 
+                "weight_in_grams":0,
+                "max_stock":100,
+                "min_stock":1,
+                "status":"activo",
+                "sku_ean":"caja-lunchbox-11x7x7-dorado",
+                "sale_without_stock":true,
+                "price": 23,
+                "unit_key_id":1,
+                "product_service_key_id":1,
+                "inventories":[
+                    {
+                        "stock": 10,
+                        "unit_id": 1,
+                        "storage_id": 1
+                    }
+                ]
+            },
+            {
+                "description":"Caja lunchbox 11x7x7 plata",
+                "code":"caja-lunchbox-11x7x7-plata", 
+                "weight_in_grams":0,
+                "max_stock":100,
+                "min_stock":1,
+                "status":"activo",
+                "sku_ean":"caja-lunchbox-11x7x7-plata",
+                "sale_without_stock":true,
+                "price": 27,
+                "unit_key_id":1,
+                "product_service_key_id":1,
+                "inventories":[
+                    {
+                        "stock": 10,
+                        "unit_id": 1,
+                        "storage_id": 1
+                    }
+                ]
+            },
+            {
+                "description":"Caja lunchbox 15x9x10 plata",
+                "code":"caja-lunchbox-15x9x10-plata", 
+                "weight_in_grams":0,
+                "max_stock":100,
+                "min_stock":1,
+                "status":"activo",
+                "sku_ean":"caja-lunchbox-15x9x10-plata",
+                "sale_without_stock":true,
+                "price": 23,
+                "unit_key_id":1,
+                "product_service_key_id":1,
+                "inventories":[
+                    {
+                        "stock": 10,
+                        "unit_id": 1,
+                        "storage_id": 1
+                    }
+                ]
+            },
+            {
+                "description":"Cubo 5x5x5 transparente",
+                "code":"cubo-5x5x5-transparente", 
+                "weight_in_grams":0,
+                "max_stock":100,
+                "min_stock":1,
+                "status":"activo",
+                "sku_ean":"cubo-5x5x5-transparente",
+                "sale_without_stock":true,
+                "price": 8,
+                "unit_key_id":1,
+                "product_service_key_id":1,
+                "inventories":[
+                    {
+                        "stock": 10,
+                        "unit_id": 1,
+                        "storage_id": 1
+                    }
+                ]
+            },
+            {
+                "description":"Cubo 8x8x8 dorado",
+                "code":"cubo-8x8x8-dorado", 
+                "weight_in_grams":0,
+                "max_stock":100,
+                "min_stock":1,
+                "status":"activo",
+                "sku_ean":"cubo-8x8x8-dorado",
+                "sale_without_stock":true,
+                "price": 8,
+                "unit_key_id":1,
+                "product_service_key_id":1,
+                "inventories":[
+                    {
+                        "stock": 10,
+                        "unit_id": 1,
+                        "storage_id": 1
+                    }
+                ]
+            },
+            {
+                "description":"Cubo 8x8x8 transparente",
+                "code":"cubo-8x8x8-transparente", 
+                "weight_in_grams":0,
+                "max_stock":100,
+                "min_stock":1,
+                "status":"activo",
+                "sku_ean":"cubo-8x8x8-transparente",
+                "sale_without_stock":true,
+                "price": 20,
+                "unit_key_id":1,
+                "product_service_key_id":1,
+                "inventories":[
+                    {
+                        "stock": 10,
+                        "unit_id": 1,
+                        "storage_id": 1
+                    }
+                ]
+            },
+            {
+                "description":"Cubo 10x10x10 transparente",
+                "code":"cubo-10x10x10-transparente", 
+                "weight_in_grams":0,
+                "max_stock":100,
+                "min_stock":1,
+                "status":"activo",
+                "sku_ean":"cubo-10x10x10-transparente",
+                "sale_without_stock":true,
+                "price": 20,
+                "unit_key_id":1,
+                "product_service_key_id":1,
+                "inventories":[
+                    {
+                        "stock": 10,
+                        "unit_id": 1,
+                        "storage_id": 1
+                    }
+                ]
+            },
+            {
+                "description":"Bouquet kraft 35x14",
+                "code":"bouquet-kraft-35x14", 
+                "weight_in_grams":0,
+                "max_stock":100,
+                "min_stock":1,
+                "status":"activo",
+                "sku_ean":"bouquet-kraft-35x14",
+                "sale_without_stock":true,
+                "price": 28,
+                "unit_key_id":1,
+                "product_service_key_id":1,
+                "inventories":[
+                    {
+                        "stock": 10,
+                        "unit_id": 1,
+                        "storage_id": 1
+                    }
+                ]
+            },
+            {
+                "description":"Bouquet kraft 20x5x23",
+                "code":"bouquet-kraft-20x5x23", 
+                "weight_in_grams":0,
+                "max_stock":100,
+                "min_stock":1,
+                "status":"activo",
+                "sku_ean":"bouquet-kraft-20x5x23",
+                "sale_without_stock":true,
+                "price": 7,
+                "unit_key_id":1,
+                "product_service_key_id":1,
+                "inventories":[
+                    {
+                        "stock": 10,
+                        "unit_id": 1,
+                        "storage_id": 1
+                    }
+                ]
+            },
+            {
+                "description":"Bouquet blanco 20x5x23",
+                "code":"bouquet-blanco-20x5x23", 
+                "weight_in_grams":0,
+                "max_stock":100,
+                "min_stock":1,
+                "status":"activo",
+                "sku_ean":"bouquet-blanco-20x5x23",
+                "sale_without_stock":true,
+                "price": 7,
+                "unit_key_id":1,
+                "product_service_key_id":1,
+                "inventories":[
+                    {
+                        "stock": 10,
+                        "unit_id": 1,
+                        "storage_id": 1
+                    }
+                ]
+            },
+            {
+                "description":"Caja sobre kraft 23x10x11",
+                "code":"caja-sobre-kraft-23x10x11", 
+                "weight_in_grams":0,
+                "max_stock":100,
+                "min_stock":1,
+                "status":"activo",
+                "sku_ean":"caja-sobre-kraft-23x10x11",
+                "sale_without_stock":true,
+                "price": 35,
+                "unit_key_id":1,
+                "product_service_key_id":1,
+                "inventories":[
+                    {
+                        "stock": 10,
+                        "unit_id": 1,
+                        "storage_id": 1
+                    }
+                ]
+            },
+            {
+                "description":"Caja mailbox kraft 27x22x6 (relf 1) desayuno",
+                "code":"caja-mailbox-kraft-27x22x6-(relf-1)-desayuno", 
+                "weight_in_grams":0,
+                "max_stock":100,
+                "min_stock":1,
+                "status":"activo",
+                "sku_ean":"caja-mailbox-kraft-27x22x6-(relf-1)-desayuno",
+                "sale_without_stock":true,
+                "price": 42,
+                "unit_key_id":1,
+                "product_service_key_id":1,
+                "inventories":[
+                    {
+                        "stock": 10,
+                        "unit_id": 1,
+                        "storage_id": 1
+                    }
+                ]
+            },
+            {
+                "description":"Caja mailbox kraft 14x14x12 (relf 2)",
+                "code":"caja-mailbox-kraft-14x14x12-(relf-2)", 
+                "weight_in_grams":0,
+                "max_stock":100,
+                "min_stock":1,
+                "status":"activo",
+                "sku_ean":"caja-mailbox-kraft-14x14x12-(relf-2)",
+                "sale_without_stock":true,
+                "price": 44,
+                "unit_key_id":1,
+                "product_service_key_id":1,
+                "inventories":[
+                    {
+                        "stock": 10,
+                        "unit_id": 1,
+                        "storage_id": 1
+                    }
+                ]
+            },
+            {
+                "description":"Caja mailbox kraft 37x25x.5x10",
+                "code":"caja-mailbox-kraft-37x25x.5x10", 
+                "weight_in_grams":0,
+                "max_stock":100,
+                "min_stock":1,
+                "status":"activo",
+                "sku_ean":"caja-mailbox-kraft-37x25x.5x10",
+                "sale_without_stock":true,
+                "price": 62,
+                "unit_key_id":1,
+                "product_service_key_id":1,
+                "inventories":[
+                    {
+                        "stock": 10,
+                        "unit_id": 1,
+                        "storage_id": 1
+                    }
+                ]
+            },
+            {
+                "description":"Caja mailbox kraft 35x25x10 (relf 3)",
+                "code":"caja-mailbox-kraft-35x25x10-(relf-3)", 
+                "weight_in_grams":0,
+                "max_stock":100,
+                "min_stock":1,
+                "status":"activo",
+                "sku_ean":"caja-mailbox-kraft-35x25x10-(relf-3)",
+                "sale_without_stock":true,
+                "price": 62,
+                "unit_key_id":1,
+                "product_service_key_id":1,
+                "inventories":[
+                    {
+                        "stock": 10,
+                        "unit_id": 1,
+                        "storage_id": 1
+                    }
+                ]
+            },
+            {
+                "description":"Caja mailbox kraft 15x29x6 (relf 4)",
+                "code":"caja-mailbox-kraft-15x29x6-(relf-4)", 
+                "weight_in_grams":0,
+                "max_stock":100,
+                "min_stock":1,
+                "status":"activo",
+                "sku_ean":"caja-mailbox-kraft-15x29x6-(relf-4)",
+                "sale_without_stock":true,
+                "price": 22,
+                "unit_key_id":1,
+                "product_service_key_id":1,
+                "inventories":[
+                    {
+                        "stock": 10,
+                        "unit_id": 1,
+                        "storage_id": 1
+                    }
+                ]
+            },
+            {
+                "description":"Caja mailbox kraft 19x11x19 (relf 5)",
+                "code":"caja-mailbox-kraft-19x11x19-(relf-5)", 
+                "weight_in_grams":0,
+                "max_stock":100,
+                "min_stock":1,
+                "status":"activo",
+                "sku_ean":"caja-mailbox-kraft-19x11x19-(relf-5)",
+                "sale_without_stock":true,
+                "price": 19,
+                "unit_key_id":1,
+                "product_service_key_id":1,
+                "inventories":[
+                    {
+                        "stock": 10,
+                        "unit_id": 1,
+                        "storage_id": 1
+                    }
+                ]
+            },
+            {
+                "description":"Caja mailbox kraft 28x6x8 (relf 6)",
+                "code":"caja-mailbox-kraft-28x6x8-(relf-6)", 
+                "weight_in_grams":0,
+                "max_stock":100,
+                "min_stock":1,
+                "status":"activo",
+                "sku_ean":"caja-mailbox-kraft-28x6x8-(relf-6)",
+                "sale_without_stock":true,
+                "price": 16,
+                "unit_key_id":1,
+                "product_service_key_id":1,
+                "inventories":[
+                    {
+                        "stock": 10,
+                        "unit_id": 1,
+                        "storage_id": 1
+                    }
+                ]
+            },
+            {
+                "description":"Caja mailbox kraft 17x15x5 (relf 7)",
+                "code":"caja-mailbox-kraft-17x15x5-(relf-7)", 
+                "weight_in_grams":0,
+                "max_stock":100,
+                "min_stock":1,
+                "status":"activo",
+                "sku_ean":"caja-mailbox-kraft-17x15x5-(relf-7)",
+                "sale_without_stock":true,
+                "price": 21,
+                "unit_key_id":1,
+                "product_service_key_id":1,
+                "inventories":[
+                    {
+                        "stock": 10,
+                        "unit_id": 1,
+                        "storage_id": 1
+                    }
+                ]
+            },
+            {
+                "description":"Caja mailbox kraft 39x24x6 (relf 8)",
+                "code":"caja-mailbox-kraft-39x24x6-(relf-8)", 
+                "weight_in_grams":0,
+                "max_stock":100,
+                "min_stock":1,
+                "status":"activo",
+                "sku_ean":"caja-mailbox-kraft-39x24x6-(relf-8)",
+                "sale_without_stock":true,
+                "price": 45,
+                "unit_key_id":1,
+                "product_service_key_id":1,
+                "inventories":[
+                    {
+                        "stock": 10,
+                        "unit_id": 1,
+                        "storage_id": 1
+                    }
+                ]
+            },
+            {
+                "description":"Caja mailbox kraft 25x27x8 (relf 11)",
+                "code":"caja-mailbox-kraft-25x27x8-(relf-11)", 
+                "weight_in_grams":0,
+                "max_stock":100,
+                "min_stock":1,
+                "status":"activo",
+                "sku_ean":"caja-mailbox-kraft-25x27x8-(relf-11)",
+                "sale_without_stock":true,
+                "price": 42,
+                "unit_key_id":1,
+                "product_service_key_id":1,
+                "inventories":[
+                    {
+                        "stock": 10,
+                        "unit_id": 1,
+                        "storage_id": 1
+                    }
+                ]
+            },
+            {
+                "description":"Caja mailbox kraft 14x14x12 (relf 12)",
+                "code":"caja-mailbox-kraft-14x14x12-(relf-12)", 
+                "weight_in_grams":0,
+                "max_stock":100,
+                "min_stock":1,
+                "status":"activo",
+                "sku_ean":"caja-mailbox-kraft-14x14x12-(relf-12)",
+                "sale_without_stock":true,
+                "price": 21,
+                "unit_key_id":1,
+                "product_service_key_id":1,
+                "inventories":[
+                    {
+                        "stock": 10,
+                        "unit_id": 1,
+                        "storage_id": 1
+                    }
+                ]
+            },
+            {
+                "description":"Caja mailbox kraft 26x26x7 negra",
+                "code":"caja-mailbox-kraft-26x26x7-negra", 
+                "weight_in_grams":0,
+                "max_stock":100,
+                "min_stock":1,
+                "status":"activo",
+                "sku_ean":"caja-mailbox-kraft-26x26x7-negra",
+                "sale_without_stock":true,
+                "price": 49,
+                "unit_key_id":1,
+                "product_service_key_id":1,
+                "inventories":[
+                    {
+                        "stock": 10,
+                        "unit_id": 1,
+                        "storage_id": 1
+                    }
+                ]
+            },
+            {
+                "description":"Caja mailbox kraft 40x32x8 negra",
+                "code":"caja-mailbox-kraft-40x32x8-negra", 
+                "weight_in_grams":0,
+                "max_stock":100,
+                "min_stock":1,
+                "status":"activo",
+                "sku_ean":"caja-mailbox-kraft-40x32x8-negra",
+                "sale_without_stock":true,
+                "price": 78,
+                "unit_key_id":1,
+                "product_service_key_id":1,
+                "inventories":[
+                    {
+                        "stock": 10,
+                        "unit_id": 1,
+                        "storage_id": 1
+                    }
+                ]
+            },
+            {
+                "description":"Caja para 6 cupcake kraft 24x16x8",
+                "code":"caja-para-6-cupcake-kraft-24x16x8", 
+                "weight_in_grams":0,
+                "max_stock":100,
+                "min_stock":1,
+                "status":"activo",
+                "sku_ean":"caja-para-6-cupcake-kraft-24x16x8",
+                "sale_without_stock":true,
+                "price": 29,
+                "unit_key_id":1,
+                "product_service_key_id":1,
+                "inventories":[
+                    {
+                        "stock": 10,
+                        "unit_id": 1,
+                        "storage_id": 1
+                    }
+                ]
+            },
+            {
+                "description":"Caja para 1 cupcake kraft 8x8x8",
+                "code":"caja-para-1-cupcake-kraft-8x8x8", 
+                "weight_in_grams":0,
+                "max_stock":100,
+                "min_stock":1,
+                "status":"activo",
+                "sku_ean":"caja-para-1-cupcake-kraft-8x8x8",
+                "sale_without_stock":true,
+                "price": 20,
+                "unit_key_id":1,
+                "product_service_key_id":1,
+                "inventories":[
+                    {
+                        "stock": 10,
+                        "unit_id": 1,
+                        "storage_id": 1
+                    }
+                ]
+            },
+            {
+                "description":"Caja lunchbox para 1 cupcake 8x8x8 dorada",
+                "code":"caja-lunchbox-para-1-cupcake-8x8x8-dorada", 
+                "weight_in_grams":0,
+                "max_stock":100,
+                "min_stock":1,
+                "status":"activo",
+                "sku_ean":"caja-lunchbox-para-1-cupcake-8x8x8-dorada",
+                "sale_without_stock":true,
+                "price": 25,
+                "unit_key_id":1,
+                "product_service_key_id":1,
+                "inventories":[
+                    {
+                        "stock": 10,
+                        "unit_id": 1,
+                        "storage_id": 1
+                    }
+                ]
+            },
+            {
+                "description":"Caja lunchbox para 2 cupcake kraft con ventana 16x8x8",
+                "code":"caja-lunchbox-para-2-cupcake-kraft-con-ventana-16x8x8", 
+                "weight_in_grams":0,
+                "max_stock":100,
+                "min_stock":1,
+                "status":"activo",
+                "sku_ean":"caja-lunchbox-para-2-cupcake-kraft-con-ventana-16x8x8",
+                "sale_without_stock":true,
+                "price": 24,
+                "unit_key_id":1,
+                "product_service_key_id":1,
+                "inventories":[
+                    {
+                        "stock": 10,
+                        "unit_id": 1,
+                        "storage_id": 1
+                    }
+                ]
+            },
+            {
+                "description":"Caja lunchbox para 2 cupcake blanca con ventana 16x8x8",
+                "code":"caja-lunchbox-para-2-cupcake-blanca-con-ventana-16x8x8", 
+                "weight_in_grams":0,
+                "max_stock":100,
+                "min_stock":1,
+                "status":"activo",
+                "sku_ean":"caja-lunchbox-para-2-cupcake-blanca-con-ventana-16x8x8",
+                "sale_without_stock":true,
+                "price": 24,
+                "unit_key_id":1,
+                "product_service_key_id":1,
+                "inventories":[
+                    {
+                        "stock": 10,
+                        "unit_id": 1,
+                        "storage_id": 1
+                    }
+                ]
+            },
+            {
+                "description":"Caja lunchbox para 4 cupcake kraft con ventana 16x16x8",
+                "code":"caja-lunchbox-para-4-cupcake-kraft-con-ventana-16x16x8", 
+                "weight_in_grams":0,
+                "max_stock":100,
+                "min_stock":1,
+                "status":"activo",
+                "sku_ean":"caja-lunchbox-para-4-cupcake-kraft-con-ventana-16x16x8",
+                "sale_without_stock":true,
+                "price": 42,
+                "unit_key_id":1,
+                "product_service_key_id":1,
+                "inventories":[
+                    {
+                        "stock": 10,
+                        "unit_id": 1,
+                        "storage_id": 1
+                    }
+                ]
+            },
+            {
+                "description":"Caja lunchbox para 4 cupcake blanca con ventana 16x16x8",
+                "code":"caja-lunchbox-para-4-cupcake-blanca-con-ventana-16x16x8", 
+                "weight_in_grams":0,
+                "max_stock":100,
+                "min_stock":1,
+                "status":"activo",
+                "sku_ean":"caja-lunchbox-para-4-cupcake-blanca-con-ventana-16x16x8",
+                "sale_without_stock":true,
+                "price": 42,
+                "unit_key_id":1,
+                "product_service_key_id":1,
+                "inventories":[
+                    {
+                        "stock": 10,
+                        "unit_id": 1,
+                        "storage_id": 1
+                    }
+                ]
+            },
+            {
+                "description":"Caja lunchbox para 6 cupcake kraft con ventana 24x16x10",
+                "code":"caja-lunchbox-para-6-cupcake-kraft-con-ventana-24x16x10", 
+                "weight_in_grams":0,
+                "max_stock":100,
+                "min_stock":1,
+                "status":"activo",
+                "sku_ean":"caja-lunchbox-para-6-cupcake-kraft-con-ventana-24x16x10",
+                "sale_without_stock":true,
+                "price": 44,
+                "unit_key_id":1,
+                "product_service_key_id":1,
+                "inventories":[
+                    {
+                        "stock": 10,
+                        "unit_id": 1,
+                        "storage_id": 1
+                    }
+                ]
+            },
+            {
+                "description":"Caja lunchbox para 6 cupcake blanca con ventana 16x16x8",
+                "code":"caja-lunchbox-para-6-cupcake-blanca-con-ventana-16x16x8", 
+                "weight_in_grams":0,
+                "max_stock":100,
+                "min_stock":1,
+                "status":"activo",
+                "sku_ean":"caja-lunchbox-para-6-cupcake-blanca-con-ventana-16x16x8",
+                "sale_without_stock":true,
+                "price": 44,
+                "unit_key_id":1,
+                "product_service_key_id":1,
+                "inventories":[
+                    {
+                        "stock": 10,
+                        "unit_id": 1,
+                        "storage_id": 1
+                    }
+                ]
+            },
+            {
+                "description":"Caja de cupcake tapa de acetato 10x8x8",
+                "code":"caja-cupcake-tapa-de-acetato-10x8x8", 
+                "weight_in_grams":0,
+                "max_stock":100,
+                "min_stock":1,
+                "status":"activo",
+                "sku_ean":"caja-cupcake-tapa-de-acetato-10x8x8",
+                "sale_without_stock":true,
+                "price": 23,
+                "unit_key_id":1,
+                "product_service_key_id":1,
+                "inventories":[
+                    {
+                        "stock": 10,
+                        "unit_id": 1,
+                        "storage_id": 1
+                    }
+                ]
+            },
+            {
+                "description":"Caja de cupcake tapa de acetato 16x16x10",
+                "code":"caja-cupcake-tapa-de-acetato-16x16x10", 
+                "weight_in_grams":0,
+                "max_stock":100,
+                "min_stock":1,
+                "status":"activo",
+                "sku_ean":"caja-cupcake-tapa-de-acetato-16x16x10",
+                "sale_without_stock":true,
+                "price": 50,
+                "unit_key_id":1,
+                "product_service_key_id":1,
+                "inventories":[
+                    {
+                        "stock": 10,
+                        "unit_id": 1,
+                        "storage_id": 1
+                    }
+                ]
+            },
+            {
+                "description":"Caja de cupcake tapa de acetato 24x16x10",
+                "code":"caja-cupcake-tapa-de-acetato-24x16x10", 
+                "weight_in_grams":0,
+                "max_stock":100,
+                "min_stock":1,
+                "status":"activo",
+                "sku_ean":"caja-cupcake-tapa-de-acetato-24x16x10",
+                "sale_without_stock":true,
+                "price": 63,
+                "unit_key_id":1,
+                "product_service_key_id":1,
+                "inventories":[
+                    {
+                        "stock": 10,
+                        "unit_id": 1,
+                        "storage_id": 1
+                    }
+                ]
+            },
+            {
+                "description":"Caja para botella rojo 12x12x33",
+                "code":"caja-para-botella-rojo-12x12x33", 
+                "weight_in_grams":0,
+                "max_stock":100,
+                "min_stock":1,
+                "status":"activo",
+                "sku_ean":"caja-para-botella-rojo-12x12x33",
+                "sale_without_stock":true,
+                "price": 59,
+                "unit_key_id":1,
+                "product_service_key_id":1,
+                "inventories":[
+                    {
+                        "stock": 10,
+                        "unit_id": 1,
+                        "storage_id": 1
+                    }
+                ]
+            },
+            {
+                "description":"Caja para botella negra 12x12x34",
+                "code":"caja-para-botella-negra-12x12x34", 
+                "weight_in_grams":0,
+                "max_stock":100,
+                "min_stock":1,
+                "status":"activo",
+                "sku_ean":"caja-para-botella-negra-12x12x34",
+                "sale_without_stock":true,
+                "price": 59,
+                "unit_key_id":1,
+                "product_service_key_id":1,
+                "inventories":[
+                    {
+                        "stock": 10,
+                        "unit_id": 1,
+                        "storage_id": 1
+                    }
+                ]
+            },
+            {
+                "description":"Caja botella vertical karft 12x12x35",
+                "code":"caja-botella-vertical-karft-12x12x35", 
+                "weight_in_grams":0,
+                "max_stock":100,
+                "min_stock":1,
+                "status":"activo",
+                "sku_ean":"caja-botella-vertical-karft-12x12x35",
+                "sale_without_stock":true,
+                "price": 36,
+                "unit_key_id":1,
+                "product_service_key_id":1,
+                "inventories":[
+                    {
+                        "stock": 10,
+                        "unit_id": 1,
+                        "storage_id": 1
+                    }
+                ]
+            },
+            {
+                "description":"Caja botella horizontal karft 36x12x12",
+                "code":"caja-botella-horizontal-karft-36x12x12", 
+                "weight_in_grams":0,
+                "max_stock":100,
+                "min_stock":1,
+                "status":"activo",
+                "sku_ean":"caja-botella-horizontal-karft-36x12x12",
+                "sale_without_stock":true,
+                "price": 40,
+                "unit_key_id":1,
+                "product_service_key_id":1,
+                "inventories":[
+                    {
+                        "stock": 10,
+                        "unit_id": 1,
+                        "storage_id": 1
+                    }
+                ]
+            },
+            {
+                "description":"Caja botella 1 cavidad karft 9x9x32",
+                "code":"caja-botella-1-cavidad-karft-9x9x32", 
+                "weight_in_grams":0,
+                "max_stock":100,
+                "min_stock":1,
+                "status":"activo",
+                "sku_ean":"caja-botella-1-cavidad-karft-9x9x32",
+                "sale_without_stock":true,
+                "price": 21,
+                "unit_key_id":1,
+                "product_service_key_id":1,
+                "inventories":[
+                    {
+                        "stock": 10,
+                        "unit_id": 1,
+                        "storage_id": 1
+                    }
+                ]
+            },
+            {
+                "description":"Caja botella 2 cavidades karft 13x6x25",
+                "code":"caja-botella-2-cavidades-karft-13x6x25", 
+                "weight_in_grams":0,
+                "max_stock":100,
+                "min_stock":1,
+                "status":"activo",
+                "sku_ean":"caja-botella-2-cavidades-karft-13x6x25",
+                "sale_without_stock":true,
+                "price": 21,
+                "unit_key_id":1,
+                "product_service_key_id":1,
+                "inventories":[
+                    {
+                        "stock": 10,
+                        "unit_id": 1,
+                        "storage_id": 1
+                    }
+                ]
+            },
+            {
+                "description":"Caja botella 2 cavidades karft 12x12x25",
+                "code":"caja-botella-2-cavidades-karft-12x12x25", 
+                "weight_in_grams":0,
+                "max_stock":100,
+                "min_stock":1,
+                "status":"activo",
+                "sku_ean":"caja-botella-2-cavidades-karft-12x12x25",
+                "sale_without_stock":true,
+                "price": 27,
+                "unit_key_id":1,
+                "product_service_key_id":1,
+                "inventories":[
+                    {
+                        "stock": 10,
+                        "unit_id": 1,
+                        "storage_id": 1
+                    }
+                ]
+            },
+            {
+                "description":"Caja botella 2 cavidades karft 19x9x33",
+                "code":"caja-botella-2-cavidades-karft-19x9x33", 
+                "weight_in_grams":0,
+                "max_stock":100,
+                "min_stock":1,
+                "status":"activo",
+                "sku_ean":"caja-botella-2-cavidades-karft-19x9x33",
+                "sale_without_stock":true,
+                "price": 31,
+                "unit_key_id":1,
+                "product_service_key_id":1,
+                "inventories":[
+                    {
+                        "stock": 10,
+                        "unit_id": 1,
+                        "storage_id": 1
+                    }
+                ]
+            },
+            {
+                "description":"Caja botella 3 cavidades karft 19x7x25",
+                "code":"caja-botella-1-cavidades-karft-19x7x25", 
+                "weight_in_grams":0,
+                "max_stock":100,
+                "min_stock":1,
+                "status":"activo",
+                "sku_ean":"caja-botella-3-cavidades-karft-19x7x25",
+                "sale_without_stock":true,
+                "price": 25,
+                "unit_key_id":1,
+                "product_service_key_id":1,
+                "inventories":[
+                    {
+                        "stock": 10,
+                        "unit_id": 1,
+                        "storage_id": 1
+                    }
+                ]
+            },
+            {
+                "description":"Caja botella 3 cavidades karft 19x13x25",
+                "code":"caja-botella-3-cavidades-karft-19x13x25", 
+                "weight_in_grams":0,
+                "max_stock":100,
+                "min_stock":1,
+                "status":"activo",
+                "sku_ean":"caja-botella-3-cavidades-karft-19x13x25",
+                "sale_without_stock":true,
+                "price": 27,
+                "unit_key_id":1,
+                "product_service_key_id":1,
+                "inventories":[
+                    {
+                        "stock": 10,
+                        "unit_id": 1,
+                        "storage_id": 1
+                    }
+                ]
+            },
+            {
+                "description":"Caja cervezas 4 pack kraft 13.5x13.5x26",
+                "code":"caja-cerveza-4-pack-karft-13.5x13.5x26", 
+                "weight_in_grams":0,
+                "max_stock":100,
+                "min_stock":1,
+                "status":"activo",
+                "sku_ean":"caja-cerveza-4-pack-karft-13.5x13.5x26",
+                "sale_without_stock":true,
+                "price": 29,
+                "unit_key_id":1,
+                "product_service_key_id":1,
+                "inventories":[
+                    {
+                        "stock": 10,
+                        "unit_id": 1,
+                        "storage_id": 1
+                    }
+                ]
+            },
+            {
+                "description":"Caja cervezas 6 pack kraft 19.5x13.5x24",
+                "code":"caja-cerveza-6-pack-karft-19.5x13.5x24", 
+                "weight_in_grams":0,
+                "max_stock":100,
+                "min_stock":1,
+                "status":"activo",
+                "sku_ean":"caja-cerveza-6-pack-karft-19.5x13.5x24",
+                "sale_without_stock":true,
+                "price": 35,
+                "unit_key_id":1,
+                "product_service_key_id":1,
+                "inventories":[
+                    {
+                        "stock": 10,
+                        "unit_id": 1,
+                        "storage_id": 1
+                    }
+                ]
+            },
+            {
+                "description":"Caja almohadita kraft 8x15",
+                "code":"caja-almohadita-karft-8x15", 
+                "weight_in_grams":0,
+                "max_stock":100,
+                "min_stock":1,
+                "status":"activo",
+                "sku_ean":"caja-almohadita-karft-8x15",
+                "sale_without_stock":true,
+                "price": 8,
+                "unit_key_id":1,
+                "product_service_key_id":1,
+                "inventories":[
+                    {
+                        "stock": 10,
+                        "unit_id": 1,
+                        "storage_id": 1
+                    }
+                ]
+            },
+            {
+                "description":"Caja almohadita kraft 15x15",
+                "code":"caja-almohadita-karft-15x15", 
+                "weight_in_grams":0,
+                "max_stock":100,
+                "min_stock":1,
+                "status":"activo",
+                "sku_ean":"caja-almohadita-karft-15x15",
+                "sale_without_stock":true,
+                "price": 15,
+                "unit_key_id":1,
+                "product_service_key_id":1,
+                "inventories":[
+                    {
+                        "stock": 10,
+                        "unit_id": 1,
+                        "storage_id": 1
+                    }
+                ]
+            },
+            {
+                "description":"Bolsa sobre kraft 10x5x16",
+                "code":"bolsa-sobre-kraft-10x5x16", 
+                "weight_in_grams":0,
+                "max_stock":100,
+                "min_stock":1,
+                "status":"activo",
+                "sku_ean":"bolsa-sobre-kraft-10x5x16",
+                "sale_without_stock":true,
+                "price": 10,
+                "unit_key_id":1,
+                "product_service_key_id":1,
+                "inventories":[
+                    {
+                        "stock": 10,
+                        "unit_id": 1,
+                        "storage_id": 1
+                    }
+                ]
+            },
+            {
+                "description":"Bolsa sobre kraft 14x7x23",
+                "code":"bolsa-sobre-kraft-14x7x23", 
+                "weight_in_grams":0,
+                "max_stock":100,
+                "min_stock":1,
+                "status":"activo",
+                "sku_ean":"bolsa-sobre-kraft-14x7x23",
+                "sale_without_stock":true,
+                "price": 22,
+                "unit_key_id":1,
+                "product_service_key_id":1,
+                "inventories":[
+                    {
+                        "stock": 10,
+                        "unit_id": 1,
+                        "storage_id": 1
+                    }
+                ]
+            },
+            {
+                "description":"Bolsa sobre kraft 16x8x25",
+                "code":"bolsa-sobre-kraft-16x8x25", 
+                "weight_in_grams":0,
+                "max_stock":100,
+                "min_stock":1,
+                "status":"activo",
+                "sku_ean":"bolsa-sobre-kraft-16x8x25",
+                "sale_without_stock":true,
+                "price": 25,
+                "unit_key_id":1,
+                "product_service_key_id":1,
+                "inventories":[
+                    {
+                        "stock": 10,
+                        "unit_id": 1,
+                        "storage_id": 1
+                    }
+                ]
+            },
+            {
+                "description":"Bolsa sobre kraft 20x10x32",
+                "code":"bolsa-sobre-kraft-20x10x32", 
+                "weight_in_grams":0,
+                "max_stock":100,
+                "min_stock":1,
+                "status":"activo",
+                "sku_ean":"bolsa-sobre-kraft-20x10x32",
+                "sale_without_stock":true,
+                "price": 32,
+                "unit_key_id":1,
+                "product_service_key_id":1,
+                "inventories":[
+                    {
+                        "stock": 10,
+                        "unit_id": 1,
+                        "storage_id": 1
+                    }
+                ]
+            },
+            {
+                "description":"Caja ligera blanca 11x11x6",
+                "code":"caja-ligera-blanca-11x11x6", 
+                "weight_in_grams":0,
+                "max_stock":100,
+                "min_stock":1,
+                "status":"activo",
+                "sku_ean":"caja-ligera-blanca-11x11x6",
+                "sale_without_stock":true,
+                "price": 15,
+                "unit_key_id":1,
+                "product_service_key_id":1,
+                "inventories":[
+                    {
+                        "stock": 10,
+                        "unit_id": 1,
+                        "storage_id": 1
+                    }
+                ]
+            },
+            {
+                "description":"Caja ligera blanca 21x11x6",
+                "code":"caja-ligera-blanca-21x11x6", 
+                "weight_in_grams":0,
+                "max_stock":100,
+                "min_stock":1,
+                "status":"activo",
+                "sku_ean":"caja-ligera-blanca-21x11x6",
+                "sale_without_stock":true,
+                "price": 18,
+                "unit_key_id":1,
+                "product_service_key_id":1,
+                "inventories":[
+                    {
+                        "stock": 10,
+                        "unit_id": 1,
+                        "storage_id": 1
+                    }
+                ]
+            },
+            {
+                "description":"Caja ligera blanca 21x21x6",
+                "code":"caja-ligera-blanca-21x21x6", 
+                "weight_in_grams":0,
+                "max_stock":100,
+                "min_stock":1,
+                "status":"activo",
+                "sku_ean":"caja-ligera-blanca-21x21x6",
+                "sale_without_stock":true,
+                "price": 24,
+                "unit_key_id":1,
+                "product_service_key_id":1,
+                "inventories":[
+                    {
+                        "stock": 10,
+                        "unit_id": 1,
+                        "storage_id": 1
+                    }
+                ]
+            },
+            {
+                "description":"Caja ligera blanca 31x21x6",
+                "code":"caja-ligera-blanca-31x21x6", 
+                "weight_in_grams":0,
+                "max_stock":100,
+                "min_stock":1,
+                "status":"activo",
+                "sku_ean":"caja-ligera-blanca-31x21x6",
+                "sale_without_stock":true,
+                "price": 28,
+                "unit_key_id":1,
+                "product_service_key_id":1,
+                "inventories":[
+                    {
+                        "stock": 10,
+                        "unit_id": 1,
+                        "storage_id": 1
+                    }
+                ]
+            },
+            {
+                "description":"Caja ligera kraft 11x11x6",
+                "code":"caja-ligera-kraft-11x11x6", 
+                "weight_in_grams":0,
+                "max_stock":100,
+                "min_stock":1,
+                "status":"activo",
+                "sku_ean":"caja-ligera-kraft-11x11x6",
+                "sale_without_stock":true,
+                "price": 16,
+                "unit_key_id":1,
+                "product_service_key_id":1,
+                "inventories":[
+                    {
+                        "stock": 10,
+                        "unit_id": 1,
+                        "storage_id": 1
+                    }
+                ]
+            },
+            {
+                "description":"Caja ligera kraft 21x11x6",
+                "code":"caja-ligera-kraft-21x11x6", 
+                "weight_in_grams":0,
+                "max_stock":100,
+                "min_stock":1,
+                "status":"activo",
+                "sku_ean":"caja-ligera-kraft-21x11x6",
+                "sale_without_stock":true,
+                "price": 22,
+                "unit_key_id":1,
+                "product_service_key_id":1,
+                "inventories":[
+                    {
+                        "stock": 10,
+                        "unit_id": 1,
+                        "storage_id": 1
+                    }
+                ]
+            },
+            {
+                "description":"Caja ligera kraft 21x21x6",
+                "code":"caja-ligera-kraft-21x21x6", 
+                "weight_in_grams":0,
+                "max_stock":100,
+                "min_stock":1,
+                "status":"activo",
+                "sku_ean":"caja-ligera-kraft-21x21x6",
+                "sale_without_stock":true,
+                "price": 24,
+                "unit_key_id":1,
+                "product_service_key_id":1,
+                "inventories":[
+                    {
+                        "stock": 10,
+                        "unit_id": 1,
+                        "storage_id": 1
+                    }
+                ]
+            },
+            {
+                "description":"Caja ligera kraft 31x21x6",
+                "code":"caja-ligera-kraft-31x21x6", 
+                "weight_in_grams":0,
+                "max_stock":100,
+                "min_stock":1,
+                "status":"activo",
+                "sku_ean":"caja-ligera-kraft-31x21x6",
+                "sale_without_stock":true,
+                "price": 28,
+                "unit_key_id":1,
+                "product_service_key_id":1,
+                "inventories":[
+                    {
+                        "stock": 10,
+                        "unit_id": 1,
+                        "storage_id": 1
+                    }
+                ]
+            },
+            {
+                "description":"Caja ligera kraft con ventana 11x11x6",
+                "code":"caja-ligera-kraft-con-ventana-11x11x6", 
+                "weight_in_grams":0,
+                "max_stock":100,
+                "min_stock":1,
+                "status":"activo",
+                "sku_ean":"caja-ligera-kraft-con-ventana-11x11x6",
+                "sale_without_stock":true,
+                "price": 16,
+                "unit_key_id":1,
+                "product_service_key_id":1,
+                "inventories":[
+                    {
+                        "stock": 10,
+                        "unit_id": 1,
+                        "storage_id": 1
+                    }
+                ]
+            },
+            {
+                "description":"Caja ligera kraft con ventana 21x11x6",
+                "code":"caja-ligera-kraft-con-ventana-21x11x6", 
+                "weight_in_grams":0,
+                "max_stock":100,
+                "min_stock":1,
+                "status":"activo",
+                "sku_ean":"caja-ligera-kraft-con-ventana-21x11x6",
+                "sale_without_stock":true,
+                "price": 24,
+                "unit_key_id":1,
+                "product_service_key_id":1,
+                "inventories":[
+                    {
+                        "stock": 10,
+                        "unit_id": 1,
+                        "storage_id": 1
+                    }
+                ]
+            },
+            {
+                "description":"Caja ligera kraft con ventana 21x21x6",
+                "code":"caja-ligera-kraft-con-ventana-21x21x6", 
+                "weight_in_grams":0,
+                "max_stock":100,
+                "min_stock":1,
+                "status":"activo",
+                "sku_ean":"caja-ligera-kraft-con-ventana-21x21x6",
+                "sale_without_stock":true,
+                "price": 28,
+                "unit_key_id":1,
+                "product_service_key_id":1,
+                "inventories":[
+                    {
+                        "stock": 10,
+                        "unit_id": 1,
+                        "storage_id": 1
+                    }
+                ]
+            },
+            {
+                "description":"Caja ligera kraft con ventana 31x21x6",
+                "code":"caja-ligera-kraft-con-ventana-31x21x6", 
+                "weight_in_grams":0,
+                "max_stock":100,
+                "min_stock":1,
+                "status":"activo",
+                "sku_ean":"caja-ligera-kraft-con-ventana-31x21x6",
+                "sale_without_stock":true,
+                "price": 32,
+                "unit_key_id":1,
+                "product_service_key_id":1,
+                "inventories":[
+                    {
+                        "stock": 10,
+                        "unit_id": 1,
+                        "storage_id": 1
+                    }
+                ]
+            },
+            {
+                "description":"Caja ligera blanca sulfatada con ventana 11x11x6",
+                "code":"caja-ligera-blanca-sulfatada-con-ventana-11x11x6", 
+                "weight_in_grams":0,
+                "max_stock":100,
+                "min_stock":1,
+                "status":"activo",
+                "sku_ean":"caja-ligera-blanca-sulfatada-con-ventana-11x11x6",
+                "sale_without_stock":true,
+                "price": 18,
+                "unit_key_id":1,
+                "product_service_key_id":1,
+                "inventories":[
+                    {
+                        "stock": 10,
+                        "unit_id": 1,
+                        "storage_id": 1
+                    }
+                ]
+            },
+            {
+                "description":"Caja ligera blanca sulfatada con ventana 21x21x6",
+                "code":"caja-ligera-blanca-sulfatada-con-ventana-21x21x6", 
+                "weight_in_grams":0,
+                "max_stock":100,
+                "min_stock":1,
+                "status":"activo",
+                "sku_ean":"caja-ligera-blanca-sulfatada-con-ventana-21x21x6",
+                "sale_without_stock":true,
+                "price": 24,
+                "unit_key_id":1,
+                "product_service_key_id":1,
+                "inventories":[
+                    {
+                        "stock": 10,
+                        "unit_id": 1,
+                        "storage_id": 1
+                    }
+                ]
+            },
+            {
+                "description":"Caja ligera blanca sulfatada con ventana 31x21x6",
+                "code":"caja-ligera-blanca-sulfatada-con-ventana-31x21x6", 
+                "weight_in_grams":0,
+                "max_stock":100,
+                "min_stock":1,
+                "status":"activo",
+                "sku_ean":"caja-ligera-blanca-sulfatada-con-ventana-31x21x6",
+                "sale_without_stock":true,
+                "price": 31,
+                "unit_key_id":1,
+                "product_service_key_id":1,
+                "inventories":[
+                    {
+                        "stock": 10,
+                        "unit_id": 1,
+                        "storage_id": 1
+                    }
+                ]
+            },
+            {
+                "description":"Caja ligera blanca sulfatada con ventana 31x31x8",
+                "code":"caja-ligera-blanca-sulfatada-con-ventana-31x31x8", 
+                "weight_in_grams":0,
+                "max_stock":100,
+                "min_stock":1,
+                "status":"activo",
+                "sku_ean":"caja-ligera-blanca-sulfatada-con-ventana-31x31x8",
+                "sale_without_stock":true,
+                "price": 34,
+                "unit_key_id":1,
+                "product_service_key_id":1,
+                "inventories":[
+                    {
+                        "stock": 10,
+                        "unit_id": 1,
+                        "storage_id": 1
+                    }
+                ]
+            },
+            {
+                "description":"Caja ligera roja con ventana 11x11x6",
+                "code":"caja-ligera-roja-con-ventana-11x11x6", 
+                "weight_in_grams":0,
+                "max_stock":100,
+                "min_stock":1,
+                "status":"activo",
+                "sku_ean":"caja-ligera-roja-con-ventana-11x11x6",
+                "sale_without_stock":true,
+                "price": 26,
+                "unit_key_id":1,
+                "product_service_key_id":1,
+                "inventories":[
+                    {
+                        "stock": 10,
+                        "unit_id": 1,
+                        "storage_id": 1
+                    }
+                ]
+            },
+            {
+                "description":"Caja ligera roja con ventana 21x21x6",
+                "code":"caja-ligera-roja-con-ventana-21x21x6", 
+                "weight_in_grams":0,
+                "max_stock":100,
+                "min_stock":1,
+                "status":"activo",
+                "sku_ean":"caja-ligera-roja-con-ventana-21x21x6",
+                "sale_without_stock":true,
+                "price": 25,
+                "unit_key_id":1,
+                "product_service_key_id":1,
+                "inventories":[
+                    {
+                        "stock": 10,
+                        "unit_id": 1,
+                        "storage_id": 1
+                    }
+                ]
+            },
+            {
+                "description":"Caja ligera roja con ventana 31x21x6",
+                "code":"caja-ligera-roja-con-ventana-31x21x6", 
+                "weight_in_grams":0,
+                "max_stock":100,
+                "min_stock":1,
+                "status":"activo",
+                "sku_ean":"caja-ligera-roja-con-ventana-31x21x6",
+                "sale_without_stock":true,
+                "price": 32,
+                "unit_key_id":1,
+                "product_service_key_id":1,
+                "inventories":[
+                    {
+                        "stock": 10,
+                        "unit_id": 1,
+                        "storage_id": 1
+                    }
+                ]
+            },
+            {
+                "description":"Caja ligera paja con ventana 11x11x6",
+                "code":"caja-ligera-paja-con-ventana-11x11x6", 
+                "weight_in_grams":0,
+                "max_stock":100,
+                "min_stock":1,
+                "status":"activo",
+                "sku_ean":"caja-ligera-paja-con-ventana-11x11x6",
+                "sale_without_stock":true,
+                "price": 16,
+                "unit_key_id":1,
+                "product_service_key_id":1,
+                "inventories":[
+                    {
+                        "stock": 10,
+                        "unit_id": 1,
+                        "storage_id": 1
+                    }
+                ]
+            },
+            {
+                "description":"Caja ligera paja con ventana 21x11x6",
+                "code":"caja-ligera-paja-con-ventana-21x11x6", 
+                "weight_in_grams":0,
+                "max_stock":100,
+                "min_stock":1,
+                "status":"activo",
+                "sku_ean":"caja-ligera-paja-con-ventana-21x11x6",
+                "sale_without_stock":true,
+                "price": 24,
+                "unit_key_id":1,
+                "product_service_key_id":1,
+                "inventories":[
+                    {
+                        "stock": 10,
+                        "unit_id": 1,
+                        "storage_id": 1
+                    }
+                ]
+            },
+            {
+                "description":"Caja ligera paja con ventana 21x21x6",
+                "code":"caja-ligera-paja-con-ventana-21x21x6", 
+                "weight_in_grams":0,
+                "max_stock":100,
+                "min_stock":1,
+                "status":"activo",
+                "sku_ean":"caja-ligera-paja-con-ventana-21x21x6",
+                "sale_without_stock":true,
+                "price": 28,
+                "unit_key_id":1,
+                "product_service_key_id":1,
+                "inventories":[
+                    {
+                        "stock": 10,
+                        "unit_id": 1,
+                        "storage_id": 1
+                    }
+                ]
+            },
+            {
+                "description":"Caja ligera paja con ventana 31x21x6",
+                "code":"caja-ligera-paja-con-ventana-31x21x6", 
+                "weight_in_grams":0,
+                "max_stock":100,
+                "min_stock":1,
+                "status":"activo",
+                "sku_ean":"caja-ligera-paja-con-ventana-31x21x6",
+                "sale_without_stock":true,
+                "price": 32,
+                "unit_key_id":1,
+                "product_service_key_id":1,
+                "inventories":[
+                    {
+                        "stock": 10,
+                        "unit_id": 1,
+                        "storage_id": 1
+                    }
+                ]
+            },
+            {
+                "description":"Caja panque blanco 10x10x30",
+                "code":"caja-panque-blanco-10x10x30", 
+                "weight_in_grams":0,
+                "max_stock":100,
+                "min_stock":1,
+                "status":"activo",
+                "sku_ean":"caja-panque-blanco-10x10x30",
+                "sale_without_stock":true,
+                "price": 23,
+                "unit_key_id":1,
+                "product_service_key_id":1,
+                "inventories":[
+                    {
+                        "stock": 10,
+                        "unit_id": 1,
+                        "storage_id": 1
+                    }
+                ]
+            },
+            {
+                "description":"Caja panque kraft 10x10x30",
+                "code":"caja-panque-kraft-10x10x30", 
+                "weight_in_grams":0,
+                "max_stock":100,
+                "min_stock":1,
+                "status":"activo",
+                "sku_ean":"caja-panque-kraft-10x10x30",
+                "sale_without_stock":true,
+                "price": 23,
+                "unit_key_id":1,
+                "product_service_key_id":1,
+                "inventories":[
+                    {
+                        "stock": 10,
+                        "unit_id": 1,
+                        "storage_id": 1
+                    }
+                ]
+            },
+            {
+                "description":"Caja ligera cupcake paja 8x8x8",
+                "code":"caja-ligera-cupcake-paja-8x8x8", 
+                "weight_in_grams":0,
+                "max_stock":100,
+                "min_stock":1,
+                "status":"activo",
+                "sku_ean":"caja-ligera-cupcake-paja-8x8x8",
+                "sale_without_stock":true,
+                "price": 18,
+                "unit_key_id":1,
+                "product_service_key_id":1,
+                "inventories":[
+                    {
+                        "stock": 10,
+                        "unit_id": 1,
+                        "storage_id": 1
+                    }
+                ]
+            },
+            {
+                "description":"Caja ligera cupcake café 8x8x8",
+                "code":"caja-ligera-cupcake-café-8x8x8", 
+                "weight_in_grams":0,
+                "max_stock":100,
+                "min_stock":1,
+                "status":"activo",
+                "sku_ean":"caja-ligera-cupcake-café-8x8x8",
+                "sale_without_stock":true,
+                "price": 18,
+                "unit_key_id":1,
+                "product_service_key_id":1,
+                "inventories":[
+                    {
+                        "stock": 10,
+                        "unit_id": 1,
+                        "storage_id": 1
+                    }
+                ]
+            },
+            {
+                "description":"Caja ligera para 2 cupcake paja con ventana 16x8x8",
+                "code":"caja-ligera-para-2-cupcake-paja-con-ventana-16x8x8", 
+                "weight_in_grams":0,
+                "max_stock":100,
+                "min_stock":1,
+                "status":"activo",
+                "sku_ean":"caja-ligera-para-2-cupcake-paja-con-ventana-16x8x8",
+                "sale_without_stock":true,
+                "price": 20,
+                "unit_key_id":1,
+                "product_service_key_id":1,
+                "inventories":[
+                    {
+                        "stock": 10,
+                        "unit_id": 1,
+                        "storage_id": 1
+                    }
+                ]
+            },
+            {
+                "description":"Caja ligera para 2 cupcake café con ventana 16x8x8",
+                "code":"caja-ligera-para-2-cupcake-café-con-ventana-16x8x8", 
+                "weight_in_grams":0,
+                "max_stock":100,
+                "min_stock":1,
+                "status":"activo",
+                "sku_ean":"caja-ligera-para-2-cupcake-café-con-ventana-16x8x8",
+                "sale_without_stock":true,
+                "price": 20,
+                "unit_key_id":1,
+                "product_service_key_id":1,
+                "inventories":[
+                    {
+                        "stock": 10,
+                        "unit_id": 1,
+                        "storage_id": 1
+                    }
+                ]
+            },
+            {
+                "description":"Caja ligera para 4 cupcake paja con ventana 16x8x8",
+                "code":"caja-ligera-para-4-cupcake-paja-con-ventana-16x8x8", 
+                "weight_in_grams":0,
+                "max_stock":100,
+                "min_stock":1,
+                "status":"activo",
+                "sku_ean":"caja-ligera-para-4-cupcake-paja-con-ventana-16x8x8",
+                "sale_without_stock":true,
+                "price": 26,
+                "unit_key_id":1,
+                "product_service_key_id":1,
+                "inventories":[
+                    {
+                        "stock": 10,
+                        "unit_id": 1,
+                        "storage_id": 1
+                    }
+                ]
+            },
+            {
+                "description":"Caja ligera para 4 cupcake café con ventana 16x8x8",
+                "code":"caja-ligera-para-4-cupcake-café-con-ventana-16x8x8", 
+                "weight_in_grams":0,
+                "max_stock":100,
+                "min_stock":1,
+                "status":"activo",
+                "sku_ean":"caja-ligera-para-4-cupcake-café-con-ventana-16x8x8",
+                "sale_without_stock":true,
+                "price": 26,
+                "unit_key_id":1,
+                "product_service_key_id":1,
+                "inventories":[
+                    {
+                        "stock": 10,
+                        "unit_id": 1,
+                        "storage_id": 1
+                    }
+                ]
+            },
+            {
+                "description":"Caja ligera para 6 cupcake paja con ventana 24x16x8",
+                "code":"caja-ligera-para-6-cupcake-paja-con-ventana-24x16x8", 
+                "weight_in_grams":0,
+                "max_stock":100,
+                "min_stock":1,
+                "status":"activo",
+                "sku_ean":"caja-ligera-para-6-cupcake-paja-con-ventana-24x16x8",
+                "sale_without_stock":true,
+                "price": 29,
+                "unit_key_id":1,
+                "product_service_key_id":1,
+                "inventories":[
+                    {
+                        "stock": 10,
+                        "unit_id": 1,
+                        "storage_id": 1
+                    }
+                ]
+            },
+            {
+                "description":"Caja ligera para 6 cupcake paja con ventana 24x16x8",
+                "code":"caja-ligera-para-6-cupcake-paja-con-ventana-24x16x8", 
+                "weight_in_grams":0,
+                "max_stock":100,
+                "min_stock":1,
+                "status":"activo",
+                "sku_ean":"caja-ligera-para-6-cupcake-paja-con-ventana-24x16x8",
+                "sale_without_stock":true,
+                "price": 29,
+                "unit_key_id":1,
+                "product_service_key_id":1,
+                "inventories":[
+                    {
+                        "stock": 10,
+                        "unit_id": 1,
+                        "storage_id": 1
+                    }
+                ]
+            },
+            {
+                "description":"Caja ligera para 12 cupcake paja con ventana 34x24x8",
+                "code":"caja-ligera-para-12-cupcake-paja-con-ventana-34x24x8", 
+                "weight_in_grams":0,
+                "max_stock":100,
+                "min_stock":1,
+                "status":"activo",
+                "sku_ean":"caja-ligera-para-12-cupcake-paja-con-ventana-34x24x8",
+                "sale_without_stock":true,
+                "price": 52,
+                "unit_key_id":1,
+                "product_service_key_id":1,
+                "inventories":[
+                    {
+                        "stock": 10,
+                        "unit_id": 1,
+                        "storage_id": 1
+                    }
+                ]
+            },
+            {
+                "description":"Caja ligera para 12 cupcake paja con ventana 34x24x8",
+                "code":"caja-ligera-para-12-cupcake-paja-con-ventana-34x24x8", 
+                "weight_in_grams":0,
+                "max_stock":100,
+                "min_stock":1,
+                "status":"activo",
+                "sku_ean":"caja-ligera-para-12-cupcake-paja-con-ventana-34x24x8",
+                "sale_without_stock":true,
+                "price": 52,
+                "unit_key_id":1,
+                "product_service_key_id":1,
+                "inventories":[
+                    {
+                        "stock": 10,
+                        "unit_id": 1,
+                        "storage_id": 1
+                    }
+                ]
+            },
+            {
+                "description":"Caja ligera paja 31x31x8",
+                "code":"caja-ligera-paja-31x31x8", 
+                "weight_in_grams":0,
+                "max_stock":100,
+                "min_stock":1,
+                "status":"activo",
+                "sku_ean":"caja-ligera-paja-31x31x8",
+                "sale_without_stock":true,
+                "price": 46,
+                "unit_key_id":1,
+                "product_service_key_id":1,
+                "inventories":[
+                    {
+                        "stock": 10,
+                        "unit_id": 1,
+                        "storage_id": 1
+                    }
+                ]
+            },
+            {
+                "description":"Caja ligera café 31x31x8",
+                "code":"caja-ligera-café-31x31x8", 
+                "weight_in_grams":0,
+                "max_stock":100,
+                "min_stock":1,
+                "status":"activo",
+                "sku_ean":"caja-ligera-café-31x31x8",
+                "sale_without_stock":true,
+                "price": 46,
+                "unit_key_id":1,
+                "product_service_key_id":1,
+                "inventories":[
+                    {
+                        "stock": 10,
+                        "unit_id": 1,
+                        "storage_id": 1
+                    }
+                ]
+            },
+            {
+                "description":"Caja ligera cable balnca 31x31x8",
+                "code":"caja-ligera-café-blanca-31x31x8", 
+                "weight_in_grams":0,
+                "max_stock":100,
+                "min_stock":1,
+                "status":"activo",
+                "sku_ean":"caja-ligera-café-blanca-31x31x8",
+                "sale_without_stock":true,
+                "price": 46,
+                "unit_key_id":1,
+                "product_service_key_id":1,
+                "inventories":[
+                    {
+                        "stock": 10,
+                        "unit_id": 1,
+                        "storage_id": 1
+                    }
+                ]
+            },
+            {
+                "description":"Caja de emergencia 30x20x6",
+                "code":"caja-de-emergencia-30x20x6", 
+                "weight_in_grams":0,
+                "max_stock":100,
+                "min_stock":1,
+                "status":"activo",
+                "sku_ean":"caja-de-emergencia-30x20x6",
+                "sale_without_stock":true,
+                "price": 49,
+                "unit_key_id":1,
+                "product_service_key_id":1,
+                "inventories":[
+                    {
+                        "stock": 10,
+                        "unit_id": 1,
+                        "storage_id": 1
+                    }
+                ]
+            },
+            {
+                "description":"Caja de emergencia blanca 34x20x10",
+                "code":"caja-de-emergencia-blanca-34x20x10", 
+                "weight_in_grams":0,
+                "max_stock":100,
+                "min_stock":1,
+                "status":"activo",
+                "sku_ean":"caja-de-emergencia-blanca-34x20x10",
+                "sale_without_stock":true,
+                "price": 49,
+                "unit_key_id":1,
+                "product_service_key_id":1,
+                "inventories":[
+                    {
+                        "stock": 10,
+                        "unit_id": 1,
+                        "storage_id": 1
+                    }
+                ]
+            },
+            {
+                "description":"Caja de emergencia negra 34x20x10",
+                "code":"caja-de-emergencia-negra-34x20x10", 
+                "weight_in_grams":0,
+                "max_stock":100,
+                "min_stock":1,
+                "status":"activo",
+                "sku_ean":"caja-de-emergencia-negra-34x20x10",
+                "sale_without_stock":true,
+                "price": 49,
+                "unit_key_id":1,
+                "product_service_key_id":1,
+                "inventories":[
+                    {
+                        "stock": 10,
+                        "unit_id": 1,
+                        "storage_id": 1
+                    }
+                ]
+            }
+            
+        ] 
+    }
+]

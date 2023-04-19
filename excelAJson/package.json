@@ -1,0 +1,14 @@
+{
+  "name": "excelajson",
+  "version": "1.0.0",
+  "description": "Convertir un archivo Excel a Json",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "EWebit",
+  "license": "ISC",
+  "dependencies": {
+    "xlsx": "^0.18.5"
+  }
+}
