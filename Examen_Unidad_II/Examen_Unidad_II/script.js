@@ -1,10 +1,4 @@
-function boton(){
-    var cantidad = parseInt(document.getElementById("rebanadas").value);
-    var respuesta = document.getElementById("respuesta");
-    respuesta.innerHTML=cantidad;
-    console.log(cantidad);
 
-}
 function puntoMedioCirculo(xc, yc, r) {
     let x = 0;
     let y = r;
@@ -36,10 +30,158 @@ function puntoMedioCirculo(xc, yc, r) {
     point(xc,yc);
   }
   
+  function puntoPendiente(x1,y1,x2,y2) {
+    let dx = x2 - x1; 
+    let dy = y2 - y1;
+    let m = dy / dx;
+    let b = y1 - m * x1;
+    
+    if(abs(dx) > abs(dy)) {
+      
+      for(let x = x1; x <= x2; x++) {
+        let y = Math.round(m * x + b);
+        point(x, y);
+      }  
+    } else {
+      
+      for(let y = y1; y <= y2; y++) {
+          let x = Math.round((y - b) / m);
+        point(x, y);
+      }
+    }
+  }
+
+  function DDA(x1, y1, x2, y2) {
+    let dx = x2 - x1;
+    let dy = y2 - y1;
+    let m = dy / dx; 
+  
+    if (abs(dx) > abs(dy)) { 
+      let y = y1;
+      for (let x = x1; x <= x2; x++) { 
+        point(x, y); 
+        y += m; 
+      }
+    } else { 
+      let x = x1;
+      for (let y = y1; y <= y2; y++) { 
+        point(x, y); 
+        x += 1 / m; 
+      }
+    }
+  }
+  function bresenham(x0, y0, x1, y1) {
+    let dx = abs(x1 - x0);
+    let dy = abs(y1 - y0);
+    let sx = (x0 < x1) ? 1 : -1;
+    let sy = (y0 < y1) ? 1 : -1;
+    let err = dx - dy;
+    
+    while (x0 != x1 || y0 != y1) {
+      point(x0, y0); 
+      let e2 = err * 2;
+      if (e2 > -dy) { 
+        err -= dy;
+        x0 += sx;
+      }
+      if (e2 < dx) {
+        err += dx;
+        y0 += sy;
+      }
+    }
+    point(x0, y0); 
+  }
+  function boton(){
+    cantidad = parseInt(document.getElementById("rebanadas").value);
+    var respuesta = document.getElementById("respuesta");
+    respuesta.innerHTML=cantidad;
+    if(cantidad==2){
+      draw();
+    }
+  }
+  function rebanadas(rebanadasPorCortar){
+    
+    if(rebanadasPorCortar==0 || rebanadasPorCortar==1 || rebanadasPorCortar>=9){
+      //1 sola rebanada
+    }else if (rebanadasPorCortar == 3) {
+      puntoPendiente(100,200,200,200);//Linea horizontal bien 
+      DDA(500,200,600,200);//Linea horizontal bien
+      bresenham(900,200,1000,200);//Linea Horizontal bien
+    }
+
+    if(rebanadasPorCortar>=2){
+      puntoPendiente(200,100,199,300);//Linea vertical bien
+      DDA(600,100,600,300);//Linea vertical bien
+      bresenham(1000,100,1000,300);//Linea vertical bien
+    }
+    
+    if(rebanadasPorCortar >= 4){
+      puntoPendiente(100,200,300,200);//Linea horizontal bien 
+      DDA(500,200,700,200);//Linea horizontal bien
+      bresenham(900,200,1100,200);//Linea Horizontal bien
+    }
+    if (rebanadasPorCortar % 5 === 0) {
+      puntoPendiente(130,130,200,200);//Esquina superior izquierda bien mitad
+      DDA(530,130,600,200);//Esquina superior izquierda bien mitad
+      bresenham(930,130,1000,200);//Esquina superior izquierda bien mitad
+    }
+    if(rebanadasPorCortar > 6 || rebanadasPorCortar % 6 === 0){
+      puntoPendiente(130,130,270,270);//Esquina superior izquierda bien completo
+      DDA(530,130,670,270);//Esquina superior izquierda bien completo
+      bresenham(930,130,1070,270);//Esquina superior izquierda*/ completo
+
+    }
+    if(rebanadasPorCortar % 7 === 0){
+      puntoPendiente(270,130,200,200);//Esquina superior derecha bien medio
+      DDA(670,130,600,200);//Esquina superior derecha bien medio
+      bresenham(1070,130,1000,200);//Esquina superior derecha bien medio
+    }
+    if(rebanadasPorCortar % 8 === 0){
+      puntoPendiente(270,130,130,270);//Esquina superior derecha bien
+      DDA(670,130,530,270);//Esquina superior derecha bien
+      bresenham(1070,130,930,270);//Esquina superior derecha bien
+    }
+    
+    
+  }
+  function draw(){
+    
+    if(cantidad>=9){
+      alert("Una pizza normal son solo 8 rebanadas :)");
+      background(220);
+      noFill();
+      noStroke();
+      cantidad=0;
+    }
+
+    if(cantidad >= 1 && cantidad<=8){
+      background(220);
+      stroke(0);
+      strokeWeight(2);
+      let circulo1X=200, circulo2X=600, circulo3X=1000;
+      let circulo1Y=200, circulo2Y=200, circulo3Y=200;
+      let radio = 100;
+      
+      //Recortes
+      rebanadas(cantidad);
+      
+      //Circulo punto-pendiente
+      puntoMedioCirculo(circulo1X,circulo1Y,radio);
+      
+      //Circulo DDA
+      puntoMedioCirculo(circulo2X,circulo2Y,radio);
+      
+      //Circulo bresenham
+      puntoMedioCirculo(circulo3X,circulo3Y,radio);
+
+      
+    }else{
+      background(220);
+      noFill();
+      noStroke();
+    }
+  }
   function setup() {
-    createCanvas(1200, 600);
-    background(220);
-    puntoMedioCirculo(200, 300, 100);
-    puntoMedioCirculo(500, 300, 100);
-    puntoMedioCirculo(800, 300, 100);
+    createCanvas(windowWidth, 400);
+    boton();
   }
