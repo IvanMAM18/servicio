@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>DDA</title>
+</head>
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/p5.min.js" integrity="sha512-3RlxD1bW34eFKPwj9gUXEWtdSMC59QqIqHnD8O/NoTwSJhgxRizdcFVQhUMFyTp5RwLTDL0Lbcqtl8b7bFAzog==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> 
+<script>
+    let inputX1,inputY1,inputAncho,inputAlto, button, greeting;
+    var movimientoX = 20;
+    var movimientoY = 250;
+    var movimientoCentroX = 300;
+    var movimientoCentroY = 160;
+    var entro=false;
+    function setup() {
+        // crear un lienzo
+        createCanvas(710, 400);
+        background('#DDE4D3');
+        triangulo();
+        
+
+        
+/*Crea inputs y textos navegables y funcionales
+        inputX1 = createInput();
+        inputX1.position(60, );
+
+        button = createButton('Crear');
+        button.position(120, 250);
+        button.mousePressed(triangulo);
+
+        greeting = createElement('h2', 'X1: ');
+        greeting.position(20, 5);
+        
+
+        textAlign(CENTER);
+        textSize(50);*/
+    }
+    function draw(){
+        triangulo();
+    }
+
+    function dda(){
+
+    }
+    function triangulo() {
+        background('#DDE4D3');
+        var x1 =50;
+        var y1 = 50;
+        var ancho = 100;
+        var altura = 50;
+        
+        
+        if(mouseY >= movimientoY && mouseX >= movimientoX){
+            entro=true;
+            movimientoX=mouseX;
+            movimientoY=mouseY;
+            stroke(0000);
+            fill('#DDE4D3');
+            rect(movimientoX,movimientoY,ancho,altura);
+        }
+        if(entro==false){
+            stroke(0000);
+            fill('#DDE4D3');
+            rect(movimientoCentroX,movimientoCentroY,ancho,altura);
+            rect(movimientoX,movimientoY,ancho,altura);
+        }else{
+            movimientoX=mouseX;
+            movimientoY=mouseY;
+            if ((movimientoX+ancho) > movimientoCentroX ){
+                stroke(0000);
+                fill('rgb(100%,0%,10%)');
+            }else{
+                stroke(0000);
+                fill('#DDE4D3');
+            }
+            rect(movimientoCentroX,movimientoCentroY,ancho,altura);
+            rect(movimientoX,movimientoY,ancho,altura);
+        }
+
+        /*crea inputs
+        const x1 = parseInt(inputX1.value().toString());
+        greeting.html('hello ' + x1 + '---'+y1+'---'+ancho+'----'+alto);
+        inputX1.value('');
+        */
+        
+    }
+
+</script>
+<body>
+    
+</body>
+</html>
