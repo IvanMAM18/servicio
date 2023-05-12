@@ -43,7 +43,10 @@
                 <button type="submit" class="btn indigo darken-3">AGREGAR PASATIEMPO<i class="material-icons right">send</i></button>
                 <br>
                 <ul>
-                  <li v-for="pasaTiempo in pasaTiempos" v-bind:key="pasaTiempo">{{pasaTiempo.id}} - {{pasaTiempo.description}}</li>
+                  <li v-for="(pasaTiempo, index) in pasaTiempos" v-bind:key="pasaTiempo">
+                    {{pasaTiempo.id}} - {{pasaTiempo.description}}
+                    <a href="#!" @click="pasaTiempos.splice(index, 1)"><i class="material-icons">close</i></a>
+                  </li>
                 </ul>
             </div>
           </form>
@@ -78,7 +81,7 @@
           </tr>
         </thead>
         <tbody>
-          <tr v-for="usuario in usuarios" v-bind:key="usuario">
+          <tr v-for="(usuario, index) in usuarios" v-bind:key="usuario">
             <td>{{usuario.nombre}}</td>
             <td>{{usuario.apellido}}</td>
             <td>{{usuario.edad}}</td>
@@ -96,7 +99,7 @@
               <a href="#!"><i class="material-icons">create</i></a>
             </td>
             <td>
-              <a href="#!"><i class="material-icons">delete</i></a>
+              <a href="#!" @click="eliminar(index)"><i class="material-icons">delete</i></a>
             </td>
           </tr>
         </tbody>
@@ -186,6 +189,11 @@ export default {
       };
       this.pasaTiempos.push(data);
       this.pasaTiempo = '';
+    },
+    eliminar(index){
+      if(!confirm('¿Desea eliminar este registro?')) return;
+
+      this.usuarios.splice(index, 1);
     }
   }
 }
