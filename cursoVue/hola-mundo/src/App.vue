@@ -58,7 +58,7 @@
         </div>
         <br>
         <div class="row">
-            <button type="submit" class="btn indigo darken-4">AGREGAR USUARIO <i class="material-icons right">add_circle</i></button>
+            <button type="submit" class="btn indigo darken-4">{{(indice == -1 ? 'AGREGAR':'ACTUALIZAR')}} USUARIO <i class="material-icons right">add_circle</i></button>
         </div>
       </form>
     </div>
@@ -81,7 +81,7 @@
           </tr>
         </thead>
         <tbody>
-          <tr v-for="(usuario, index) in usuarios" v-bind:key="usuario">
+          <tr v-for="(usuario, index) in usuarios" v-bind:key="usuario" v-bind:class="{'indigo darken-4 white-text' : index == indice}">
             <td>{{usuario.nombre}}</td>
             <td>{{usuario.apellido}}</td>
             <td>{{usuario.edad}}</td>
@@ -96,7 +96,7 @@
               <label><input type="checkbox" disabled v-model="usuario.suscripto"><span></span></label>
             </td>
             <td>
-              <a href="#!"><i class="material-icons">create</i></a>
+              <a href="#!" @click="editar(index)"><i class="material-icons">create</i></a>
             </td>
             <td>
               <a href="#!" @click="eliminar(index)"><i class="material-icons">delete</i></a>
@@ -115,6 +115,7 @@ export default {
   name: 'App',
   data(){
     return {
+      indice: -1,
       nombre: '',
       apellido: '',
       edad: 0,
@@ -167,7 +168,12 @@ export default {
         suscripto: this.suscripto,
         pasaTiempos:this.pasaTiempos
       };
-      this.usuarios.push(data);
+      if(this.indice == -1){
+        this.usuarios.push(data);
+      }else{
+        this.usuarios[this.indice] = data;
+      }
+      this.indice = -1;
       this.nombre = '';
       this.apellido = '';
       this.edad = 0;
@@ -192,8 +198,17 @@ export default {
     },
     eliminar(index){
       if(!confirm('¿Desea eliminar este registro?')) return;
-
       this.usuarios.splice(index, 1);
+    },
+    editar(index){
+      var usuario = this.usuarios[index];
+      this.indice = index;
+      this.nombre = usuario.nombre;
+      this.apellido = usuario.apellido;
+      this.edad = usuario.edad;
+      this.correo = usuario.correo;
+      this.estado_civil = usuario.estado_civil;
+      this.pasaTiempos = usuario.pasaTiempos;
     }
   }
 }
